@@ -1,0 +1,976 @@
+{
+  "status": "PASS",
+  "message": "all steps resolved and validations passed",
+  "diagnostic": null,
+  "qa_url": "https://sportzia-preprod.kovaionplay.com/feed",
+  "steps": [
+    {
+      "index": 1,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "navigate",
+      "name": "Open \u2013 Feed",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 1.2s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/feed/step01_open_feed_2026-11-03_11-09-28.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+      "started_at": "2026-11-03T11:09:26.929",
+      "ended_at": "2026-11-03T11:09:28.684",
+      "duration": 1.565,
+      "timing_ms": {
+        "settle": 967,
+        "navigation_wait": 42,
+        "screenshot": 546,
+        "other": 9
+      },
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 2,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Accept\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "css_path",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "DIAGNOSTIC - the step ended on the 'css_path' method. Methods tried in order: popup-scoped: nothing (search 0.0s, total 0.0s); data-testid: nothing (search 0.0s, total 0.0s); data-test: nothing (search 0.0s, total 0.0s); data-cy: nothing (search 0.0s, total 0.0s); id: nothing (search 0.0s, total 0.0s); name: nothing (search 0.0s, total 0.0s); aria-label: nothing (search 0.0s, total 0.0s); placeholder: nothing (search 0.0s, total 0.0s); title: nothing (search 0.0s, total 0.0s); role: nothing (search 0.0s, total 0.0s); href: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag-number-normalized: nothing (search 0.0s, total 0.0s); image-ancestor: nothing (search 0.0s, total 0.0s); identity: nothing (search 0.0s, total 0.0s); icon-identity: nothing (search 0.0s, total 0.0s); field-label: nothing (search 0.0s, total 0.0s); editable-replacement: nothing (search 0.0s, total 0.0s); position_fallback: proposed a candidate (search 0.0s, total 0.0s); css_path: proposed a candidate (search 0.0s, total 1.9s). Decisions: position_fallback: 'Accept' -> proposed (<div> at (1140,668) 100x37, visible (its own box is shown)); position_fallback: 'Accept' -> not used (the element at the recorded position belongs to 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race category waiting for you.', not to the recorded 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego'); css_path: 'Accept' -> proposed (<div> at (1140,668) 100x37, visible (its own box is shown)); css_path: '' -> used. Waits: none recorded.; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Accept'",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+      "started_at": "2026-11-03T11:09:28.685",
+      "ended_at": "2026-11-03T11:09:31.045",
+      "duration": 2.284,
+      "timing_ms": {
+        "locate_action": 1080,
+        "log_emit": 1,
+        "screenshot": 214,
+        "settle": 0,
+        "verify": 409,
+        "other": 580
+      },
+      "locator_report": {
+        "strategy": "css_path",
+        "strategy_label": "CSS path",
+        "fallback_level": 13,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2284,
+        "message": "Accept found using CSS path. (resolved in 2284ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 3,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Events\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Events' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/events/step03_events_element_2026-11-03_11-09-33.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events",
+      "started_at": "2026-11-03T11:09:31.046",
+      "ended_at": "2026-11-03T11:09:33.995",
+      "duration": 2.778,
+      "timing_ms": {
+        "locate_action": 1040,
+        "log_emit": 1,
+        "screenshot": 893,
+        "settle": 0,
+        "navigation_wait": 315,
+        "verify": 3,
+        "other": 526
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2778,
+        "message": "Events found using Text + Tag fallback. (resolved in 2778ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": true
+    },
+    {
+      "index": 4,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "icon button next to 'GAGNER SPORTS PRESNTS - DD SPO'",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "position_fallback",
+      "element_found": true,
+      "success": true,
+      "error": "recorded target not found - used same position (#2) instead, content may differ from recording",
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Found using a backup method (its position on the page), because its recorded details did not match exactly.; DIAGNOSTIC - the step ended on the 'position_fallback' method. Methods tried in order: popup-scoped: nothing (search 0.0s, total 0.0s); data-testid: nothing (search 0.0s, total 0.0s); data-test: nothing (search 0.0s, total 0.0s); data-cy: nothing (search 0.0s, total 0.0s); id: nothing (search 0.0s, total 0.0s); name: nothing (search 0.0s, total 0.0s); aria-label: nothing (search 0.0s, total 0.0s); placeholder: nothing (search 0.0s, total 0.0s); title: nothing (search 0.0s, total 0.0s); role: nothing (search 0.0s, total 0.0s); href: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag-number-normalized: nothing (search 0.0s, total 0.0s); image-ancestor: nothing (search 0.0s, total 0.0s); identity: nothing (search 0.0s, total 0.0s); icon-identity: nothing (search 0.0s, total 0.0s); field-label: nothing (search 0.0s, total 0.0s); editable-replacement: nothing (search 0.0s, total 0.0s); position_fallback: proposed a candidate (search 0.0s, total 2.2s). Decisions: position_fallback: 'GAGNER SPORTS PRESNTS - DD SPO' -> proposed (<div> at (338,301) 219x146, visible (its own box is shown)); position_fallback: '' -> used. Waits: none recorded.; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'icon button next to 'GAGNER SPORTS PRESNTS - DD SPO'' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/gagner_sports_presnts_dd_spotr/step04_icon_button_next_to_gagner_sports_presnt_2026-11-03_11-09-36.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+      "started_at": "2026-11-03T11:09:33.997",
+      "ended_at": "2026-11-03T11:09:36.619",
+      "duration": 2.525,
+      "timing_ms": {
+        "locate_action": 1287,
+        "log_emit": 1,
+        "screenshot": 526,
+        "settle": 0,
+        "navigation_wait": 38,
+        "verify": 2,
+        "other": 670
+      },
+      "locator_report": {
+        "strategy": "position_fallback",
+        "strategy_label": "Position fallback",
+        "fallback_level": 12,
+        "resolved": true,
+        "weak": true,
+        "resolution_ms": 2525,
+        "message": "icon button next to 'GAGNER SPORTS PRESNTS - DD SPO' found using Position fallback. Consider re-recording this step. (resolved in 2525ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 5,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Register Now\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Register Now' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/register/step05_register_now_element_2026-11-03_11-09-39.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:36.622",
+      "ended_at": "2026-11-03T11:09:39.037",
+      "duration": 2.296,
+      "timing_ms": {
+        "locate_action": 950,
+        "log_emit": 1,
+        "screenshot": 264,
+        "settle": 0,
+        "navigation_wait": 319,
+        "verify": 3,
+        "other": 758
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2296,
+        "message": "Register Now found using Text + Tag fallback. (resolved in 2296ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": true
+    },
+    {
+      "index": 6,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "icon button next to '\u20b9 1999'",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "position_fallback",
+      "element_found": true,
+      "success": true,
+      "error": "recorded target not found - used same position (#2) instead, content may differ from recording",
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Found using a backup method (its position on the page), because its recorded details did not match exactly.; DIAGNOSTIC - the step ended on the 'position_fallback' method. Methods tried in order: popup-scoped: nothing (search 0.0s, total 0.0s); data-testid: nothing (search 0.0s, total 0.0s); data-test: nothing (search 0.0s, total 0.0s); data-cy: nothing (search 0.0s, total 0.0s); id: nothing (search 0.0s, total 0.0s); name: nothing (search 0.0s, total 0.0s); aria-label: nothing (search 0.0s, total 0.0s); placeholder: nothing (search 0.0s, total 0.0s); title: nothing (search 0.0s, total 0.0s); role: nothing (search 0.0s, total 0.0s); href: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag-number-normalized: nothing (search 0.0s, total 0.0s); image-ancestor: nothing (search 0.0s, total 0.0s); identity: nothing (search 0.0s, total 0.0s); icon-identity: nothing (search 0.0s, total 0.0s); field-label: nothing (search 0.0s, total 0.0s); editable-replacement: nothing (search 0.0s, total 0.0s); position_fallback: proposed a candidate (search 0.0s, total 2.2s). Decisions: position_fallback: '\\uf21a' -> proposed (<div> at (826,142) 36x36, visible (its own box is shown)); position_fallback: '' -> used. Waits: none recorded.; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'icon button next to '\u20b9 1999''",
+      "effect_verified": true,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:39.039",
+      "ended_at": "2026-11-03T11:09:41.580",
+      "duration": 2.373,
+      "timing_ms": {
+        "locate_action": 934,
+        "log_emit": 1,
+        "screenshot": 131,
+        "settle": 0,
+        "verify": 410,
+        "other": 897
+      },
+      "locator_report": {
+        "strategy": "position_fallback",
+        "strategy_label": "Position fallback",
+        "fallback_level": 12,
+        "resolved": true,
+        "weak": true,
+        "resolution_ms": 2373,
+        "message": "icon button next to '\u20b9 1999' found using Position fallback. Consider re-recording this step. (resolved in 2373ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 7,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Continue\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Continue'",
+      "effect_verified": true,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:41.584",
+      "ended_at": "2026-11-03T11:09:44.085",
+      "duration": 2.431,
+      "timing_ms": {
+        "locate_action": 977,
+        "log_emit": 1,
+        "screenshot": 133,
+        "settle": 0,
+        "verify": 407,
+        "other": 912
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2431,
+        "message": "Continue found using Text + Tag fallback. (resolved in 2431ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": true
+    },
+    {
+      "index": 8,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"e.g. john@email.com or 9XXXXXXXXX\" field",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "placeholder",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'e.g. john@email.com or 9XXXXXXXXX'",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:44.088",
+      "ended_at": "2026-11-03T11:09:45.862",
+      "duration": 1.749,
+      "timing_ms": {
+        "locate_action": 748,
+        "log_emit": 1,
+        "screenshot": 133,
+        "settle": 0,
+        "verify": 407,
+        "other": 459
+      },
+      "locator_report": {
+        "strategy": "placeholder",
+        "strategy_label": "Placeholder",
+        "fallback_level": 7,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 1749,
+        "message": "e.g. john@email.com or 9XXXXXXXXX found using Placeholder. (resolved in 1749ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 9,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "e.g. john@email.com or 9XXXXXXXXX: \"9345691852\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "placeholder",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/register/step09_e_g_john_email_com_or_9xxxxxxxxx_9345691_2026-11-03_11-09-47.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:45.865",
+      "ended_at": "2026-11-03T11:09:47.078",
+      "duration": 1.116,
+      "timing_ms": {
+        "locate_action": 956,
+        "log_emit": 1,
+        "screenshot": 135,
+        "other": 24
+      },
+      "locator_report": {
+        "strategy": "placeholder",
+        "strategy_label": "Placeholder",
+        "fallback_level": 7,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 1116,
+        "message": "e.g. john@email.com or 9XXXXXXXXX found using Placeholder. (resolved in 1116ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "phone_entry",
+      "fragile": false
+    },
+    {
+      "index": 10,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Send OTP\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Send OTP'",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:47.080",
+      "ended_at": "2026-11-03T11:09:49.567",
+      "duration": 2.387,
+      "timing_ms": {
+        "locate_action": 807,
+        "log_emit": 1,
+        "screenshot": 125,
+        "settle": 0,
+        "verify": 410,
+        "other": 1043
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2387,
+        "message": "Send OTP found using Text + Tag fallback. (resolved in 2387ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "send_otp",
+      "fragile": true
+    },
+    {
+      "index": 11,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "One-Time Password box: \"1234\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "field-label",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Found the text box by the label next to it: 'One-Time Password'.; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/register/step11_one_time_password_box_1234_2026-11-03_11-09-55.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "started_at": "2026-11-03T11:09:49.572",
+      "ended_at": "2026-11-03T11:09:55.313",
+      "duration": 5.668,
+      "timing_ms": {
+        "locate_action": 937,
+        "log_emit": 1,
+        "screenshot": 142,
+        "other": 4588
+      },
+      "locator_report": {
+        "strategy": "field-label",
+        "strategy_label": "Field next to its label",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 5668,
+        "message": "One-Time Password found using Field next to its label. (resolved in 5668ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "otp_fill",
+      "fragile": false
+    },
+    {
+      "index": 12,
+      "fast": false,
+      "captured_messages": [
+        {
+          "type": "server response",
+          "text": "Route GET:/api/v1/chat/unread-count?subdomain=builderpreprod&userid=U25673 not found",
+          "input": null,
+          "near_input": null,
+          "status": 404,
+          "screenshot": "/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_100245_20261103_110923/captured_messages/step12_message_11-09-57.png"
+        }
+      ],
+      "action_type": "click",
+      "name": "\"Verify & Continue\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Verify & Continue' > Waiting for the page to finish navigating (up to 5s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/participants/step12_verify_continue_element_2026-11-03_11-10-00.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants?from=eventslist",
+      "started_at": "2026-11-03T11:09:55.315",
+      "ended_at": "2026-11-03T11:10:00.141",
+      "duration": 4.748,
+      "timing_ms": {
+        "locate_action": 1131,
+        "log_emit": 2,
+        "screenshot": 434,
+        "settle": 0,
+        "verify": 1226,
+        "other": 1954
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 4748,
+        "message": "Verify & Continue found using Text + Tag fallback. (resolved in 4748ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "verify",
+      "fragile": true
+    }
+  ],
+  "step_counts": {
+    "passed": 8,
+    "warnings": 0,
+    "failed": 0,
+    "not_run": 0,
+    "manual_input": 4
+  },
+  "ui_elements": [
+    {
+      "index": 2,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "css_path",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 3,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 4,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "position_fallback",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 5,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 6,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "position_fallback",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 7,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 8,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "placeholder",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 9,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "placeholder",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 10,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 11,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "field-label",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 12,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    }
+  ],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923/feed/img2.png",
+  "run_id": "session_20261103_100245_20261103_110923",
+  "run_dir": "generated_scripts/screenshoots/session_20261103_100245_20261103_110923",
+  "live_log": [
+    {
+      "t": 1793684367.126998,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.2s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793684368.137728,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793684369.012833,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793684369.778167,
+      "message": "\u21b3 Clicking 'Accept'",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793684371.445067,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684372.104418,
+      "message": "\u21b3 Clicking 'Events'",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684373.512765,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684373.996567,
+      "message": "[INFO] Message check after step 3: page candidates 0 (page text not used: the step moved to another page), server responses 4 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684374.397378,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 4
+    },
+    {
+      "t": 1793684375.018858,
+      "message": "\u21b3 Clicking 'icon button next to 'GAGNER SPORTS PRESNTS - DD SPO''",
+      "level": "note",
+      "step": 4
+    },
+    {
+      "t": 1793684376.349733,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 4
+    },
+    {
+      "t": 1793684376.621501,
+      "message": "[INFO] Message check after step 4: page candidates 0 (page text not used: the step moved to another page), server responses 6 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684376.965624,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 5
+    },
+    {
+      "t": 1793684377.6276329,
+      "message": "\u21b3 Clicking 'Register Now'",
+      "level": "note",
+      "step": 5
+    },
+    {
+      "t": 1793684378.9135711,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 5
+    },
+    {
+      "t": 1793684379.039051,
+      "message": "[INFO] Message check after step 5: page candidates 0 (page text not used: the step moved to another page), server responses 7 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684379.401241,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 6
+    },
+    {
+      "t": 1793684380.0318651,
+      "message": "\u21b3 Clicking 'icon button next to '\u20b9 1999''",
+      "level": "note",
+      "step": 6
+    },
+    {
+      "t": 1793684381.583748,
+      "message": "[INFO] Message check after step 6: page candidates 0, server responses 0 (step-caused), keyword match: no, expected result: same page expected (the recording stayed on this page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684381.8611279,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 7
+    },
+    {
+      "t": 1793684382.506923,
+      "message": "\u21b3 Clicking 'Continue'",
+      "level": "note",
+      "step": 7
+    },
+    {
+      "t": 1793684384.087339,
+      "message": "[INFO] Message check after step 7: page candidates 0, server responses 0 (step-caused), keyword match: no, expected result: same page expected (the recording stayed on this page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684384.269748,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 8
+    },
+    {
+      "t": 1793684384.9014468,
+      "message": "\u21b3 Clicking 'e.g. john@email.com or 9XXXXXXXXX'",
+      "level": "note",
+      "step": 8
+    },
+    {
+      "t": 1793684385.983179,
+      "message": "Step 9/12: entering phone/mobile number",
+      "step": 9
+    },
+    {
+      "t": 1793684385.986497,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 9
+    },
+    {
+      "t": 1793684386.942903,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 9
+    },
+    {
+      "t": 1793684387.69058,
+      "message": "Step 10/12: Send OTP button enabled = True - clicking",
+      "step": 10
+    },
+    {
+      "t": 1793684387.7193348,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 10
+    },
+    {
+      "t": 1793684388.3648262,
+      "message": "\u21b3 Clicking 'Send OTP'",
+      "level": "note",
+      "step": 10
+    },
+    {
+      "t": 1793684389.571192,
+      "message": "[INFO] Message check after step 10: page candidates 0, server responses 1 (step-caused), keyword match: no, expected result: same page expected (the recording stayed on this page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684389.679855,
+      "message": "Step 11/12: OTP field visible = True",
+      "step": 11
+    },
+    {
+      "t": 1793684389.689468,
+      "message": "Step 11/12: OTP field is ready - waiting for you to enter the OTP",
+      "step": 11
+    },
+    {
+      "t": 1793684394.2212899,
+      "message": "Step 11/12: OTP entered, continuing",
+      "step": 11
+    },
+    {
+      "t": 1793684394.232251,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 11
+    },
+    {
+      "t": 1793684395.17083,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 11
+    },
+    {
+      "t": 1793684395.58197,
+      "message": "Step 12/12: clicking Verify & Continue",
+      "step": 12
+    },
+    {
+      "t": 1793684395.612897,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 12
+    },
+    {
+      "t": 1793684396.514438,
+      "message": "\u21b3 Clicking 'Verify & Continue'",
+      "level": "note",
+      "step": 12
+    },
+    {
+      "t": 1793684397.2403631,
+      "message": "\ud83d\udd14 Captured server response: Route GET:/api/v1/chat/unread-count?subdomain=builderpreprod&userid=U25673 not found",
+      "step": 12
+    },
+    {
+      "t": 1793684397.241668,
+      "message": "\u21b3 Waiting for the page to finish navigating (up to 5s)",
+      "level": "note",
+      "step": 12
+    },
+    {
+      "t": 1793684399.839343,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 12
+    },
+    {
+      "t": 1793684400.141896,
+      "message": "Step 12/12: navigated to https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants?from=eventslist",
+      "step": 12
+    },
+    {
+      "t": 1793684400.144969,
+      "message": "[INFO] Message check after step 12: page candidates 0 (page text not used: the step moved to another page), server responses 26 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": null,
+  "browser_closed": null
+}

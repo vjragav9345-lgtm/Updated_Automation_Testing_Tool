@@ -1,0 +1,882 @@
+{
+  "status": "PASS",
+  "message": "all steps resolved and validations passed",
+  "diagnostic": null,
+  "qa_url": "https://sportzia-preprod.kovaionplay.com/feed",
+  "steps": [
+    {
+      "index": 1,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "navigate",
+      "name": "Open \u2013 Feed",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 1.2s) > 'div' is hidden, so AutoFlow is hovering over the menu that holds it > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/feed/step01_open_feed_2026-11-03_11-08-59.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+      "started_at": "2026-11-03T11:08:55.327",
+      "ended_at": "2026-11-03T11:08:59.224",
+      "duration": 3.821,
+      "timing_ms": {
+        "settle": 1203,
+        "navigation_wait": 2070,
+        "screenshot": 540,
+        "other": 8
+      },
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 2,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Accept\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "css_path",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "DIAGNOSTIC - the step ended on the 'css_path' method. Methods tried in order: popup-scoped: nothing (search 0.0s, total 0.0s); data-testid: nothing (search 0.0s, total 0.0s); data-test: nothing (search 0.0s, total 0.0s); data-cy: nothing (search 0.0s, total 0.0s); id: nothing (search 0.0s, total 0.0s); name: nothing (search 0.0s, total 0.0s); aria-label: nothing (search 0.0s, total 0.0s); placeholder: nothing (search 0.0s, total 0.0s); title: nothing (search 0.0s, total 0.0s); role: nothing (search 0.0s, total 0.0s); href: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag: nothing (search 0.0s, total 0.0s); text+tag-number-normalized: nothing (search 0.0s, total 0.0s); image-ancestor: nothing (search 0.0s, total 0.0s); identity: nothing (search 0.0s, total 0.0s); icon-identity: nothing (search 0.0s, total 0.0s); field-label: nothing (search 0.0s, total 0.0s); editable-replacement: nothing (search 0.0s, total 0.0s); position_fallback: proposed a candidate (search 0.0s, total 0.0s); css_path: proposed a candidate (search 0.0s, total 1.7s). Decisions: position_fallback: 'Accept' -> proposed (<div> at (1140,668) 100x37, visible (its own box is shown)); position_fallback: 'Accept' -> not used (the element at the recorded position belongs to 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race category waiting for you.', not to the recorded 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego'); css_path: 'Accept' -> proposed (<div> at (1140,668) 100x37, visible (its own box is shown)); css_path: '' -> used. Waits: none recorded.; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Accept'",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+      "started_at": "2026-11-03T11:08:59.226",
+      "ended_at": "2026-11-03T11:09:01.377",
+      "duration": 2.079,
+      "timing_ms": {
+        "locate_action": 873,
+        "log_emit": 1,
+        "screenshot": 214,
+        "settle": 0,
+        "verify": 411,
+        "other": 580
+      },
+      "locator_report": {
+        "strategy": "css_path",
+        "strategy_label": "CSS path",
+        "fallback_level": 13,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2079,
+        "message": "Accept found using CSS path. (resolved in 2079ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 3,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Sign in\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Sign in' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/login/step03_sign_in_element_2026-11-03_11-09-03.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/feed",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/login",
+      "started_at": "2026-11-03T11:09:01.380",
+      "ended_at": "2026-11-03T11:09:03.350",
+      "duration": 1.797,
+      "timing_ms": {
+        "locate_action": 1038,
+        "log_emit": 3,
+        "screenshot": 214,
+        "settle": 0,
+        "navigation_wait": 4,
+        "verify": 3,
+        "other": 534
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 1797,
+        "message": "Sign in found using Text + Tag fallback. (resolved in 1797ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": true
+    },
+    {
+      "index": 4,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Enter your email or phone number\" field",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "placeholder",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Enter your email or phone number'",
+      "effect_verified": true,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/login",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/login",
+      "started_at": "2026-11-03T11:09:03.352",
+      "ended_at": "2026-11-03T11:09:05.384",
+      "duration": 1.981,
+      "timing_ms": {
+        "locate_action": 728,
+        "log_emit": 1,
+        "screenshot": 99,
+        "settle": 0,
+        "verify": 411,
+        "other": 742
+      },
+      "locator_report": {
+        "strategy": "placeholder",
+        "strategy_label": "Placeholder",
+        "fallback_level": 7,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 1981,
+        "message": "Enter your email or phone number found using Placeholder. (resolved in 1981ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 5,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "Enter your email or phone number: \"9345691852\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "placeholder",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/login/step05_enter_your_email_or_phone_number_9345691_2026-11-03_11-09-06.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/login",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/login",
+      "started_at": "2026-11-03T11:09:05.386",
+      "ended_at": "2026-11-03T11:09:06.568",
+      "duration": 1.111,
+      "timing_ms": {
+        "locate_action": 965,
+        "log_emit": 1,
+        "screenshot": 109,
+        "other": 35
+      },
+      "locator_report": {
+        "strategy": "placeholder",
+        "strategy_label": "Placeholder",
+        "fallback_level": 7,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 1111,
+        "message": "Enter your email or phone number found using Placeholder. (resolved in 1111ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": false
+    },
+    {
+      "index": 6,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Sign in\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Sign in' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/otp/step06_sign_in_element_2026-11-03_11-09-09.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/login",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "started_at": "2026-11-03T11:09:06.570",
+      "ended_at": "2026-11-03T11:09:09.451",
+      "duration": 2.765,
+      "timing_ms": {
+        "locate_action": 895,
+        "log_emit": 1,
+        "screenshot": 198,
+        "settle": 0,
+        "verify": 534,
+        "other": 1136
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2765,
+        "message": "Sign in found using Text + Tag fallback. (resolved in 2765ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "fragile": true
+    },
+    {
+      "index": 7,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "Enter OTP box: \"1234\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "otp split boxes",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "The OTP was typed into 4 separate boxes, one character each.; What AutoFlow did: Waiting for the page to stop changing before the screenshot (up to 1.5s) > Waiting for the page to finish loading (up to 1.49951s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/otp/step07_enter_otp_box_1234_2026-11-03_11-09-13.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "started_at": "2026-11-03T11:09:09.454",
+      "ended_at": "2026-11-03T11:09:13.849",
+      "duration": 4.318,
+      "timing_ms": {
+        "log_emit": 0,
+        "screenshot": 115,
+        "other": 4203
+      },
+      "locator_report": {
+        "strategy": "otp split boxes",
+        "strategy_label": "otp split boxes",
+        "fallback_level": null,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 4318,
+        "message": "Enter OTP found using otp split boxes."
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "otp_fill",
+      "fragile": false
+    },
+    {
+      "index": 8,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "Enter OTP box: \"2\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "skipped (OTP box already filled)",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Part of OTP - filled from your input.; What AutoFlow did: Waiting for the page to stop changing before the screenshot (up to 1.5s) > Waiting for the page to finish loading (up to 1.49931s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/otp/step08_enter_otp_box_2_2026-11-03_11-09-14.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "started_at": "2026-11-03T11:09:13.850",
+      "ended_at": "2026-11-03T11:09:14.198",
+      "duration": 0.15,
+      "timing_ms": {
+        "log_emit": 0,
+        "screenshot": 119,
+        "other": 31
+      },
+      "locator_report": {
+        "strategy": "skipped (OTP box already filled)",
+        "strategy_label": "skipped (OTP box already filled)",
+        "fallback_level": null,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 150,
+        "message": "Enter OTP found using skipped (OTP box already filled)."
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "otp_fill_more",
+      "fragile": false
+    },
+    {
+      "index": 9,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "Enter OTP box: \"3\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "skipped (OTP box already filled)",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Part of OTP - filled from your input.",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "started_at": "2026-11-03T11:09:14.199",
+      "ended_at": "2026-11-03T11:09:14.308",
+      "duration": 0.035,
+      "timing_ms": {
+        "log_emit": 0,
+        "screenshot": 18,
+        "other": 17
+      },
+      "locator_report": {
+        "strategy": "skipped (OTP box already filled)",
+        "strategy_label": "skipped (OTP box already filled)",
+        "fallback_level": null,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 35,
+        "message": "Enter OTP found using skipped (OTP box already filled)."
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "otp_fill_more",
+      "fragile": false
+    },
+    {
+      "index": 10,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "fill",
+      "name": "Enter OTP box: \"4\"",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "skipped (OTP box already filled)",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "Part of OTP - filled from your input.; What AutoFlow did: Waiting for the page to stop changing before the screenshot (up to 1.5s) > Waiting for the page to finish loading (up to 1.49948s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "started_at": "2026-11-03T11:09:14.310",
+      "ended_at": "2026-11-03T11:09:14.507",
+      "duration": 0.048,
+      "timing_ms": {
+        "log_emit": 0,
+        "screenshot": 18,
+        "other": 29
+      },
+      "locator_report": {
+        "strategy": "skipped (OTP box already filled)",
+        "strategy_label": "skipped (OTP box already filled)",
+        "fallback_level": null,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 48,
+        "message": "Enter OTP found using skipped (OTP box already filled)."
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "otp_fill_more",
+      "fragile": false
+    },
+    {
+      "index": 11,
+      "fast": false,
+      "captured_messages": [
+        {
+          "type": "server response",
+          "text": "Route GET:/api/v1/chat/unread-count?subdomain=builderpreprod&userid=U25673 not found",
+          "input": null,
+          "near_input": null,
+          "status": 404,
+          "screenshot": "/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_100714_20261103_110850/captured_messages/step11_message_11-09-16.png"
+        }
+      ],
+      "action_type": "click",
+      "name": "\"Verify\" element",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "text+tag",
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to stop changing before the screenshot (up to 1.5s) > Waiting for the page to finish loading (up to 1.49932s) > Waiting for the page to finish loading (up to 0.3s) > Clicking 'Verify' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850/feed/step11_verify_element_2026-11-03_11-09-17.png",
+      "url_before": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+      "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+      "started_at": "2026-11-03T11:09:14.509",
+      "ended_at": "2026-11-03T11:09:17.584",
+      "duration": 2.906,
+      "timing_ms": {
+        "locate_action": 929,
+        "log_emit": 2,
+        "screenshot": 315,
+        "settle": 0,
+        "verify": 3,
+        "other": 1657
+      },
+      "locator_report": {
+        "strategy": "text+tag",
+        "strategy_label": "Text + Tag fallback",
+        "fallback_level": 11,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 2906,
+        "message": "Verify found using Text + Tag fallback. (resolved in 2906ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": "verify",
+      "fragile": true
+    }
+  ],
+  "step_counts": {
+    "passed": 6,
+    "warnings": 0,
+    "failed": 0,
+    "not_run": 0,
+    "manual_input": 5
+  },
+  "ui_elements": [
+    {
+      "index": 2,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "css_path",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 3,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 4,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "placeholder",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 5,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "placeholder",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 6,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 7,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "otp split boxes",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 8,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "skipped (OTP box already filled)",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 9,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "skipped (OTP box already filled)",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 10,
+      "action_type": "fill",
+      "element_found": true,
+      "locator_used": "skipped (OTP box already filled)",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    },
+    {
+      "index": 11,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "text+tag",
+      "status": "MANUAL_INPUT",
+      "message": "Manual input step (OTP/CAPTCHA) - not counted as a UI element failure"
+    }
+  ],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": null,
+  "run_id": "session_20261103_100714_20261103_110850",
+  "run_dir": "generated_scripts/screenshoots/session_20261103_100714_20261103_110850",
+  "live_log": [
+    {
+      "t": 1793684335.40917,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.2s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793684336.6799161,
+      "message": "\u21b3 'div' is hidden, so AutoFlow is hovering over the menu that holds it",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793684338.6842508,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793684339.562112,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793684340.277523,
+      "message": "\u21b3 Clicking 'Accept'",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793684341.792871,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684342.457098,
+      "message": "\u21b3 Clicking 'Sign in'",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684343.2460139,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793684343.3515599,
+      "message": "[INFO] Message check after step 3: page candidates 0 (page text not used: the step moved to another page), server responses 5 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684343.5453281,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 4
+    },
+    {
+      "t": 1793684344.17556,
+      "message": "\u21b3 Clicking 'Enter your email or phone number'",
+      "level": "note",
+      "step": 4
+    },
+    {
+      "t": 1793684345.49371,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 5
+    },
+    {
+      "t": 1793684346.459415,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 5
+    },
+    {
+      "t": 1793684346.887434,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 6
+    },
+    {
+      "t": 1793684347.536713,
+      "message": "\u21b3 Clicking 'Sign in'",
+      "level": "note",
+      "step": 6
+    },
+    {
+      "t": 1793684349.346978,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 6
+    },
+    {
+      "t": 1793684349.453731,
+      "message": "[INFO] Message check after step 6: page candidates 0 (page text not used: the step moved to another page), server responses 3 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    },
+    {
+      "t": 1793684349.5576699,
+      "message": "Step 7/11: OTP field visible = True",
+      "step": 7
+    },
+    {
+      "t": 1793684349.56435,
+      "message": "Step 7/11: OTP group detected (4 boxes)",
+      "step": 7
+    },
+    {
+      "t": 1793684349.5654132,
+      "message": "Step 7/11: OTP field is ready - waiting for you to enter the OTP",
+      "step": 7
+    },
+    {
+      "t": 1793684353.5989308,
+      "message": "Step 7/11: OTP entered, continuing",
+      "step": 7
+    },
+    {
+      "t": 1793684353.73085,
+      "message": "Step 7/11: OTP filled into all 4 boxes",
+      "step": 7
+    },
+    {
+      "t": 1793684353.733433,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 7
+    },
+    {
+      "t": 1793684353.7347672,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.49951s)",
+      "level": "note",
+      "step": 7
+    },
+    {
+      "t": 1793684354.075874,
+      "message": "Step 8: Part of OTP - filled from your input (step 7)",
+      "step": 8
+    },
+    {
+      "t": 1793684354.078718,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 8
+    },
+    {
+      "t": 1793684354.080311,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.49931s)",
+      "level": "note",
+      "step": 8
+    },
+    {
+      "t": 1793684354.2872682,
+      "message": "Step 9: Part of OTP - filled from your input (step 7)",
+      "step": 9
+    },
+    {
+      "t": 1793684354.289763,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 9
+    },
+    {
+      "t": 1793684354.291082,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.49948s)",
+      "level": "note",
+      "step": 9
+    },
+    {
+      "t": 1793684354.4861782,
+      "message": "Step 10: Part of OTP - filled from your input (step 7)",
+      "step": 10
+    },
+    {
+      "t": 1793684354.489117,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 10
+    },
+    {
+      "t": 1793684354.4905531,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.49932s)",
+      "level": "note",
+      "step": 10
+    },
+    {
+      "t": 1793684354.852265,
+      "message": "Step 11/11: clicking Verify & Continue",
+      "step": 11
+    },
+    {
+      "t": 1793684354.884799,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 11
+    },
+    {
+      "t": 1793684355.537838,
+      "message": "\u21b3 Clicking 'Verify'",
+      "level": "note",
+      "step": 11
+    },
+    {
+      "t": 1793684357.3557959,
+      "message": "\ud83d\udd14 Captured server response: Route GET:/api/v1/chat/unread-count?subdomain=builderpreprod&userid=U25673 not found",
+      "step": 11
+    },
+    {
+      "t": 1793684357.366495,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 11
+    },
+    {
+      "t": 1793684357.584037,
+      "message": "Step 11/11: navigated to https://sportzia-preprod.kovaionplay.com/feed",
+      "step": 11
+    },
+    {
+      "t": 1793684357.5868568,
+      "message": "[INFO] Message check after step 11: page candidates 0 (page text not used: the step moved to another page), server responses 29 (step-caused), keyword match: no, expected result: achieved (navigated to the recorded page), action: none",
+      "step": null
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": null,
+  "browser_closed": null
+}

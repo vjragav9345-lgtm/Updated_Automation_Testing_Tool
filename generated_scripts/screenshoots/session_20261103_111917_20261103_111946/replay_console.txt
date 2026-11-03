@@ -1,0 +1,536 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_111917
+ACTION COUNT: 17
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+==================================================
+[1/17]
+ACTION: navigate
+NAME: Open – Home page
+URL: https://myntra.com
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+[redirect] launch URL -> https://www.myntra.com/
+[navigate-ready] waiting for next step's target to become findable (up to 9.0s)...
+[navigate-ready] found at t=0.0s - destination page is ready
+[note] -> Waiting for the page to stop changing before the screenshot (up to 1.5s)
+STATUS: SUCCESS
+Done (2.90s).
+
+[timing] step 1 (navigate): total 2903ms | settle 1203ms | navigation_wait 16ms | screenshot 1667ms | other 17ms
+==================================================
+[2/17]
+ACTION: click
+NAME: "Flip Flops" link
+Element: Flip Flops
+Locator: a[href="/men-flip-flops"]
+
+STATUS: STARTED
+Executing...
+[snapshot] saved the missing page snapshot for step 2026-11-03T05:49:13.765Z (replay, 0.0s)
+[spa-settle] waited 3.06s for network-idle/no-skeleton before this step
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[note] -> 'Flip Flops' is hidden, so AutoFlow is hovering over the menu that holds it
+[hover-reveal] Hover: hovered the menu trigger above the target - it is now visible
+[target-verify] PASSED WITH WARNING: target was hidden and required an un-recorded hover-reveal (see [hover-reveal] log lines) to become visible - consider re-recording this step so the hover itself is captured
+[CLICK-DIAG] === click on recorded target 'Flip Flops' (strategy=href) ===
+[CLICK-DIAG] resolved-to-click : tag='a' class='desktop-categoryLink' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='a' class='desktop-categoryLink' data-testid=None
+[CLICK-DIAG] MATCH=True
+[click-target-resolution] container matched: {'tag': 'a', 'cls': 'desktop-categoryLink', 'testid': None, 'role': None} - no more specific interactive descendant found - clicking the container as before
+[note] -> Clicking 'Flip Flops'
+[elements-from-point BEFORE CLICK] stack at (638, 250), topmost first:
+[elements-from-point BEFORE CLICK]   [0] tag='a' class='desktop-categoryLink' testid=None z-index='auto' opacity='1' pointer-events='auto' <-- RESOLVED ELEMENT
+[elements-from-point BEFORE CLICK]   [1] tag='li' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [2] tag='ul' class='desktop-navBlock' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [3] tag='li' class='desktop-oddColumnContent' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [4] tag='div' class='desktop-categoryContainer' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [5] tag='div' class='desktop-paneContent' testid=None z-index='1' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [6] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [7] tag='body' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [8] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK] TOP ELEMENT pointer-events='auto'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+[elements-from-point AFTER CLICK] stack at (638, 250), topmost first:
+[elements-from-point AFTER CLICK]   [0] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK] TOP ELEMENT pointer-events='auto'
+target was hidden and required an un-recorded hover-reveal (see [hover-reveal] log lines) to become visible - consider re-recording this step so the hover itself is captured
+EFFECT VERIFICATION CODE RUNNING (step 2, action_type='click')
+[note] -> Waiting for the page to stop changing before the screenshot (up to 1.5s)
+STATUS: SUCCESS
+Done (10.18s).
+Flip Flops found using Link URL. (resolved in 10183ms)
+
+[timing] step 2 (click): total 10183ms | locate_action 5313ms | log_emit 1ms | screenshot 1842ms | settle 1202ms | verify 0ms | other 1825ms
+==================================================
+[3/17]
+ACTION: scroll
+NAME: down 400px on Men Flip Flops
+Delta: (0, 400)
+
+STATUS: STARTED
+Executing...
+[scroll] window-level scroll (no locator_profile recorded)
+STATUS: SUCCESS
+Done (0.28s).
+
+[timing] step 3 (scroll): total 277ms | other 277ms
+==================================================
+[4/17]
+ACTION: click
+NAME: "Crocs Rs. 1347Rs. 2995(55% OFF)" link
+Element: Crocs Rs. 1347Rs. 2995(55% OFF)
+Locator: a[href="flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy"]
+
+STATUS: STARTED
+Executing...
+[snapshot] saved the missing page snapshot for step 2026-11-03T05:49:17.706Z (replay, 0.1s)
+[note] -> Waiting for the page to finish loading (up to 4s)
+[CLICK-DIAG] === click on recorded target 'Crocs Rs. 1347Rs. 2995(55% OFF)' (strategy=href) ===
+[CLICK-DIAG] resolved-to-click : tag='a' class='' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='img' class='img-responsive' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'a', 'cls': '', 'testid': None, 'role': None} - no more specific interactive descendant found - clicking the container as before
+[note] -> Clicking 'Crocs Rs. 1347Rs. 2995(55% OFF)'
+[elements-from-point BEFORE CLICK] stack at (894, 432), topmost first:
+[elements-from-point BEFORE CLICK]   [0] tag='img' class='img-responsive' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [1] tag='picture' class='img-responsive' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [2] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [3] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [4] tag='div' class='slick-slide slick-active slick-center' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [5] tag='div' class='slick-track' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [6] tag='div' class='slick-list' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [7] tag='div' class='slick-initialized slick-slider' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [8] tag='div' class='product-sliderContainer' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [9] tag='div' class='product-imageSliderContainer' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [10] tag='a' class='' testid=None z-index='auto' opacity='1' pointer-events='auto' <-- RESOLVED ELEMENT
+[elements-from-point BEFORE CLICK]   [11] tag='li' class='product-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [12] tag='ul' class='results-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [13] tag='section' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [14] tag='div' class='search-searchProductsContainer row-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [15] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [16] tag='div' class='search-rightContainer column-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [17] tag='div' class=' row-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [18] tag='main' class='search-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [19] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [20] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [21] tag='body' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [22] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK] TOP ELEMENT pointer-events='auto'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+[elements-from-point AFTER CLICK] stack at (894, 432), topmost first:
+[elements-from-point AFTER CLICK]   [0] tag='img' class='img-responsive' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [1] tag='picture' class='img-responsive' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [2] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [3] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [4] tag='div' class='slick-slide slick-active slick-center' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [5] tag='div' class='slick-track' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [6] tag='div' class='slick-list' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [7] tag='div' class='slick-initialized slick-slider' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [8] tag='div' class='product-sliderContainer' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [9] tag='div' class='product-imageSliderContainer' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [10] tag='a' class='' testid=None z-index='auto' opacity='1' pointer-events='auto' <-- RESOLVED ELEMENT
+[elements-from-point AFTER CLICK]   [11] tag='li' class='product-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [12] tag='ul' class='results-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [13] tag='section' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [14] tag='div' class='search-searchProductsContainer row-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [15] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [16] tag='div' class='search-rightContainer column-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [17] tag='div' class=' row-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [18] tag='main' class='search-base' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [19] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [20] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [21] tag='body' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [22] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK] TOP ELEMENT pointer-events='auto'
+Warning: The link label changed. Recorded content: 'Crocs Rs. 1347Rs. 2995(55% OFF)'. Replay content: 'Crocs Sizes: UK8 Rs. 1347Rs. 2995(55% OFF)'. Continuing.
+EFFECT VERIFICATION CODE RUNNING (step 4, action_type='click')
+(new page/tab appeared during replay - assigned page_id=1, url=https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy)
+STATUS: SUCCESS
+Done (13.97s).
+Crocs Rs. 1347Rs. 2995(55% OFF) found using Link URL. (resolved in 13965ms)
+WARNING: Warning: The link label changed. Recorded content: 'Crocs Rs. 1347Rs. 2995(55% OFF)'. Replay content: 'Crocs Sizes: UK8 Rs. 1347Rs. 2995(55% OFF)'. Continuing.
+
+[timing] step 4 (click): total 13965ms | locate_action 5454ms | log_emit 1ms | screenshot 245ms | settle 1201ms | verify 1206ms | other 5858ms
+[note] [INFO] Message check after step 4: page candidates 0 (page text not used: the step moved to another page), server responses 9 (step-caused), keyword match: no, expected result: not achieved (still on recorded page), action: none
+==================================================
+[5/17]
+ACTION: tab_open
+NAME: Open a new tab (Buy)
+PAGE: 1
+URL: https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy
+(new tab/page opened from page 0 - replay switches to it for subsequent actions)
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+STATUS: SUCCESS
+Done (2.22s).
+
+[timing] step 5 (tab_open): total 2216ms | settle 1203ms | other 1013ms
+==================================================
+[6/17]
+ACTION: click
+NAME: "3" button
+PAGE: 1
+Element: 3
+Locator: div#sizeButtonsContainer > div:nth-of-type(2) > div > div > button
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '3' (strategy=text+tag) ===
+[CLICK-DIAG] resolved-to-click : tag='button' class='size-buttons-size-button size-buttons-size-button-default' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='p' class='size-buttons-unified-size' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'button', 'cls': 'size-buttons-size-button size-buttons-size-button-default', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'p', 'cls': 'size-buttons-unified-size', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking '3'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+EFFECT VERIFICATION CODE RUNNING (step 6, action_type='click')
+STATUS: SUCCESS
+Done (4.70s).
+3 found using Text + Tag fallback. (resolved in 4703ms)
+
+[timing] step 6 (click): total 4702ms | locate_action 1149ms | log_emit 1ms | screenshot 254ms | settle 1202ms | verify 1611ms | other 485ms
+==================================================
+[7/17]
+ACTION: scroll
+NAME: down 312px on Buy
+PAGE: 1
+Delta: (0, 312)
+
+STATUS: STARTED
+Executing...
+[scroll] window-level scroll (no locator_profile recorded)
+STATUS: SUCCESS
+Done (0.27s).
+
+[timing] step 7 (scroll): total 269ms | other 269ms
+==================================================
+[8/17]
+ACTION: scroll
+NAME: down 1462px on Buy
+PAGE: 1
+Delta: (0, 1462)
+
+STATUS: STARTED
+Executing...
+[scroll] window-level scroll (no locator_profile recorded)
+STATUS: SUCCESS
+Done (0.95s).
+
+[timing] step 8 (scroll): total 948ms | other 948ms
+==================================================
+[9/17]
+ACTION: click
+NAME: "Customer Photos (176)" element
+PAGE: 1
+Element: Customer Photos (176)
+Locator: div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 17282.8ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'target' at t=0ms (reference point for this flow)
+[note] -> Waiting for the page to finish loading (up to 4s)
+[CLICK-DIAG] === click on recorded target '(unlabeled)' (strategy=position_fallback) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='image-thumb-wrapper-thumb ' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='img' class='image-thumb-wrapper-image' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'image-thumb-wrapper-thumb ', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'div', 'cls': 'skeleton-skeletonLoader', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Customer Photos (176)'
+[note] -> An unexpected popup was in the way, so Escape / its close button was used.
+recorded target not found - used same position (#2) instead, content may differ from recording
+EFFECT VERIFICATION CODE RUNNING (step 9, action_type='click')
+[modal-no-navigate-check] next step's own target sits inside a dialog-like container even though no navigate was recorded between this click and it - verifying the modal genuinely painted before letting that step run
+[modal-timing-detail] click dispatched (verification loop starting) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +18192ms from click dispatch
+[modal-timing-detail] target DOM node first appears (not yet confirmed visible/painted) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +18197ms from click dispatch
+[modal-timing] click armed at 17282.8ms (page clock) - last DOM mutation observed at 35460.3ms
+[modal-timing] click armed at 17282.8ms (page clock) - last DOM mutation observed at 35460.3ms
+[modal-debug] saved screenshot at moment of 'confirmed-ready-to-interact': /Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111917_20261103_111946/page_not_found/debug/modal-confirmed-ready-to-interact-1793685045022.png
+[modal-timing-detail] CONFIRMED stable - ready to interact - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +18602ms from click dispatch
+STATUS: SUCCESS
+Done (22.14s).
+Customer Photos (176) found using Position fallback. Consider re-recording this step. (resolved in 22136ms)
+WARNING: Warning: An unexpected popup was in the way, so AutoFlow used Escape / its close button. The test continued.
+
+[timing] step 9 (click): total 22135ms | locate_action 18181ms | log_emit 1ms | screenshot 209ms | settle 1202ms | verify 1608ms | other 934ms
+==================================================
+[10/17]
+ACTION: click
+NAME: "Cool product" element
+PAGE: 1
+Element: Cool product
+Locator: div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 39407.5ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'target' at t=0ms (reference point for this flow)
+[modal-timing-detail] interaction with 'target' dispatched at +22126ms from click dispatch
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '(unlabeled)' (strategy=position_fallback) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='image-reviews-modal-actionButton ' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='svg' class='[object SVGAnimatedString]' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'image-reviews-modal-actionButton ', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'path', 'cls': '[object SVGAnimatedString]', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Cool product'
+recorded target not found - used same position (#2) instead, content may differ from recording
+EFFECT VERIFICATION CODE RUNNING (step 10, action_type='click')
+[modal-no-navigate-check] next step's own target sits inside a dialog-like container even though no navigate was recorded between this click and it - verifying the modal genuinely painted before letting that step run
+[modal-timing-detail] click dispatched (verification loop starting) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12433ms from click dispatch
+[modal-timing-detail] target DOM node first appears (not yet confirmed visible/painted) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12435ms from click dispatch
+[modal-debug] saved screenshot at moment of 'confirmed-ready-to-interact': /Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111917_20261103_111946/page_not_found/debug/modal-confirmed-ready-to-interact-1793685061389.png
+[modal-timing-detail] CONFIRMED stable - ready to interact - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12776ms from click dispatch
+STATUS: SUCCESS
+Done (16.29s).
+Cool product found using Position fallback. Consider re-recording this step. (resolved in 16295ms)
+
+[timing] step 10 (click): total 16294ms | locate_action 12422ms | log_emit 2ms | screenshot 234ms | settle 1202ms | verify 1607ms | other 827ms
+==================================================
+[11/17]
+ACTION: click
+NAME: "Very nice.." element
+PAGE: 1
+Element: Very nice..
+Locator: div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 55800.5ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'target' at t=0ms (reference point for this flow)
+[modal-timing-detail] interaction with 'target' dispatched at +16394ms from click dispatch
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '(unlabeled)' (strategy=position_fallback) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='image-reviews-modal-actionButton ' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='svg' class='[object SVGAnimatedString]' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'image-reviews-modal-actionButton ', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'path', 'cls': '[object SVGAnimatedString]', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Very nice..'
+recorded target not found - used same position (#2) instead, content may differ from recording
+EFFECT VERIFICATION CODE RUNNING (step 11, action_type='click')
+[modal-no-navigate-check] next step's own target sits inside a dialog-like container even though no navigate was recorded between this click and it - verifying the modal genuinely painted before letting that step run
+[modal-timing-detail] click dispatched (verification loop starting) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12418ms from click dispatch
+[modal-timing-detail] target DOM node first appears (not yet confirmed visible/painted) - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12420ms from click dispatch
+[modal-debug] saved screenshot at moment of 'confirmed-ready-to-interact': /Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111917_20261103_111946/page_not_found/debug/modal-confirmed-ready-to-interact-1793685077764.png
+[modal-timing-detail] CONFIRMED stable - ready to interact - target='div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)' at +12750ms from click dispatch
+STATUS: SUCCESS
+Done (16.27s).
+Very nice.. found using Position fallback. Consider re-recording this step. (resolved in 16266ms)
+
+[timing] step 11 (click): total 16265ms | locate_action 12408ms | log_emit 2ms | screenshot 233ms | settle 1201ms | verify 1608ms | other 813ms
+==================================================
+[12/17]
+ACTION: click
+NAME: "Jyoti Sharma28 June 2026" element
+PAGE: 1
+Element: Jyoti Sharma28 June 2026
+Locator: div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 72208.4ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'target' at t=0ms (reference point for this flow)
+[modal-timing-detail] interaction with 'target' dispatched at +16409ms from click dispatch
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '(unlabeled)' (strategy=position_fallback) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='image-reviews-modal-actionButton ' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='svg' class='[object SVGAnimatedString]' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'image-reviews-modal-actionButton ', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'path', 'cls': '[object SVGAnimatedString]', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Jyoti Sharma28 June 2026'
+recorded target not found - used same position (#2) instead, content may differ from recording
+EFFECT VERIFICATION CODE RUNNING (step 12, action_type='click')
+STATUS: SUCCESS
+Done (15.94s).
+Jyoti Sharma28 June 2026 found using Position fallback. Consider re-recording this step. (resolved in 15938ms)
+
+[timing] step 12 (click): total 15938ms | locate_action 12467ms | log_emit 2ms | screenshot 180ms | settle 1202ms | verify 1607ms | other 480ms
+==================================================
+[13/17]
+ACTION: click
+NAME: "Comfort and style on point as always Cro" element
+PAGE: 1
+Element: Comfort and style on point as always Crocs have their own class 🔥Only thing is 
+Locator: div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '(unlabeled)' (strategy=position_fallback) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='image-reviews-modal-actionButton image-reviews-modal-closeModalButton' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='path' class='[object SVGAnimatedString]' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'image-reviews-modal-actionButton image-reviews-modal-closeModalButton', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'path', 'cls': '[object SVGAnimatedString]', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Comfort and style on point as always Crocs have their own...'
+[click-mechanism] standard click used (strategy=position_fallback)
+recorded target not found - used same position (#2) instead, content may differ from recording
+EFFECT VERIFICATION CODE RUNNING (step 13, action_type='click')
+STATUS: SUCCESS
+Done (10.97s).
+Comfort and style on point as always Crocs have their own... found using Position fallback. Consider re-recording this step. (resolved in 10969ms)
+
+[timing] step 13 (click): total 10969ms | locate_action 7434ms | log_emit 2ms | screenshot 281ms | settle 1202ms | verify 1607ms | other 443ms
+==================================================
+[14/17]
+ACTION: scroll
+NAME: down 1066px on Buy
+PAGE: 1
+Delta: (0, 1066)
+
+STATUS: STARTED
+Executing...
+[scroll] window-level scroll (no locator_profile recorded)
+STATUS: SUCCESS
+Done (0.66s).
+
+[timing] step 14 (scroll): total 662ms | other 662ms
+==================================================
+[15/17]
+ACTION: click
+NAME: "4.2 Puma Unisex Printed Sliders Rs. 1249" link
+PAGE: 1
+Element: 4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)
+Locator: a[href="/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy"]
+
+STATUS: STARTED
+Executing...
+[snapshot] saved the missing page snapshot for step 2026-11-03T05:49:32.886Z (replay, 0.1s)
+[note] -> Waiting for the page to finish loading (up to 4s)
+[CLICK-DIAG] === click on recorded target '4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)' (strategy=href) ===
+[CLICK-DIAG] resolved-to-click : tag='a' class='product-list-link' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='img' class='product-item-image' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'a', 'cls': 'product-list-link', 'testid': None, 'role': None} - no more specific interactive descendant found - clicking the container as before
+[note] -> Clicking '4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)'
+[elements-from-point BEFORE CLICK] stack at (388, 531), topmost first:
+[elements-from-point BEFORE CLICK]   [0] tag='img' class='product-item-image' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [1] tag='div' class='product-item-imageCtn' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [2] tag='div' class='product-item-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [3] tag='a' class='product-list-link' testid=None z-index='auto' opacity='1' pointer-events='auto' <-- RESOLVED ELEMENT
+[elements-from-point BEFORE CLICK]   [4] tag='li' class='product-list-gist' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [5] tag='ul' class='product-list-list' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [6] tag='div' class='similar-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [7] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [8] tag='div' class='pdp-details common-clearfix' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [9] tag='main' class='pdp-pdp-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [10] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [11] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [12] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [13] tag='body' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK]   [14] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point BEFORE CLICK] TOP ELEMENT pointer-events='auto'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+[elements-from-point AFTER CLICK] stack at (388, 531), topmost first:
+[elements-from-point AFTER CLICK]   [0] tag='img' class='product-item-image' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [1] tag='div' class='product-item-imageCtn' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [2] tag='div' class='product-item-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [3] tag='a' class='product-list-link' testid=None z-index='auto' opacity='1' pointer-events='auto' <-- RESOLVED ELEMENT
+[elements-from-point AFTER CLICK]   [4] tag='li' class='product-list-gist' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [5] tag='ul' class='product-list-list' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [6] tag='div' class='similar-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [7] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [8] tag='div' class='pdp-details common-clearfix' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [9] tag='main' class='pdp-pdp-container' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [10] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [11] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [12] tag='div' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [13] tag='body' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK]   [14] tag='html' class='' testid=None z-index='auto' opacity='1' pointer-events='auto'
+[elements-from-point AFTER CLICK] TOP ELEMENT pointer-events='auto'
+EFFECT VERIFICATION CODE RUNNING (step 15, action_type='click')
+(new page/tab appeared during replay - assigned page_id=2, url=https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy)
+STATUS: SUCCESS
+Done (9.04s).
+4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF) found using Link URL. (resolved in 9042ms)
+
+[timing] step 15 (click): total 9042ms | locate_action 3808ms | log_emit 2ms | screenshot 222ms | settle 1201ms | verify 1207ms | other 2602ms
+[note] [INFO] Message check after step 15: page candidates 0 (page text not used: the step moved to another page), server responses 8 (step-caused), keyword match: no, expected result: not achieved (still on recorded page), action: none
+==================================================
+[16/17]
+ACTION: tab_open
+NAME: Open a new tab (Buy)
+PAGE: 2
+URL: https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy
+(new tab/page opened from page 1 - replay switches to it for subsequent actions)
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+STATUS: SUCCESS
+Done (2.21s).
+
+[timing] step 16 (tab_open): total 2214ms | settle 1203ms | other 1011ms
+==================================================
+[17/17]
+ACTION: click
+NAME: "8" button
+PAGE: 2
+Element: 8
+Rs. 1249
+Locator: div#sizeButtonsContainer > div:nth-of-type(2) > div:nth-of-type(3) > div > button
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[CLICK-DIAG] === click on recorded target '8\nRs. 1249' (strategy=text+tag) ===
+[CLICK-DIAG] resolved-to-click : tag='button' class='size-buttons-size-button size-buttons-size-button-default size-buttons-big-size' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='p' class='size-buttons-unified-size' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'button', 'cls': 'size-buttons-size-button size-buttons-size-button-default size-buttons-big-size', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'div', 'cls': 'size-buttons-sku-price', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking '8 Rs. 1249'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+EFFECT VERIFICATION CODE RUNNING (step 17, action_type='click')
+STATUS: SUCCESS
+Done (4.70s).
+8
+Rs. 1249 found using Text + Tag fallback. (resolved in 4704ms)
+
+[timing] step 17 (click): total 4704ms | locate_action 1202ms | log_emit 2ms | screenshot 208ms | settle 1202ms | verify 1609ms | other 481ms
+==================================================
+REPLAY COMPLETED
+==================================================
+
+Recorded: 17
+JSON: 17
+Generated: 17
+Executed: 17
+Successful: 17
+Failed: 0
+Total replay time: 139.70s
+Not executed: 0
+
+RESULT: PASS
+
+Final URL:
+https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy
+
+Screenshots:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111917_20261103_111946
+
+Generated Script:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py
+
+Browser will remain open for 5 seconds...
+Browser closed successfully.
+==================================================
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py:6557: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py:13095: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py:18436: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py:27831: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111917_script.py:27978: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
