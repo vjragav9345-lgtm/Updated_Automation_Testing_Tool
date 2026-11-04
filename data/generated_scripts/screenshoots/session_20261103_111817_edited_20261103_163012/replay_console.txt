@@ -1,0 +1,94 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_111817_edited
+ACTION COUNT: 29
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+==================================================
+[1/29]
+ACTION: navigate
+NAME: Open – Feed
+URL: https://sportzia-preprod.kovaionplay.com/feed
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+[navigate-ready] waiting for next step's target to become findable (up to 9.0s)...
+[navigate-ready] found at t=0.0s - destination page is ready
+[note] -> Waiting for the page to stop changing before the screenshot (up to 1.5s)
+STATUS: SUCCESS
+Done (0.49s).
+
+[timing] step 1 (navigate): total 494ms | settle 139ms | navigation_wait 25ms | screenshot 323ms | other 7ms
+==================================================
+[2/29]
+ACTION: click
+NAME: "Accept" element
+Element: Accept
+Locator: div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 3299.2ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'Accept' at t=0ms (reference point for this flow)
+[spa-settle] waited 0.00s for network-idle/no-skeleton before this step
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[position-fallback-check] REJECTED: the element at the recorded position belongs to 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race category waiting for you.', not to the recorded 'whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego'
+[CLICK-DIAG] === click on recorded target 'Accept' (strategy=css_path) ===
+[CLICK-DIAG] resolved-to-click : tag='div' class='css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5' data-testid=None
+[CLICK-DIAG] at-click-coordinate: tag='div' class='css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j' data-testid=None
+[CLICK-DIAG] MATCH=False
+[click-target-resolution] container matched: {'tag': 'div', 'cls': 'css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5', 'testid': None, 'role': None} - found a more specific interactive descendant: {'tag': 'div', 'cls': 'css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j', 'testid': None, 'role': None} - clicking the DESCENDANT instead of the container's own center
+[note] -> Clicking 'Accept'
+[click-mechanism] clicked at the recorded spot inside the element (click_offset)
+EFFECT VERIFICATION CODE RUNNING (step 2, action_type='click')
+STATUS: SUCCESS
+Done (1.81s).
+Accept found using CSS path. (resolved in 1811ms)
+
+[timing] step 2 (click): total 1810ms | locate_action 912ms | log_emit 1ms | screenshot 141ms | settle 0ms | verify 247ms | other 509ms
+[note] The browser window was closed - the run stopped at step 2.
+==================================================
+REPLAY COMPLETED
+==================================================
+
+Recorded: 29
+JSON: 29
+Generated: 29
+Executed: 2
+Successful: 1
+Failed: 1
+Total replay time: 5.94s
+Not executed: 3-29 (27 action(s))
+
+RESULT: FAIL
+
+Final URL:
+None
+
+Screenshots:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/screenshoots/session_20261103_111817_edited_20261103_163012
+
+Generated Script:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py
+
+No open page remained - skipping the close delay.
+Browser closed successfully.
+==================================================
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:11342: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:17880: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:23297: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:32706: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:32853: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();

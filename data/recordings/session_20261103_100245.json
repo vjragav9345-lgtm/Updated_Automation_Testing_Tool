@@ -1,0 +1,1647 @@
+{
+    "name": "session_20261103_100245",
+    "session_id": "4e2bbfb0c0e244b995105b63b9eb98e7",
+    "start_url": "https://sportzia-preprod.kovaionplay.com/feed",
+    "recorded_at": "2026-11-03T10:03:17.015612",
+    "stop_reason": "browser_closed",
+    "total_actions": 12,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-03T04:32:40.813Z",
+            "page_id": 0,
+            "page_title": "Sportzia",
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Accept",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)",
+                "xpath": "(//*[@id='root']//div[contains(., 'Accept')])[7]",
+                "text": "Accept",
+                "element_text": "Accept",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Accept",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)",
+                "xpath": "(//*[@id='root']//div[contains(., 'Accept')])[7]",
+                "text": "Accept",
+                "element_text": "Accept",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1140,
+                "y": 667.5,
+                "width": 100,
+                "height": 36.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-03T04:32:46.787Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1wtj0ep r-f8sm7e r-1sp8lnq r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-13awgt0 r-p1pxzi r-88pszg r-q4m81j\">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div></div>",
+                    "<div class=\"css-g5y9jx r-b6idm3 r-1p0dtai r-1d2f490 r-nsbfu8 r-u8s1d r-zchlnj r-13qz1uu r-sfbmgh\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1wtj0ep r-f8sm7e r-1sp8lnq r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-13awgt0 r-p1pxzi r-88pszg r-q4m81j\">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/ico...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"la...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><im...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2601"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.27,
+                "y_ratio": 0.37
+            },
+            "popup_container": {
+                "kind": "layer",
+                "tag": "div",
+                "id": null,
+                "role": null,
+                "aria_label": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3)",
+                "text_hint": "We use cookies to ensure that we give you the best experienc"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 5974,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "((//div[contains(., 'Events')])[12]//div)[6]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "((//div[contains(., 'Events')])[12]//div)[6]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 945.9921875,
+                "y": 0,
+                "width": 38.609375,
+                "height": 79
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-03T04:32:50.601Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Events</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Home</div><div class=\"css-g5y9jx r-ysccxm r-qwd59z r-1p0dtai r-1yhswuc r-u8s1d r-13qz1uu\"></div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"tran...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div t...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]",
+                    "<div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.441,
+                "y_ratio": 0.633
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "focus": {
+                    "parts": [
+                        "Events"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events"
+            ],
+            "delay_before_ms": 3814,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div:nth-of-type(2)",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div:nth-of-type(2)",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 338,
+                "y": 300.5,
+                "width": 219,
+                "height": 145.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-03T04:32:52.654Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 12px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1862ga2 r-n6v787 r-1od2jal r-1rngwi6\" style=\"font-family: Inter;\">Tambaram</div></div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 11px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1862ga2 r-n6v787 r-1od2jal r-1rngwi6\" style=\"font-family: Inter;\">November 15, 2026</div></div></div><div class=\"css-g5y...[truncated]",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5...[truncated]",
+                    "<div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-1...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 20...[truncated]",
+                    "<div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q ...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%; height: 620px;\"><div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"aut...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.726,
+                "y_ratio": 0.038
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist"
+            ],
+            "delay_before_ms": 2053,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register Now",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "((//div[contains(., 'Register Now')])[17]//div)[3]",
+                "text": "Register Now",
+                "element_text": "Register Now",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register Now",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "((//div[contains(., 'Register Now')])[17]//div)[3]",
+                "text": "Register Now",
+                "element_text": "Register Now",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1030.671875,
+                "y": 181.5,
+                "width": 182.40625,
+                "height": 35.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+            "timestamp": "2026-11-03T04:32:56.837Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div>",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">₹ 1999/-</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Let's book now!</div></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; min-width: 320px; max-width: 340px; padding-left: 15px;\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">₹ 1999/-</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Let's book now!</div></div></div><div class=\"css-g5y9jx ...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\"></div></...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/user...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" ...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" dra...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.353,
+                "y_ratio": 0.155
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register"
+            ],
+            "delay_before_ms": 4183,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "₹ 1999",
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 2,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 824.5,
+                        "y": 143.5,
+                        "width": 36,
+                        "height": 36
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "₹ 1999",
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 2,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 824.5,
+                        "y": 143.5,
+                        "width": 36,
+                        "height": 36
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 826,
+                "y": 142,
+                "width": 36,
+                "height": 36
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:32:58.917Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"width: 36px; height: 36px; border-radius: 18px; background-color: rgb(66, 133, 244); justify-content: center; align-items: center; transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 16px; color: rgb(255, 255, 255); font-family: anticon; font-weight: normal; font-style: normal;\"></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center; opacity: 1;\"><div aria-disabled=\"true\" tabindex=\"-1\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-12vffkv\" style=\"width: 36px; height: 36px; border-radius: 18px; background-color: rgb(232, 237, 245); justify-content: center; align-items: center; transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 16px; color: rgb(156, 163, 175); font-family: anticon; font-weight: normal; font-style: normal;\"></div></div><input autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2\" value=\"0\" style=\"width: 44px; text-align: center; font-size: 15px; font-weight: 600; color: rgb(17, 17, 17);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"width: 36px; height: 36px; border-radius: 18px; background-color: rgb(66, 133, 244); justify-content: center; align-items: center; transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 16px; color: rgb(255, 255, 255); font-family: anticon; fo...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 15px; font-weight: 700; color: rgb(17, 24, 39);\">₹ 1999</div><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center; opacity: 1;\"><div aria-disabled=\"true\" tabindex=\"-1\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-12vffkv\" style=\"width: 36px; height: 36px; border-radius: 18px; background-color: rgb(232, 237, 245); justify-content: center; align-items: center; transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 16px; color: rgb(156, 163, 175); font-family: anticon; font-weight: normal; font-style: normal;\"></div></div><input autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2\" value=\"0\" style=\"width: 44px; text-align: center; font-size: 15px; font-weight: 600; color: rgb(17, 17, 17);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"width: 36px; heigh...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 6px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 18px; border-width: 0px; border-color: rgba(0, 0, 0, 0); margin-bottom: 12px;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 8px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; flex: 1 1 0%; font-size: 15px; font-weight: 600; color: rgb(17, 24, 39);\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-shrink: 0; min-width: 75px; align-items: flex-end;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136); text-align: right;\">10 - 19 <span class=\"css-1jxf684\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136);\">yrs</span></div></div></div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 15px; font-weight: 700; color: rgb(17, 24, 39);\">₹ 1999</div><div class=\"css-g5y9jx\" style=...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-bottom: 32px; padding-top: 14px;\"><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 6px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 18px; border-width: 0px; border-color: rgba(0, 0, 0, 0); margin-bottom: 12px;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 8px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; flex: 1 1 0%; font-size: 15px; font-weight: 600; color: rgb(17, 24, 39);\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-shrink: 0; min-width: 75px; align-items: flex-end;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136); text-align: right;\">10 - 19 <span class=\"css-1jxf684\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136);\">yrs</span></div></div></div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 15px; font-weight:...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 32px; padding-top: 14px;\"><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 6px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 18px; border-width: 0px; border-color: rgba(0, 0, 0, 0); margin-bottom: 12px;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 8px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; flex: 1 1 0%; font-size: 15px; font-weight: 600; color: rgb(17, 24, 39);\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-shrink: 0; min-width: 75px; align-items: flex-end;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136); text-align: right;\">10 - 19 <span class=\"css-1jxf684\" style=\"font-family: Inter; font-size: 13px; color: rgb(136, 136, 136);\">yrs</span></div></div></div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items:...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; flex-direction: row; max-width: 1330px; width: 100%; align-self: center; padding-right: 5px; padding-left: 5px; padding-bottom: 32px; gap: 15px; overflow: hidden;\"><div class=\"css-g5y9jx\" style=\"width: 380px; flex-shrink: 0;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"box-shadow: rgba(16, 22, 27, 0.07) 0px 1px 3px; flex-direction: row; align-items: center; align-self: flex-start; background-color: rgb(255, 255, 255); border-width: 1px; border-color: rgb(229, 231, 235); border-radius: 20px; padding: 7px 13px; margin-top: 14px; margin-bottom: 12px; transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 15px; color: rgb(55, 65, 81); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; margin-left: 5px; color: rgb(55, 65, 81); font-weight: 600; font-size: 13px;\">Back</div></div><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; overflow: hidden;\"><div class=\"css-g5y9jx\" style=...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.528,
+                "y_ratio": 0.306
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": {
+                    "parts": [
+                        ""
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [
+                    {
+                        "parts": [],
+                        "tag": "input",
+                        "type": null
+                    }
+                ],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 2,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 2080,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Continue",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(6)",
+                "xpath": "((//div[contains(., 'Continue')])[19]//div)[24]",
+                "text": "Continue",
+                "element_text": "Continue",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-agouwx.r-2eszeu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 915,
+                        "y": 368,
+                        "width": 340,
+                        "height": 46
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Continue",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(6)",
+                "xpath": "((//div[contains(., 'Continue')])[19]//div)[24]",
+                "text": "Continue",
+                "element_text": "Continue",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-agouwx.r-2eszeu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 915,
+                        "y": 368,
+                        "width": 340,
+                        "height": 46
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 915,
+                "y": 368,
+                "width": 340,
+                "height": 46
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:00.248Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"background-color: rgb(66, 133, 244); border-radius: 50px; padding-top: 14px; padding-bottom: 14px; align-items: center; transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 15px; font-weight: 600; color: rgb(255, 255, 255);\">Continue</div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 20px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 16px; font-weight: 700; color: rgb(17, 24, 39); margin-bottom: 2px;\">Your cart</div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 12px; color: rgb(107, 114, 128); margin-bottom: 16px;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx\" style=\"margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; font-weight: 600; color: rgb(17, 24, 39); margin-bottom: 6px;\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 13px; color: rgb(85, 85, 85); margin-right: 6px; font-family: entypo; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13p...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-top: 14px;\"><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 20px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 16px; font-weight: 700; color: rgb(17, 24, 39); margin-bottom: 2px;\">Your cart</div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 12px; color: rgb(107, 114, 128); margin-bottom: 16px;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx\" style=\"margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; font-weight: 600; color: rgb(17, 24, 39); margin-bottom: 6px;\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 13px; color: rgb(85, 85, 85); margin-right: 6px; font-family: entypo; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-top: 14px;\"><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 20px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 16px; font-weight: 700; color: rgb(17, 24, 39); margin-bottom: 2px;\">Your cart</div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 12px; color: rgb(107, 114, 128); margin-bottom: 16px;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx\" style=\"margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; font-weight: 600; color: rgb(17, 24, 39); margin-bottom: 6px;\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 13px; color: rgb(85, 8...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 380px; flex-shrink: 0;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-top: 14px;\"><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; padding: 20px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 16px; font-weight: 700; color: rgb(17, 24, 39); margin-bottom: 2px;\">Your cart</div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 12px; color: rgb(107, 114, 128); margin-bottom: 16px;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx\" style=\"margin-bottom: 14px;\"><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; font-size: 13px; font-weight: 600; color: rgb(17, 24, 39); margin-bottom: 6px;\"> 7's Under 19 Category</div><div class=\"css-g5y9jx\" style=\"flex-direction: row; justify-content: space-between; align-items: center;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center;\"><div dir=\"auto\" class=\"...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; flex-direction: row; max-width: 1330px; width: 100%; align-self: center; padding-right: 5px; padding-left: 5px; padding-bottom: 32px; gap: 15px; overflow: hidden;\"><div class=\"css-g5y9jx\" style=\"width: 380px; flex-shrink: 0;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"box-shadow: rgba(16, 22, 27, 0.07) 0px 1px 3px; flex-direction: row; align-items: center; align-self: flex-start; background-color: rgb(255, 255, 255); border-width: 1px; border-color: rgb(229, 231, 235); border-radius: 20px; padding: 7px 13px; margin-top: 14px; margin-bottom: 12px; transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 15px; color: rgb(55, 65, 81); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; margin-left: 5px; color: rgb(55, 65, 81); font-weight: 600; font-size: 13px;\">Back</div></div><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(255, 255, 255); border-radius: 12px; overflow: hidden;\"><div class=\"css-g5y9jx\" style=...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"background-color: rgb(241, 243, 245); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; flex-direction: row; max-width: 1330px; width: 100%; align-self: center; padding-right: 5px; padding-left: 5px; padding-bottom: 32px; gap: 15px; overflow: hidden;\"><div class=\"css-g5y9jx\" style=\"width: 380px; flex-shrink: 0;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"box-shadow: rgba(16, 22, 27, 0.07) 0px 1px 3px; flex-direction: row; align-items: center; align-self: flex-start; background-color: rgb(255, 255, 255); border-width: 1px; border-color: rgb(229, 231, 235); border-radius: 20px; padding: 7px 13px; margin-top: 14px; margin-bottom: 12px; transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 15px; color: rgb(55, 65, 81); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1\" style=\"font-family: Inter; margin-left: 5px; color: rgb(55, 65, 81); font-weight: 600; font-size: 13px;\">Back</div></div><div class=\"css-g5y9jx\" style=\"box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px; background-color: rgb(25...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.447,
+                "y_ratio": 0.761
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": {
+                    "parts": [
+                        ""
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": true,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 2,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1331,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": false,
+                "dialog_open": true,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "e.g. john@email.com or 9XXXXXXXXX",
+                "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > input",
+                "xpath": "//input[@placeholder='e.g. john@email.com or 9XXXXXXXXX']",
+                "text": "e.g. john@email.com or 9XXXXXXXXX",
+                "element_text": "e.g. john@email.com or 9XXXXXXXXX",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                    "type": "text"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": "Email or Mobile Number",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "e.g. john@email.com or 9XXXXXXXXX",
+                "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > input",
+                "xpath": "//input[@placeholder='e.g. john@email.com or 9XXXXXXXXX']",
+                "text": "e.g. john@email.com or 9XXXXXXXXX",
+                "element_text": "e.g. john@email.com or 9XXXXXXXXX",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                    "type": "text"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": "Email or Mobile Number",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 448,
+                "y": 370.75,
+                "width": 384,
+                "height": 50
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:01.314Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1ins33t r-1w15a45 r-1q9bdsx r-1rf8fdq r-18zdu8c r-ubezar r-1iud8zs r-bcqeeo r-3pj75a r-fdjqy7 r-13qz1uu r-18phcnl\" type=\"text\" value=\"\" style=\"--placeholderTextColor: #9CA3AF;\">",
+                    "<div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1ins33t r-1w15a45 r-1q9bdsx r-1rf8fdq r-18zdu8c r-ubezar r-1iud8zs r-bcqeeo r-3pj75a r-fdjqy7 r-13qz1uu r-18phcnl\" type=\"text\" value=\"\" style=\"--placeholderTextColor: #9CA3AF;\"></div>",
+                    "<div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtua...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" a...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e....[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email o...[truncated]",
+                    "<div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "opened_by": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Continue",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(6)",
+                "xpath": "((//div[contains(., 'Continue')])[19]//div)[24]",
+                "text": "Continue",
+                "element_text": "Continue",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null
+            },
+            "opened_by_name": "Continue",
+            "click_offset": {
+                "x_ratio": 0.591,
+                "y_ratio": 0.565
+            },
+            "popup_container": {
+                "kind": "dialog",
+                "tag": "div",
+                "id": null,
+                "role": "dialog",
+                "aria_label": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div",
+                "text_hint": " Sign In to Continue Enter your email or mobile number to c"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": {
+                    "parts": [
+                        "e.g. john@email.com or 9XXXXXXXXX"
+                    ],
+                    "role": null,
+                    "tag": "input"
+                },
+                "fields_changed": [],
+                "dialog_open": true,
+                "dialog_open_before": true,
+                "submit": {
+                    "fields_before": 2,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1066,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": false,
+                "dialog_open": true,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "fill",
+            "value": "9345691852",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "e.g. john@email.com or 9XXXXXXXXX",
+                "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > input",
+                "xpath": "//input[@placeholder='e.g. john@email.com or 9XXXXXXXXX']",
+                "text": "e.g. john@email.com or 9XXXXXXXXX",
+                "element_text": "e.g. john@email.com or 9XXXXXXXXX",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                    "type": "text"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": "Email or Mobile Number",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "e.g. john@email.com or 9XXXXXXXXX",
+                "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > input",
+                "xpath": "//input[@placeholder='e.g. john@email.com or 9XXXXXXXXX']",
+                "text": "e.g. john@email.com or 9XXXXXXXXX",
+                "element_text": "e.g. john@email.com or 9XXXXXXXXX",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "e.g. john@email.com or 9XXXXXXXXX",
+                    "type": "text"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": "Email or Mobile Number",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 448,
+                "y": 370.75,
+                "width": 384,
+                "height": 50
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:05.944Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1ins33t r-1w15a45 r-1q9bdsx r-1rf8fdq r-18zdu8c r-ubezar r-1iud8zs r-bcqeeo r-3pj75a r-fdjqy7 r-13qz1uu r-18phcnl\" type=\"text\" value=\"9345691852\" style=\"--placeholderTextColor: #9CA3AF;\">",
+                    "<div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1ins33t r-1w15a45 r-1q9bdsx r-1rf8fdq r-18zdu8c r-ubezar r-1iud8zs r-bcqeeo r-3pj75a r-fdjqy7 r-13qz1uu r-18phcnl\" type=\"text\" value=\"9345691852\" style=\"--placeholderTextColor: #9CA3AF;\"></div>",
+                    "<div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtua...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" a...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e....[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email o...[truncated]",
+                    "<div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 4630
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Send OTP",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(5)",
+                "xpath": "(//*[@role='dialog']//div[contains(., 'Send OTP')])[5]",
+                "text": "Send OTP",
+                "element_text": "Send OTP",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Send OTP",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(5)",
+                "xpath": "(//*[@role='dialog']//div[contains(., 'Send OTP')])[5]",
+                "text": "Send OTP",
+                "element_text": "Send OTP",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter your email or mobile number to continue with your registration",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 448,
+                "y": 444.75,
+                "width": 384,
+                "height": 52
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:06.073Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-tg9xy0 r-t23y2h r-1fvmuoy r-102gzdx r-1777fci r-14gqq1x r-13qz1uu\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-ubezar r-1kfrs79 r-3ucsff\" style=\"font-family: Inter;\">Send OTP</div></div>",
+                    "<div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtua...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e.g. john@email.com or 9XXXXXXXXX\" a...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email or Mobile Number</div><input placeholder=\"e....[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">Email o...[truncated]",
+                    "<div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Sign In to Continue</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter your email or mobile number to continue with your registration</div><div class=\"css-g5y9jx r-1pz39u2 r...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.949887"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.654,
+                "y_ratio": 0.563
+            },
+            "popup_container": {
+                "kind": "dialog",
+                "tag": "div",
+                "id": null,
+                "role": "dialog",
+                "aria_label": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div",
+                "text_hint": " Sign In to Continue Enter your email or mobile number to c"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": {
+                    "parts": [],
+                    "role": null,
+                    "tag": "input"
+                },
+                "fields_changed": [],
+                "dialog_open": true,
+                "dialog_open_before": true,
+                "submit": {
+                    "fields_before": 3,
+                    "field_cleared": true,
+                    "content_added": true,
+                    "fields_removed": 1,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 129,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": false,
+                "dialog_open": true,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "fill",
+            "value": "1234",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > div:nth-of-type(2) > input",
+                "xpath": "/html[1]/body[1]/div[20]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter the OTP sent to 9345691852.",
+                    "tag": "div"
+                },
+                "nearby_label": "1 2 3 4",
+                "near_text": "One-Time Password",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(4) > div:nth-of-type(2) > input",
+                "xpath": "/html[1]/body[1]/div[20]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter the OTP sent to 9345691852.",
+                    "tag": "div"
+                },
+                "nearby_label": "1 2 3 4",
+                "near_text": "One-Time Password",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 448,
+                "y": 322.75,
+                "width": 384,
+                "height": 56
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:09.029Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input maxlength=\"4\" autocomplete=\"sms-otp\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-8b1cjr r-1p0dtai r-fpub7 r-1d2f490 r-orgf3d r-1ny4l3l r-u8s1d r-zchlnj r-ipm5af r-136ojw6 r-van48c\" value=\"1234\">",
+                    "<div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">1</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">2</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">3</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">4</div></div><input maxleng...[truncated]",
+                    "<div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">1</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">2</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqeeo r-q4m81j r-18phcnl\"><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-evnaw r-b88u0q r-q4m81j\" style=\"font-family: Inter;\">3</div></div><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evn...[truncated]",
+                    "<div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqe...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy ...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "0"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 2956,
+            "otp_field": true
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Verify & Continue",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(5)",
+                "xpath": "(//*[@role='dialog']//div[contains(., 'Verify & Continue')])[5]",
+                "text": "Verify & Continue",
+                "element_text": "Verify & Continue",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter the OTP sent to 9345691852.",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Verify & Continue",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(5)",
+                "xpath": "(//*[@role='dialog']//div[contains(., 'Verify & Continue')])[5]",
+                "text": "Verify & Continue",
+                "element_text": "Verify & Continue",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Enter the OTP sent to 9345691852.",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 448,
+                "y": 470.75,
+                "width": 384,
+                "height": 52
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+            "timestamp": "2026-11-03T04:33:09.146Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-tg9xy0 r-t23y2h r-1fvmuoy r-102gzdx r-1777fci r-14gqq1x r-13qz1uu\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-ubezar r-1kfrs79 r-3ucsff\" style=\"font-family: Inter;\">Verify &amp; Continue</div></div>",
+                    "<div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-1ins33t r-1w15a45 r-t23y2h r-1rf8fdq r-18zdu8c r-13awgt0 r-evnaw r-b88u0q r-1mwlp6a r-1777fci r-bcqe...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy ...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep r-bnwqim r-13qz1uu\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n6v787 r-1kfrs79 r-8ay8q1 r-5oul0u\" style=\"font-family: Inter;\">One-Time Password</div><div class=\"css-g5y9jx r-18u...[truncated]",
+                    "<div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-1ois7e2 r-n...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div aria-modal=\"true\" class=\"css-g5y9jx r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af r-1niwhzg\" role=\"dialog\"><div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-1awozwy r-1psseca r-13awgt0 r-1777fci r-zo2zu6 r-u9wvl5\" style=\"opacity: 1;\"><div class=\"css-g5y9jx r-1oszu61 r-14lw9ot r-y47klf r-1hsrccj r-3lpwum r-11rk87y r-1wci7jc r-1t6ao1e r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-pgx3k3 r-6ncur5 r-1r8g8re r-1777fci r-u8s1d r-dukzhd r-h7zev3 r-1acpoxo r-mhe3cw\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(107, 114, 128); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div dir=\"auto\" class=\"css-146c3p1 r-18zdu8c r-cv4lhi r-b88u0q r-vrz42v r-5oul0u r-kls4rr\" style=\"font-family: Inter;\">Verify OTP</div><div dir=\"auto\" class=\"css-146c3p1 r-1cucpzw r-1b43r93 r-16dba41 r-hbpseb r-1peese0\" style=\"font-family: Inter;\">Enter the OTP sent to 9345691852.</div><div class=\"css-g5y9jx r-1pz39u2 r-117bsoe r-13qz1uu\"><div dir=\"auto\" class=\"c...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.685,
+                "y_ratio": 0.601
+            },
+            "popup_container": {
+                "kind": "dialog",
+                "tag": "div",
+                "id": null,
+                "role": "dialog",
+                "aria_label": null,
+                "css_path": "body > div:nth-of-type(20) > div > div:nth-of-type(2) > div",
+                "text_hint": " Verify OTP Enter the OTP sent to 9345691852. One-Time Pass"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": true,
+                "submit": {
+                    "fields_before": 3,
+                    "field_cleared": true,
+                    "content_added": true,
+                    "fields_removed": 1,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants?from=eventslist",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants?from=eventslist"
+            ],
+            "delay_before_ms": 117,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/participants?from=eventslist",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        }
+    ],
+    "saved_at": "2026-11-03T10:03:17.019239"
+}

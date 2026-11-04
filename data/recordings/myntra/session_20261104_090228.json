@@ -1,0 +1,275 @@
+{
+    "name": "session_20261104_090228",
+    "session_id": "75fd473f7ed04291a170ad27682b2fbd",
+    "start_url": "https://myntra.com",
+    "recorded_at": "2026-11-04T09:02:29.322415",
+    "stop_reason": "browser_closed",
+    "total_actions": 3,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://myntra.com",
+            "timestamp": "2026-11-04T03:32:18.902Z",
+            "page_id": 0,
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Formal Trousers",
+                "placeholder": null,
+                "title": null,
+                "href": "/men-formal-trousers",
+                "product_id": null,
+                "css_path": "header#desktop-header-cnt > div:nth-of-type(2) > nav > div > div > div > div > div > div > li:nth-of-type(2) > ul > li:nth-of-type(4) > a",
+                "xpath": "//a[@href='/men-formal-trousers']",
+                "text": "Formal Trousers",
+                "element_text": "Formal Trousers",
+                "tag": "a",
+                "attributes": {
+                    "href": "/men-formal-trousers"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 6,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Formal Trousers",
+                "placeholder": null,
+                "title": null,
+                "href": "/men-formal-trousers",
+                "product_id": null,
+                "css_path": "header#desktop-header-cnt > div:nth-of-type(2) > nav > div > div > div > div > div > div > li:nth-of-type(2) > ul > li:nth-of-type(4) > a",
+                "xpath": "//a[@href='/men-formal-trousers']",
+                "text": "Formal Trousers",
+                "element_text": "Formal Trousers",
+                "tag": "a",
+                "attributes": {
+                    "href": "/men-formal-trousers"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 6,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 326,
+                "y": 169,
+                "width": 191,
+                "height": 23
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/",
+            "timestamp": "2026-11-04T03:32:24.266Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<a href=\"/men-formal-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"68\">Formal Trousers</a>",
+                    "<li data-reactid=\"67\"><a href=\"/men-formal-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"68\">Formal Trousers</a></li>",
+                    "<ul class=\"desktop-navBlock\" data-reactid=\"60\"><li data-reactid=\"61\"><a href=\"/men-bottomwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"62\">Bottomwear</a></li><li data-reactid=\"63\"><a href=\"/men-jeans\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"64\">Jeans</a></li><li data-reactid=\"65\"><a href=\"/men-casual-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"66\">Casual Trousers</a></li><li data-reactid=\"67\"><a href=\"/men-formal-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"68\">Formal Trousers</a></li><li data-reactid=\"69\"><a href=\"/mens-shorts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"70\">Shorts</a></li><li data-reactid=\"71\"><a href=\"/men-trackpants\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"72\">Track Pants &amp; Joggers</a></li><div class=\"desktop-hrLine\" data-reactid=\"73\"></div><li data-reactid=\"74\"><a href=\"/men-innerwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"75\">Innerwear &amp; Sleepwear</a></li><li data-reactid=\"76\"><a href=\"/men-briefs-and-trunks\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"7...[truncated]",
+                    "<li class=\"desktop-evenColumnContent desktop-oddColumnContent\" data-reactid=\"59\"><ul class=\"desktop-navBlock\" data-reactid=\"60\"><li data-reactid=\"61\"><a href=\"/men-bottomwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"62\">Bottomwear</a></li><li data-reactid=\"63\"><a href=\"/men-jeans\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"64\">Jeans</a></li><li data-reactid=\"65\"><a href=\"/men-casual-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"66\">Casual Trousers</a></li><li data-reactid=\"67\"><a href=\"/men-formal-trousers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"68\">Formal Trousers</a></li><li data-reactid=\"69\"><a href=\"/mens-shorts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"70\">Shorts</a></li><li data-reactid=\"71\"><a href=\"/men-trackpants\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"72\">Track Pants &amp; Joggers</a></li><div class=\"desktop-hrLine\" data-reactid=\"73\"></div><li data-reactid=\"74\"><a href=\"/men-innerwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"75\">Innerwear &amp; Sleepwear</a></li><li data-reactid=\"76\"><a href=\"/me...[truncated]",
+                    "<div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"41\">Jackets</a></li><li data-reactid=\"42\"><a href=\"/men-blazers\" sty...[truncated]",
+                    "<div class=\"desktop-paneContent\" data-reactid=\"24\"><div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"41\">Jackets</a></...[truncated]",
+                    "<div class=\"desktop-backdropStyle\" data-reactid=\"23\"><div class=\"desktop-paneContent\" data-reactid=\"24\"><div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.063,
+                "y_ratio": 0.304
+            },
+            "popup_container": {
+                "kind": "layer",
+                "tag": "header",
+                "id": "desktop-header-cnt",
+                "role": null,
+                "aria_label": null,
+                "css_path": "header#desktop-header-cnt",
+                "text_hint": "MEN Topwear T-Shirts Casual Shirts Formal Shirts Sweatshirts"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 5364
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Louis Philippe\nSizes: 38\nRs. 1455Rs. 2599(44% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy",
+                "product_id": "38732018",
+                "css_path": "li#38732018 > a",
+                "xpath": "//ul[.//h3[contains(text(), 'Blackberrys')]]/li[3]/a",
+                "text": "Louis Philippe Rs. 1455Rs. 2599(44% OFF)",
+                "element_text": "Louis Philippe Rs. 1455Rs. 2599(44% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Louis Philippe",
+                "item_context": {
+                    "text": "Louis Philippe",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Louis Philippe\nSizes: 38\nRs. 1455Rs. 2599(44% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy",
+                "product_id": "38732018",
+                "css_path": "li#38732018 > a",
+                "xpath": "//ul[.//h3[contains(text(), 'Blackberrys')]]/li[3]/a",
+                "text": "Louis Philippe Rs. 1455Rs. 2599(44% OFF)",
+                "element_text": "Louis Philippe Rs. 1455Rs. 2599(44% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Louis Philippe",
+                "item_context": {
+                    "text": "Louis Philippe",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 788.6640625,
+                "y": 261.5,
+                "width": 210,
+                "height": 360
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/men-formal-trousers",
+            "timestamp": "2026-11-04T03:32:26.401Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<a data-refreshpage=\"true\" target=\"_blank\" href=\"trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\"><div class=\"slick-initialized slick-slider\"><div class=\"slick-list\"><div class=\"slick-track\" style=\"opacity: 1; width: 2520px; transform: translate3d(-210px, 0px, 0px);\"><div class=\"slick-slide\" data-index=\"-1\" style=\"width: 210px;\"><div><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/19/MCqSNNxa_4afdcac73a90406eb0774197ba3ee7ce.jpg ,\n    https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/19/MCqSNNxa_4afdcac73a90406eb0774197ba3ee7ce.jpg 1.5x,\n    https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/19/MCqSNNxa_4afdcac73a90406eb0774197ba3ee7ce.jpg 1.8x,\n    htt...[truncated]",
+                    "<li id=\"38732018\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.3</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 471 -->1.3k<!-- /react-text --></div></div><a data-refreshpage=\"true\" target=\"_blank\" href=\"trousers/louis+philippe/louis-philippe-men-slim-fit-everyday-smart-wear-comfort-stretch-solid-formal-trouser/38732018/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\"><div class=\"slick-initialized slick-slider\"><div class=\"slick-list\"><div class=\"slick-track\" style=\"opacity: 1; width: 2520px; transform: translate3d(-210px, 0px, 0px);\"><div class=\"slick-slide\" data-index=\"-1\" style=\"width: 210px;\"><div><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/1...[truncated]",
+                    "<ul class=\"results-base\"><li id=\"45710864\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.1</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->10<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"trousers/blackberrys/blackberrys-men-checked-slim-fit-formal-trousers/45710864/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(229, 241, 255);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2026/OCTOBER/8/585506cad28d41678bb03ecac94080d1.jpg ,\n    https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2026/OC...[truncated]",
+                    "<section style=\"width: 100%;\"><!-- react-empty: 369 --><!-- react-empty: 370 --><!-- react-empty: 371 --><div class=\"scrollToTop-button sprites-gototop myntraweb-sprite\"></div><ul class=\"results-base\"><li id=\"45710864\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.1</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->10<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"trousers/blackberrys/blackberrys-men-checked-slim-fit-formal-trousers/45710864/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(229, 241, 255);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progress...[truncated]",
+                    "<div class=\"search-searchProductsContainer row-base\" style=\"display: -webkit-flex;\"><section style=\"width: 100%;\"><!-- react-empty: 369 --><!-- react-empty: 370 --><!-- react-empty: 371 --><div class=\"scrollToTop-button sprites-gototop myntraweb-sprite\"></div><ul class=\"results-base\"><li id=\"45710864\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.1</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->10<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"trousers/blackberrys/blackberrys-men-checked-slim-fit-formal-trousers/45710864/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(229, 241, 255);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcs...[truncated]",
+                    "<div id=\"desktopSearchResults\"><div class=\" row-base\" style=\"display: -webkit-flex;\"><section class=\"horizontal-filters-base\"><div><div class=\"horizontal-filters-sortContainer\"><div><div><div class=\"sort-sortBy\"><!-- react-text: 273 -->Sort by : <!-- /react-text --><span>Recommended</span><span class=\"myntraweb-sprite sort-downArrow sprites-downArrow\"></span><ul class=\"sort-list\"><li><label class=\"sort-label \"><input type=\"radio\" value=\"recommended\"><!-- react-text: 280 -->Recommended<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"new\"><!-- react-text: 284 -->What's New<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"popularity\"><!-- react-text: 288 -->Popularity<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"discount\"><!-- react-text: 292 -->Better Discount<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_desc\"><!-- react-text: 296 -->Price: High to Low<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_asc\"><!-- react-text: 300 -->Pri...[truncated]",
+                    "<div class=\"search-rightContainer column-base\" style=\"-webkit-box-flex: 1; flex: 1 1 0%;\"><div id=\"desktopSearchResults\"><div class=\" row-base\" style=\"display: -webkit-flex;\"><section class=\"horizontal-filters-base\"><div><div class=\"horizontal-filters-sortContainer\"><div><div><div class=\"sort-sortBy\"><!-- react-text: 273 -->Sort by : <!-- /react-text --><span>Recommended</span><span class=\"myntraweb-sprite sort-downArrow sprites-downArrow\"></span><ul class=\"sort-list\"><li><label class=\"sort-label \"><input type=\"radio\" value=\"recommended\"><!-- react-text: 280 -->Recommended<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"new\"><!-- react-text: 284 -->What's New<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"popularity\"><!-- react-text: 288 -->Popularity<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"discount\"><!-- react-text: 292 -->Better Discount<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_desc\"><!-- react-text: 296 -->Price: High to Low<!-- /react-text --></label></li><li><l...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.778,
+                "y_ratio": 0.254
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/men-formal-trousers",
+                "url_path_after": "https://www.myntra.com/men-formal-trousers",
+                "focus": {
+                    "parts": [
+                        "Louis Philippe\nMen Formal Trousers\nRs. 1455Rs. 2599(44% OFF)",
+                        "Louis Philippe Men Slim Fit Everyday Smart Wear Comfort Stretch Solid Formal Trouser"
+                    ],
+                    "role": null,
+                    "tag": "a"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 2135,
+            "result": {
+                "url_after": "https://www.myntra.com/men-formal-trousers",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        }
+    ],
+    "folder": "myntra",
+    "saved_at": "2026-11-04T09:02:29.325277",
+    "display_name": "check"
+}

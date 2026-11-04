@@ -1,0 +1,13 @@
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_174255_script.py:2299: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_174255_script.py:8967: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_174255_script.py:14384: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_174255_script.py:23793: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_174255_script.py:23940: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();

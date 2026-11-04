@@ -48,20 +48,21 @@ from playwright.sync_api import (
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-from storage import repository
-from storage import session_files
-from storage.repository import BASE_DIR
-from storage.retention import run_cleanup, RETENTION_DAYS
-from utils import normalize_url, attach_dialog_handler, server_safe_launch_kwargs
-from recorder.record_session import Recorder
-import recorder.pick_element as pick_element
-from recorder.pick_element import (
+from backend.storage import repository
+from backend.storage import session_files
+from backend import feature_flags
+from backend.storage.repository import BASE_DIR
+from backend.storage.retention import run_cleanup, RETENTION_DAYS
+from backend.utils import normalize_url, attach_dialog_handler, server_safe_launch_kwargs
+from backend.recorder.record_session import Recorder
+import backend.recorder.pick_element as pick_element
+from backend.recorder.pick_element import (
     start_pick_session, get_pick_status, prewarm_pick_session,
     _load_resolve_and_act, _replay_preceding_actions,
 )
-from generator.script_generator import generate_script, EDITED_OUTPUT_DIR, OUTPUT_DIR, test_case_has_otp_step
-from executor.run_execution import execute_test, start_replay, poll_replay, SCRIPT_TIMEOUT_SEC, _compute_script_timeout, active_run_ids
-from validation.report_generator import generate_report, plain_language_reason, step_headline, strip_fail_wrapper, honest_summary
+from backend.generator.script_generator import generate_script, EDITED_OUTPUT_DIR, OUTPUT_DIR, test_case_has_otp_step
+from backend.executor.run_execution import execute_test, start_replay, poll_replay, SCRIPT_TIMEOUT_SEC, _compute_script_timeout, active_run_ids, request_stop
+from backend.validation.report_generator import generate_report, plain_language_reason, step_headline, strip_fail_wrapper, honest_summary
 
 
 logging.basicConfig(
@@ -71,11 +72,11 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="frontend/templates", static_folder="frontend/static", static_url_path="/static")
 from flask_cors import CORS
 CORS(app, origins=[os.environ.get("FRONTEND_URL", "*")])
 # REMOTE LIVE BROWSER (Render only - see remote_view.py): its endpoints answer {"remote": false} everywhere else
-import remote_view
+import backend.remote_view as remote_view
 app.register_blueprint(remote_view.remote_view_bp)
 
 PAGE_LOAD_TIMEOUT = 30000
@@ -286,7 +287,8 @@ class _RecordingJsonWatchHandler(FileSystemEventHandler):
                 path.resolve().relative_to(repository.EDITED_RECORDINGS_DIR.resolve())
                 output_dir = EDITED_OUTPUT_DIR
             except ValueError:
-                output_dir = None
+                # TEST FOLDERS: a folder's own edited/ copy is an edited recording too
+                output_dir = EDITED_OUTPUT_DIR if repository.is_edited_recording_path(path) else None
 
             print(
                 f"\n[recording-watcher] detected external change to {path} "
@@ -377,8 +379,10 @@ def _finish_recording(
     stop_reason="terminal_enter",
     closed_note=None,
     snapshotter=None,
+    folder=None,
 ):
-    """Stops recorder, saves JSON and generates the normal script."""
+    """Stops recorder, saves JSON and generates the normal script. folder
+    (optional): the test folder the recording is saved in."""
 
     # reuse the SAME name the incremental draft (FIX 1 - see Recorder.
     # start()/_flush_draft) has been writing to throughout the session,
@@ -398,7 +402,7 @@ def _finish_recording(
     saved_count = None
 
     try:
-        path = repository.save_recording(test_case)
+        path = repository.save_recording(test_case, folder=folder)
         # FIX 5: the incremental append-only sidecar (see Recorder.
         # _flush_draft) has done its job the moment the real, complete
         # JSON is safely on disk - remove it rather than leaving it behind
@@ -520,8 +524,10 @@ def _run_recording_session(
     url,
     ready_event,
     ready_result,
+    folder=None,
 ):
-    """Runs the browser recording session on its own thread."""
+    """Runs the browser recording session on its own thread. folder (optional,
+    already validated): the test folder the recording is saved in."""
 
     pw = None
     browser = None
@@ -589,7 +595,7 @@ def _run_recording_session(
             # block the browser launch itself
             try:
                 launch_shot_dir = (
-                    BASE_DIR / "screenshots" /
+                    BASE_DIR / "data" / "screenshots" /
                     datetime.now().strftime("%Y%m%d_%H%M%S")
                 )
                 launch_shot_dir.mkdir(parents=True, exist_ok=True)
@@ -676,13 +682,13 @@ def _run_recording_session(
         # already registered) right after context/page creation above -
         # not re-created here - so the context-level binding/init-script
         # stays the one and only registration for this session.
-        recorder.start(launch_url=url)
+        recorder.start(launch_url=url, draft_dir=repository.folder_dir(folder) if folder else None)
 
         # PAGE SNAPSHOTS for Pick Element (additive): saved from this loop's own thread, after each recorded step,
         # under storage/snapshots/<recording name>/ - any problem only turns them off (recording is unchanged)
         _snapshotter = None
         try:
-            from recorder.page_snapshot import RecordingSnapshotter
+            from backend.recorder.page_snapshot import RecordingSnapshotter
             _snap_draft = getattr(recorder, "_draft_path", None)
             if _snap_draft is not None:
                 _snapshotter = RecordingSnapshotter(recorder, _snap_draft.stem)
@@ -696,6 +702,10 @@ def _run_recording_session(
             _remote_src = remote_view.start_source("recording", lambda: remote_view.recorder_active_page(recorder))
 
         def _on_new_page(new_page):
+
+            # the click that opened this tab is linked to it NOW, before the tab has loaded (see
+            # Recorder.note_new_page_opening) - a browser closed during the load must not lose it
+            recorder.note_new_page_opening(new_page)
 
             try:
                 new_page.wait_for_load_state(
@@ -861,6 +871,7 @@ def _run_recording_session(
             stop_reason=stop_reason,
             closed_note=closed_note,
             snapshotter=_snapshotter,
+            folder=folder,
         )
 
     except Exception as e:
@@ -907,6 +918,7 @@ def _run_recording_session(
                         "RECORDING STOPPED - an unexpected "
                         "error interrupted the session"
                     ),
+                    folder=folder,
                 )
 
             except Exception as save_err:
@@ -996,12 +1008,78 @@ def api_recordings():
             }
         )
 
+    # PHASE 3: each recording's last full-replay result (optional, additive) - the dashboard card's result badge
+    try:
+        run_dirs = [d for d in SCREENSHOTS_ROOT.iterdir() if d.is_dir()]
+    except OSError:
+        run_dirs = []
+    for rec in recordings:
+        try:
+            rec["last_result"] = _last_run_outcome(rec.get("name") or Path(rec["path"]).stem, run_dirs)
+        except Exception:
+            rec["last_result"] = None
+
     return jsonify(
         {
             "success": True,
             "recordings": recordings,
+            # FOLDER VIEW (optional, additive): every folder on disk, empty ones included
+            "folders": repository.list_folders(),
         }
     )
+
+
+def _run_outcome(report):
+    """passed / warning / failed / stopped for one finished run's report (the card's result badge)."""
+    if report.get("stopped_by_user") or report.get("browser_closed"):
+        return "stopped"
+    if report.get("status") == "PASS":
+        return "warning" if any(isinstance(s, dict) and s.get("warning") for s in report.get("steps") or []) else "passed"
+    return "failed"
+
+
+def _last_run_outcome(recording_name, run_dirs):
+    """The newest full replay (not a Run Until Selected Step run) of one recording, as
+    {"outcome", "status", "finished_at"}, or None when it was never replayed. Run folders are matched
+    exactly (session_files.is_run_folder_of), so an original never takes its edited copy's runs."""
+    best, best_mtime = None, None
+    for d in run_dirs:
+        if not session_files.is_run_folder_of(recording_name, d.name):
+            continue
+        rp = d / "report.json"
+        if not rp.is_file():
+            continue
+        m = rp.stat().st_mtime
+        if best_mtime is None or m > best_mtime:
+            try:
+                with open(rp, encoding="utf-8") as f:
+                    report = json.load(f) or {}
+            except (OSError, ValueError):
+                continue
+            if report.get("partial_run"):
+                continue
+            best, best_mtime = report, m
+    if best is None:
+        return None
+    return {"outcome": _run_outcome(best), "status": best.get("status"),
+            "finished_at": datetime.fromtimestamp(best_mtime).isoformat(timespec="seconds")}
+
+
+@app.route("/api/recordings/folders")
+def api_recordings_folders():
+    """TEST FOLDERS: the existing folders (for the Launch Browser folder popup)."""
+    return jsonify({"success": True, "folders": repository.list_folders(),
+                    "max_length": repository.FOLDER_NAME_MAX_LEN})
+
+
+@app.route("/api/recordings/folders/validate", methods=["POST"])
+def api_recordings_folders_validate():
+    """TEST FOLDERS: checks a folder name typed in the popup (nothing is created here)."""
+    body = request.get_json(force=True, silent=True) or {}
+    folder, error = repository.validate_folder_name(body.get("folder"))
+    if error:
+        return jsonify({"success": False, "message": error})
+    return jsonify({"success": True, "folder": folder, "exists": folder in repository.list_folders()})
 
 
 @app.route("/api/recordings/set_display_name", methods=["POST"])
@@ -1059,7 +1137,7 @@ def api_recordings_delete():
     names.discard("")
 
     # never pull a run folder out from under a replay that is still writing to it
-    from storage.retention import _active_run_dirs
+    from backend.storage.retention import _active_run_dirs
     active_runs = _active_run_dirs()
     for name in names:
         for run_dir in session_files.session_files(name)["run_dirs"]:
@@ -1185,6 +1263,16 @@ def recording_editor():
     if recording_file.parent == repository.RECORDINGS_DIR:
         edited_candidate = (
             repository.EDITED_RECORDINGS_DIR / f"{recording_file.stem}_edited.json"
+        )
+        if edited_candidate.exists():
+            recording_file = edited_candidate
+    # TEST FOLDERS: the original of a folder (directly in RECORDINGS_DIR/<folder>/) and that folder's own edited/ copy
+    elif (
+        recording_file.parent.parent == repository.RECORDINGS_DIR
+        and repository.folder_of_path(recording_file)
+    ):
+        edited_candidate = (
+            recording_file.parent / repository.EDITED_RECORDINGS_DIR.name / f"{recording_file.stem}_edited.json"
         )
         if edited_candidate.exists():
             recording_file = edited_candidate
@@ -1488,7 +1576,7 @@ def _pick_snapshot_for(session_path, insert_after_index):
     that is past the last step (see recorder.page_snapshot.target_ref). The save target names where a missing
     snapshot is stored once the replay-based picker reaches the step. Never raises ((None, None))."""
     try:
-        from recorder import page_snapshot
+        from backend.recorder import page_snapshot
         recording_file = _resolve_recording_file(session_path)
         if recording_file is None or recording_file.suffix.lower() != ".json":
             return None, None
@@ -1511,7 +1599,7 @@ _ROBUST_XPATH_JS = []
 
 def _robust_xpath_js():
     if not _ROBUST_XPATH_JS:
-        src = (BASE_DIR / "recorder" / "action_capture.js").read_text(encoding="utf-8")
+        src = (BASE_DIR / "backend" / "recorder" / "action_capture.js").read_text(encoding="utf-8")
         body = src[src.index("// AFQA-ROBUST-XPATH-BEGIN"):src.index("// AFQA-ROBUST-XPATH-END")]
         _ROBUST_XPATH_JS.append("(el, skip) => {\n" + body + "\nreturn afqaRobustXpath(el, skip);\n}")
     return _ROBUST_XPATH_JS[0]
@@ -1665,7 +1753,7 @@ def api_recordings_validate_locator():
         snapshot, _snap_target = _pick_snapshot_for(session_path, insert_after_index)
         if snapshot:
             try:
-                from recorder import page_snapshot
+                from backend.recorder import page_snapshot
                 _archive = page_snapshot.load_archive(snapshot["path"])
                 _snap_kwargs = {"bypass_csp": True, "service_workers": "block"}
                 _vp = snapshot.get("viewport") if isinstance(snapshot.get("viewport"), dict) else {}
@@ -2332,10 +2420,19 @@ def api_recordings_save():
         if recording.get(env_key) is not None:
             test_case[env_key] = recording[env_key]
 
+    # TEST FOLDERS: a recording of a folder (its "folder" field, written when it was saved there) keeps its edited
+    # copy in that folder's own edited/ subfolder - only when that folder really exists; otherwise as always
+    edit_folder = None
+    if recording.get("folder"):
+        _ef, _ef_error = repository.validate_folder_name(recording.get("folder"))
+        if not _ef_error and (repository.RECORDINGS_DIR / _ef).is_dir():
+            edit_folder = _ef
+
     try:
 
         path = repository.save_edited_recording(
-            test_case
+            test_case,
+            folder=edit_folder,
         )
 
     except OSError as e:
@@ -2811,6 +2908,20 @@ def api_browser_launch():
             }
         )
 
+    # TEST FOLDERS (optional): the folder this recording is saved in - absent means the top level, as always
+    folder = None
+    if body.get("folder") is not None:
+        folder, folder_error = repository.validate_folder_name(body.get("folder"))
+        if folder_error:
+            return jsonify(
+                {
+                    "success": False,
+                    "message": folder_error,
+                    "url": url,
+                    "page_title": None,
+                }
+            )
+
     with state_lock:
 
         if session_state["active"]:
@@ -2835,6 +2946,14 @@ def api_browser_launch():
         session_state["last_message"] = None
         session_state["current_url"] = None
 
+    # FOLDER VIEW: the chosen folder exists from the moment the launch is accepted, so the dashboard lists it
+    # (with 0 tests) even before anything is recorded into it
+    if folder:
+        try:
+            repository.folder_dir(folder).mkdir(parents=True, exist_ok=True)
+        except OSError as e:
+            logger.warning("couldn't create the folder %r yet (the recorder creates it when it starts): %s", folder, e)
+
     ready_event = threading.Event()
 
     ready_result = {}
@@ -2845,6 +2964,7 @@ def api_browser_launch():
             url,
             ready_event,
             ready_result,
+            folder,
         ),
         daemon=True,
     )
@@ -3200,6 +3320,9 @@ def api_test_run_start():
     if _pa["active"] and (body.get("play_all_token") or "") != _pa["token"]:
         return jsonify({"success": False, "message": "Play All is running - wait until it finishes, or stop it from "
                                                     "its live log window."})
+    # INSTANT STOP: once "Stop all tests" was clicked, the queue may not start another test
+    if _pa["active"] and _pa.get("stop_all"):
+        return jsonify({"success": False, "message": "Play All was stopped - no further test is started."})
 
     expected_content = body.get("expected_content", "")
     expected_screenshot = body.get("expected_screenshot", "")
@@ -3296,11 +3419,17 @@ def api_test_run_pause_answer():
     token = (data.get("token") or "").strip()
     action = (data.get("action") or "").strip()
     value = data.get("value")
-    run_dir = BASE_DIR / "generated_scripts" / "screenshoots" / run_id
+    run_dir = BASE_DIR / "data" / "generated_scripts" / "screenshoots" / run_id
     if not run_id or Path(run_id).name != run_id or run_id in (".", "..") or not run_dir.is_dir():
         return jsonify({"success": False, "message": "Unknown or already-finished run."})
     if not token or action not in ("submit", "retry", "stop", "continue", "retry_as_is", "accept"):
         return jsonify({"success": False, "message": "Invalid answer."})
+    # PAUSED FEATURES (backend/feature_flags.py): the live log's Retry button (PHASE 5) and the field-error
+    # card's Continue / Retry as is (PHASE 5B) are switched off - their answers are not passed on
+    if action == "retry" and not feature_flags.LIVE_LOG_RETRY_ENABLED:
+        return jsonify({"success": False, "message": "Retry is switched off."})
+    if action in ("continue", "retry_as_is") and not feature_flags.ALREADY_EXISTS_PAUSE_ENABLED:
+        return jsonify({"success": False, "message": "This answer is switched off."})
     if action == "submit" and not str(value or "").strip():
         return jsonify({"success": False, "message": "Enter a value first."})
     # FIELD ERROR HANDLING (phase 5): the new values the user typed (step number -> value, empty = keep) and
@@ -3328,6 +3457,7 @@ def api_test_run_pause_answer():
                 time.sleep(0.05)
         if action == "stop":
             (run_dir / "stop_request.txt").write_text("stop", encoding="utf-8")
+            request_stop(run_id)   # INSTANT STOP
     except OSError as e:
         logger.error("pause answer: couldn't write the answer for run %s: %s", run_id, e)
         return jsonify({"success": False, "message": "Couldn't pass the answer on - please try again."})
@@ -3387,7 +3517,7 @@ def _save_field_values_to_recording(run_id, token, values):
 def api_test_run_stop():
     data = request.get_json(silent=True) or {}
     run_id = (data.get("run_id") or "").strip()
-    run_dir = BASE_DIR / "generated_scripts" / "screenshoots" / run_id
+    run_dir = BASE_DIR / "data" / "generated_scripts" / "screenshoots" / run_id
     if not run_id or Path(run_id).name != run_id or run_id in (".", "..") or not run_dir.is_dir():
         return jsonify({"success": False, "message": "Unknown or already-finished run."})
     try:
@@ -3395,6 +3525,8 @@ def api_test_run_stop():
     except OSError as e:
         logger.error("stop: couldn't write the stop request for run %s: %s", run_id, e)
         return jsonify({"success": False, "message": "Couldn't stop the run - please try again."})
+    # INSTANT STOP: a replay still running after a short grace period is ended with its browser
+    request_stop(run_id)
     return jsonify({"success": True, "message": "Stopping - the run ends before its next step."})
 
 
@@ -3484,6 +3616,15 @@ def api_play_all_stop_all():
     with _play_all_lock:
         if _play_all["token"]:
             _play_all["stop_all"] = True
+        current_run = _play_all.get("run_id") if _play_all["token"] else None
+    # INSTANT STOP: the test running now is stopped at once too (the same stop request as the Stop button)
+    if current_run and current_run in active_run_ids():
+        try:
+            (BASE_DIR / "data" / "generated_scripts" / "screenshoots" / current_run / "stop_request.txt").write_text(
+                "stop", encoding="utf-8")
+            request_stop(current_run)
+        except OSError as e:
+            logger.error("stop all: couldn't stop run %s: %s", current_run, e)
     return jsonify({"success": True})
 
 
@@ -3521,7 +3662,7 @@ def api_test_run_otp_submit():
     if not value:
         return jsonify({"success": False, "message": "Enter an OTP value first."})
 
-    run_dir = BASE_DIR / "generated_scripts" / "screenshoots" / run_id
+    run_dir = BASE_DIR / "data" / "generated_scripts" / "screenshoots" / run_id
     # run_id comes from the browser: it must name a run folder directly
     # inside screenshoots/, never a path elsewhere ("..", separators)
     if Path(run_id).name != run_id or run_id in (".", "..") or not run_dir.is_dir():
@@ -3739,6 +3880,19 @@ def _step_display_status(step):
     return "fail"
 
 
+def _step_exact_reason(step):
+    """PHASE 6: one line with the exact reason of a FAILED step, from the replay's own failure_detail
+    ({"check", "exception_type", "message"}); None for any other step or an older report without it."""
+    fd = step.get("failure_detail") if isinstance(step.get("failure_detail"), dict) else None
+    if step.get("success") or step.get("not_run") or not fd:
+        return None
+    parts = [f"[{fd['check']}]" if fd.get("check") else None,
+             f"{fd['exception_type']}:" if fd.get("exception_type") else None,
+             str(fd.get("message") or "").strip() or None]
+    text = " ".join(p for p in parts if p)
+    return text[:1000] or None
+
+
 def _step_failure_reason(step, element_label=None):
     """Plain-language WHY (or, for a passing-with-warning step, WHAT
     CHANGED) - built entirely from fields the replay engine already
@@ -3771,6 +3925,9 @@ def _step_failure_reason(step, element_label=None):
             "plain": step_headline(step, element_label),
         }
     return {
+        # PHASE 6: the exact underlying reason of a failed step (which check failed, exception type and message) -
+        # shown on the step's own line, next to the plain-English headline (never instead of it)
+        "exact": _step_exact_reason(step),
         # REQ 5: "plain" is the one-sentence headline (what was expected /
         # what happened / what the replay did). Everything technical -
         # selectors, full URLs, boxes - is Details only: "technical" (the
@@ -4464,7 +4621,7 @@ def _export_otp_mask_indexes(actions, report_steps):
     """0-based indexes of fill steps whose value is an OTP or a password - their value is never exported."""
     out = set()
     try:
-        from generator.script_generator import _template_otp_helpers
+        from backend.generator.script_generator import _template_otp_helpers
         h = _template_otp_helpers()
         generic, split_run = h.get("_looks_like_generic_otp_fill"), h.get("_otp_split_run")
     except Exception:
@@ -4481,7 +4638,11 @@ def _export_otp_mask_indexes(actions, report_steps):
         except Exception:
             pass
     for st in report_steps or []:
-        if isinstance(st, dict) and st.get("otp_role") in ("otp_fill", "otp_fill_more") and st.get("index"):
+        if isinstance(st, dict) and st.get("index") and (
+                st.get("otp_role") in ("otp_fill", "otp_fill_more")
+                # PHASE 4: with the OTP card off an OTP step replays as a normal fill (no otp_role) - the role
+                # the replay detected for it still keeps its value masked here
+                or st.get("otp_detected_role") in ("otp_fill", "otp_fill_more")):
             out.add(int(st["index"]) - 1)
     return out
 
@@ -4642,8 +4803,14 @@ def live_log_page():
     the replay's own Chromium window instead of being covered by it -
     reads run_id from the query string client-side and connects to
     /api/test/run/stream itself; nothing server-rendered is run-specific.
+    The three paused-feature flags (backend/feature_flags.py) are passed in.
     """
-    return render_template("live_log.html")
+    return render_template(
+        "live_log.html",
+        otp_live_entry_enabled=feature_flags.OTP_LIVE_ENTRY_ENABLED,
+        live_log_retry_enabled=feature_flags.LIVE_LOG_RETRY_ENABLED,
+        already_exists_pause_enabled=feature_flags.ALREADY_EXISTS_PAUSE_ENABLED,
+    )
 
 
 # ============================================================

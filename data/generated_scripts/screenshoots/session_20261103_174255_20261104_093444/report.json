@@ -1,0 +1,87 @@
+{
+  "status": "FAIL",
+  "message": "The run was stopped by the user",
+  "diagnostic": null,
+  "qa_url": "https://www.google.com",
+  "steps": [
+    {
+      "index": 1,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "navigate",
+      "name": "Open \u2013 Home page",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 1.2s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261103_174255_20261104_093444/google/step01_open_home_page_2026-11-04_09-34-47.png",
+      "url_before": "https://www.google.com/",
+      "url_after": "https://www.google.com/",
+      "started_at": "2026-11-04T09:34:46.973",
+      "ended_at": "2026-11-04T09:34:47.843",
+      "duration": 0.768,
+      "timing_ms": {
+        "settle": 349,
+        "screenshot": 409,
+        "other": 10
+      },
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": null,
+      "fragile": false
+    }
+  ],
+  "step_counts": {
+    "passed": 1,
+    "warnings": 0,
+    "failed": 0,
+    "not_run": 0,
+    "manual_input": 0
+  },
+  "ui_elements": [],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": "data/generated_scripts/screenshoots/session_20261103_174255_20261104_093444/google/img2.png",
+  "run_id": "session_20261103_174255_20261104_093444",
+  "run_dir": "data/generated_scripts/screenshoots/session_20261103_174255_20261104_093444",
+  "live_log": [
+    {
+      "t": 1793765087.079059,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.2s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793765087.433347,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793765090.1632278,
+      "message": "Run stopped by the user.",
+      "step": null
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": true,
+  "browser_closed": null
+}

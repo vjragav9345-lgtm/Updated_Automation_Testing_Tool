@@ -1,0 +1,253 @@
+{
+  "status": "FAIL",
+  "message": "Step 3 (\"Louis Philippe Rs. 1455Rs. 2599(44% OFF)\" link) failed: After clicking 'Louis Philippe Rs. 1455Rs. 2599(44% OFF)', the page did not respond like during recording. Expected: no new tab. Found: a new tab opened. The replay stopped.",
+  "diagnostic": null,
+  "qa_url": "https://myntra.com",
+  "steps": [
+    {
+      "index": 1,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "navigate",
+      "name": "Open \u2013 Home page",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 1.2s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090309/online_shopping_for_women_men_/step01_open_home_page_2026-11-04_09-03-15.png",
+      "url_before": "https://www.myntra.com/",
+      "url_after": "https://www.myntra.com/",
+      "started_at": "2026-11-04T09:03:12.556",
+      "ended_at": "2026-11-04T09:03:15.668",
+      "duration": 2.966,
+      "timing_ms": {
+        "settle": 1202,
+        "navigation_wait": 10,
+        "screenshot": 1748,
+        "other": 5
+      },
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": null,
+      "fragile": false
+    },
+    {
+      "index": 2,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Formal Trousers\" link",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "href",
+      "element_found": true,
+      "success": true,
+      "error": "target was hidden and required an un-recorded hover-reveal (see [hover-reveal] log lines) to become visible - consider re-recording this step so the hover itself is captured",
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > 'Formal Trousers' is hidden, so AutoFlow is hovering over the menu that holds it > Clicking 'Formal Trousers' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090309/men_formal_trousers/step02_formal_trousers_link_2026-11-04_09-03-24.png",
+      "url_before": "https://www.myntra.com/",
+      "url_after": "https://www.myntra.com/men-formal-trousers",
+      "started_at": "2026-11-04T09:03:15.668",
+      "ended_at": "2026-11-04T09:03:24.866",
+      "duration": 9.075,
+      "timing_ms": {
+        "locate_action": 5184,
+        "log_emit": 0,
+        "screenshot": 1918,
+        "settle": 1202,
+        "navigation_wait": 16,
+        "verify": 0,
+        "other": 754
+      },
+      "locator_report": {
+        "strategy": "href",
+        "strategy_label": "Link URL",
+        "fallback_level": 10,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 9075,
+        "message": "Formal Trousers found using Link URL. (resolved in 9075ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": null,
+      "fragile": false
+    },
+    {
+      "index": 3,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Louis Philippe Rs. 1455Rs. 2599(44% OFF)\" link",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "href",
+      "element_found": true,
+      "success": false,
+      "error": "Failed: After clicking 'Louis Philippe Rs. 1455Rs. 2599(44% OFF)', the page did not respond like during recording. Expected: no new tab. Found: a new tab opened. The replay stopped.",
+      "warning": "Warning: The link label changed. Recorded content: 'Louis Philippe Rs. 1455Rs. 2599(44% OFF)'. Replay content: 'Louis Philippe Sizes: 38 Rs. 1455Rs. 2599(44% OFF)'. Continuing.",
+      "timeline": null,
+      "workarounds": [],
+      "technical": "recorded new_tab=False, replay opened a tab=True; What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > Clicking 'Louis Philippe Rs. 1455Rs. 2599(44% OFF)' > Waiting for the page to stop changing before the screenshot (up to 3s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090309/men_formal_trousers/step03_louis_philippe_rs_1455rs_2599_44_off_FAILED_09-03-33.png",
+      "url_before": "https://www.myntra.com/men-formal-trousers",
+      "url_after": "https://www.myntra.com/men-formal-trousers",
+      "started_at": "2026-11-04T09:03:24.867",
+      "ended_at": "2026-11-04T09:03:33.612",
+      "duration": 8.599,
+      "timing_ms": {
+        "locate_action": 2389,
+        "log_emit": 0,
+        "screenshot": 3315,
+        "settle": 1200,
+        "verify": 1203,
+        "other": 491
+      },
+      "locator_report": {
+        "strategy": "href",
+        "strategy_label": "Link URL",
+        "fallback_level": 10,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 8599,
+        "message": "Louis Philippe Rs. 1455Rs. 2599(44% OFF) found using Link URL. (resolved in 8599ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": {
+        "check": "post_click_check",
+        "exception_type": null,
+        "message": "recorded new_tab=False, replay opened a tab=True"
+      },
+      "fragile": false
+    }
+  ],
+  "step_counts": {
+    "passed": 2,
+    "warnings": 0,
+    "failed": 1,
+    "not_run": 0,
+    "manual_input": 0
+  },
+  "ui_elements": [
+    {
+      "index": 2,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "href",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 3,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "href",
+      "status": "PASS",
+      "message": null
+    }
+  ],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090309/online_shopping_for_women_men_/img2.png",
+  "run_id": "session_20261104_090228_20261104_090309",
+  "run_dir": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090309",
+  "live_log": [
+    {
+      "t": 1793763192.705823,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.2s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793763193.920095,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793763199.315723,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763199.939709,
+      "message": "\u21b3 'Formal Trousers' is hidden, so AutoFlow is hovering over the menu that holds it",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763200.5176132,
+      "message": "\u21b3 Clicking 'Formal Trousers'",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763203.197435,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763205.2079082,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793763207.430968,
+      "message": "\u21b3 Clicking 'Louis Philippe Rs. 1455Rs. 2599(44% OFF)'",
+      "level": "note",
+      "step": 3
+    },
+    {
+      "t": 1793763210.469057,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 3s)",
+      "level": "note",
+      "step": 3
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": null,
+  "browser_closed": null
+}

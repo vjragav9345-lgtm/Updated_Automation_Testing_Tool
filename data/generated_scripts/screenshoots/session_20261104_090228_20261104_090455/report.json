@@ -1,0 +1,211 @@
+{
+  "status": "FAIL",
+  "message": "The run was stopped by the user",
+  "diagnostic": null,
+  "qa_url": "https://myntra.com",
+  "steps": [
+    {
+      "index": 1,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "navigate",
+      "name": "Open \u2013 Home page",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": true,
+      "success": true,
+      "error": null,
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 1.2s) > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090455/page_not_found/step01_open_home_page_2026-11-04_09-05-01.png",
+      "url_before": "https://www.myntra.com/",
+      "url_after": "https://www.myntra.com/",
+      "started_at": "2026-11-04T09:04:58.424",
+      "ended_at": "2026-11-04T09:05:01.452",
+      "duration": 2.882,
+      "timing_ms": {
+        "settle": 1202,
+        "navigation_wait": 22,
+        "screenshot": 1638,
+        "other": 19
+      },
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": null,
+      "fragile": false
+    },
+    {
+      "index": 2,
+      "fast": false,
+      "captured_messages": null,
+      "action_type": "click",
+      "name": "\"Formal Trousers\" link",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": "href",
+      "element_found": true,
+      "success": true,
+      "error": "target was hidden and required an un-recorded hover-reveal (see [hover-reveal] log lines) to become visible - consider re-recording this step so the hover itself is captured",
+      "warning": null,
+      "timeline": null,
+      "workarounds": [],
+      "technical": "What AutoFlow did: Waiting for the page to finish loading (up to 0.3s) > 'Formal Trousers' is hidden, so AutoFlow is hovering over the menu that holds it > Clicking 'Formal Trousers' > Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090455/men_formal_trousers/step02_formal_trousers_link_2026-11-04_09-05-10.png",
+      "url_before": "https://www.myntra.com/",
+      "url_after": "https://www.myntra.com/men-formal-trousers",
+      "started_at": "2026-11-04T09:05:01.452",
+      "ended_at": "2026-11-04T09:05:10.737",
+      "duration": 9.092,
+      "timing_ms": {
+        "locate_action": 5296,
+        "log_emit": 1,
+        "screenshot": 1813,
+        "settle": 1202,
+        "navigation_wait": 21,
+        "verify": 0,
+        "other": 759
+      },
+      "locator_report": {
+        "strategy": "href",
+        "strategy_label": "Link URL",
+        "fallback_level": 10,
+        "resolved": true,
+        "weak": false,
+        "resolution_ms": 9092,
+        "message": "Formal Trousers found using Link URL. (resolved in 9092ms)"
+      },
+      "expected": null,
+      "actual": null,
+      "recovered": false,
+      "candidate_diagnostics": null,
+      "not_run": false,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "failure_detail": null,
+      "fragile": false
+    },
+    {
+      "index": 3,
+      "action_type": "click",
+      "name": "\"Louis Philippe Rs. 1455Rs. 2599(44% OFF)\" link",
+      "origin": null,
+      "count_summary_rows": null,
+      "value_range_rows": null,
+      "page_mismatch_info": null,
+      "strategy_used": null,
+      "element_found": false,
+      "success": false,
+      "error": "NOT RUN (the run was stopped by the user)",
+      "warning": null,
+      "effect_verified": null,
+      "large_bbox_flag": false,
+      "screenshot": null,
+      "url_before": null,
+      "url_after": null,
+      "duration": 0,
+      "locator_report": null,
+      "expected": null,
+      "actual": null,
+      "candidate_diagnostics": null,
+      "not_run": true,
+      "otp_role": null,
+      "otp_detected_role": null,
+      "fragile": false
+    }
+  ],
+  "step_counts": {
+    "passed": 2,
+    "warnings": 0,
+    "failed": 0,
+    "not_run": 1,
+    "manual_input": 0
+  },
+  "ui_elements": [
+    {
+      "index": 2,
+      "action_type": "click",
+      "element_found": true,
+      "locator_used": "href",
+      "status": "PASS",
+      "message": null
+    },
+    {
+      "index": 3,
+      "action_type": "click",
+      "element_found": false,
+      "locator_used": null,
+      "status": "NOT_RUN",
+      "message": "Step was never executed - replay stopped before reaching it"
+    }
+  ],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090455/page_not_found/img2.png",
+  "run_id": "session_20261104_090228_20261104_090455",
+  "run_dir": "data/generated_scripts/screenshoots/session_20261104_090228_20261104_090455",
+  "live_log": [
+    {
+      "t": 1793763298.584651,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 1.2s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793763299.814232,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 1
+    },
+    {
+      "t": 1793763305.126464,
+      "message": "\u21b3 Waiting for the page to finish loading (up to 0.3s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763305.7475042,
+      "message": "\u21b3 'Formal Trousers' is hidden, so AutoFlow is hovering over the menu that holds it",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763306.396201,
+      "message": "\u21b3 Clicking 'Formal Trousers'",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763309.084527,
+      "message": "\u21b3 Waiting for the page to stop changing before the screenshot (up to 1.5s)",
+      "level": "note",
+      "step": 2
+    },
+    {
+      "t": 1793763310.737647,
+      "message": "Run stopped by the user before step 3.",
+      "step": null
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": true,
+  "browser_closed": null
+}

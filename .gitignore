@@ -27,5 +27,32 @@ backups/
 # Generated output
 out_shots/
 screenshots/
-storage/
-.github_push_stage/
+
+
+
+# Claude temporary worktrees
+.claude/worktrees/
+
+# Generated test reports and screenshots
+generated_scripts/screenshoots/
+generated_scripts/fill_diagnostics/
+
+# Temporary test artifacts
+tests/*.zip
+# Temporary investigation and debugging outputs
+tests/_probe_out/
+
+# Generated test screenshots and debug folders
+tests/fixtures/**/shots/
+tests/fixtures/**/screenshoots/
+tests/fixtures/**/debug/
+
+# Generated test reports
+tests/fixtures/**/report.json
+
+# Root-level generated test outputs
+/video_run_recording.json
+/video_run_report*.json
+
+# Backup and rollback source files
+*.rollback_saved

@@ -1,0 +1,65 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_111817
+ACTION COUNT: 28
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+==================================================
+[1/28]
+ACTION: navigate
+NAME: Open – Feed
+URL: https://sportzia-preprod.kovaionplay.com/feed
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+[navigate-ready] waiting for next step's target to become findable (up to 9.0s)...
+STATUS: FAILED
+Reason: replay could not continue - Page.wait_for_timeout: Target page, context or browser has been closed
+
+[note] The browser window was closed - the run stopped at step 1.
+==================================================
+REPLAY COMPLETED
+==================================================
+
+Recorded: 28
+JSON: 28
+Generated: 28
+Executed: 1
+Successful: 0
+Failed: 1
+Total replay time: 3.82s
+Not executed: 2-28 (27 action(s))
+
+RESULT: FAIL
+
+Final URL:
+None
+
+Screenshots:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/screenshoots/session_20261103_111817_20261103_170733
+
+Generated Script:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py
+
+No open page remained - skipping the close delay.
+Browser closed successfully.
+==================================================
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py:11226: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py:17764: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py:23181: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py:32590: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_script.py:32737: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+2026-11-03 17:07:37,482 ERROR step 1 crashed the replay loop: Page.wait_for_timeout: Target page, context or browser has been closed

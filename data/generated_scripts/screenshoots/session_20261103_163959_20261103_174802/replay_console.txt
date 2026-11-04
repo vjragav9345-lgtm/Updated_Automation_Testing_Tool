@@ -1,0 +1,65 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_163959
+ACTION COUNT: 1
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+==================================================
+[1/1]
+ACTION: navigate
+NAME: Open – Home page
+URL: https://sportzia-stage.kovaionplay.com
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+[redirect] launch URL -> https://sportzia-stage.kovaionplay.com/feed
+[note] -> Waiting for the page to stop changing before the screenshot (up to 1.5s)
+STATUS: SUCCESS
+Done (1.02s).
+
+[timing] step 1 (navigate): total 1018ms | settle 676ms | screenshot 327ms | other 15ms
+==================================================
+REPLAY COMPLETED
+==================================================
+
+Recorded: 1
+JSON: 1
+Generated: 1
+Executed: 1
+Successful: 1
+Failed: 0
+Total replay time: 4.18s
+Not executed: 0
+
+RESULT: PASS
+
+Final URL:
+https://sportzia-stage.kovaionplay.com/feed
+
+Screenshots:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/screenshoots/session_20261103_163959_20261103_174802
+
+Generated Script:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py
+
+Browser will remain open for 5 seconds...
+Browser closed successfully.
+==================================================
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py:2299: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py:8837: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py:14254: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py:23663: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_163959_script.py:23810: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();

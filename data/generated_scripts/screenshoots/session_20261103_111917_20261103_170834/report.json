@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "message": "the test couldn't get started; The run was stopped by the user",
+  "diagnostic": null,
+  "qa_url": "https://myntra.com",
+  "steps": [],
+  "step_counts": {
+    "passed": 0,
+    "warnings": 0,
+    "failed": 0,
+    "not_run": 0,
+    "manual_input": 0
+  },
+  "ui_elements": [],
+  "ui_elements_status": "PASS",
+  "content_check": null,
+  "screenshot_diff": null,
+  "product_validation": null,
+  "final_screenshot": null,
+  "run_id": "session_20261103_111917_20261103_170834",
+  "run_dir": "data/generated_scripts/screenshoots/session_20261103_111917_20261103_170834",
+  "live_log": [
+    {
+      "t": 1793705918.6557682,
+      "message": "Run stopped by the user before step 1.",
+      "step": null
+    }
+  ],
+  "partial_run": null,
+  "stopped_by_user": true,
+  "browser_closed": null
+}

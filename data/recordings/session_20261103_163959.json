@@ -1,0 +1,29 @@
+{
+    "name": "session_20261103_163959",
+    "session_id": "9193e7304cb04e19b62ac810680e2588",
+    "start_url": "https://sportzia-stage.kovaionplay.com",
+    "recorded_at": "2026-11-03T17:03:44.091132",
+    "stop_reason": "browser_closed",
+    "total_actions": 1,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-stage.kovaionplay.com",
+            "timestamp": "2026-11-03T11:09:56.794Z",
+            "page_id": 0,
+            "delay_before_ms": 0
+        }
+    ],
+    "saved_at": "2026-11-03T17:03:44.093943"
+}

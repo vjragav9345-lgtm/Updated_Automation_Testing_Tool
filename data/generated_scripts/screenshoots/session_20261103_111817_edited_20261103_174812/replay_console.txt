@@ -1,0 +1,21 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+Replay failed - could not open https://sportzia-preprod.kovaionplay.com/feed:
+Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://sportzia-preprod.kovaionplay.com/feed", waiting until "domcontentloaded"
+
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:11342: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:17880: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:23297: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:32706: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111817_edited_script.py:32853: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();

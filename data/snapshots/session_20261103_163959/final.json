@@ -1,0 +1,17 @@
+{
+  "step_ref": "final",
+  "file": "final.mhtml",
+  "url": "https://sportzia-stage.kovaionplay.com/feed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "saved_at": "2026-11-03T17:03:44",
+  "page_id": 0,
+  "captured_at": "2026-11-03T16:39:59",
+  "source": "recording"
+}

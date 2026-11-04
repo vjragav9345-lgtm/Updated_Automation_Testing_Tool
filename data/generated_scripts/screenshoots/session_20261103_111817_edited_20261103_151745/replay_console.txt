@@ -1,0 +1,95 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_111817_edited
+ACTION COUNT: 29
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+==================================================
+[1/29]
+ACTION: navigate
+NAME: Open – Feed
+URL: https://sportzia-preprod.kovaionplay.com/feed
+
+STATUS: STARTED
+Executing...
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+[navigate-ready] waiting for next step's target to become findable (up to 9.0s)...
+[navigate-ready] next step's target never appeared within the wait window
+[note] -> Waiting for the page to stop changing before the screenshot (up to 1.5s)
+STATUS: SUCCESS
+Done (9.83s).
+
+[timing] step 1 (navigate): total 9829ms | settle 384ms | navigation_wait 9105ms | screenshot 330ms | other 10ms
+==================================================
+[2/29]
+ACTION: click
+NAME: "Accept" element
+Element: Accept
+Locator: div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)
+
+STATUS: STARTED
+Executing...
+[modal-timing] armed modal-open tracker at 14378.5ms (page clock) before this click
+[modal-timing-detail] click dispatched on 'Accept' at t=0ms (reference point for this flow)
+[spa-settle] waited 0.00s for network-idle/no-skeleton before this step
+[note] -> Waiting for the page to finish loading (up to 0.3s)
+[fast-fail] previous navigate's destination target never appeared - this step failed fast without the settle/scroll retry escalation
+[note] -> Waiting for the page to stop changing before the screenshot (up to 3s)
+STATUS: FAILED
+Reason: Failed: 'Accept' wasn't on the page. The previous step may not have worked. [details] 'Accept' was not on this page this time - the results may have changed since the recording (the whole page was checked); no recorded locator found the element; no click was made at the recorded position because it could not be shown to land on the target; tiers tried: popup-scoped: no match; data-testid: no match; data-test: no match; data-cy: no match; id: no match; name: no match; aria-label: no match; placeholder: no match; title: no match; role: no match; href: no match; text+tag: no match; text+tag-number-normalized: no match; image-ancestor: no match; identity: no match; icon-identity: no match; field-label: no match; editable-replacement: no match; position_fallback: no match; css_path: no match; xpath: no match; generated-id: no match; visible-same-name: no match; closest visible candidates: none
+Current URL: https://sportzia-preprod.kovaionplay.com/feed
+Accept could not be resolved using any stored locator.
+Locator attempts:
+  1. text=Accept
+  2. css_path=div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)
+  3. xpath=//div[normalize-space(.)='Accept'][not(parent::*[normalize-space(.)='Accept'])]
+  4. bounding_box=x=1140, y=667.5
+
+Screenshot: /Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111817_edited_20261103_151745/feed/step02_accept_FAILED_15-18-02.png
+[timing] step 2 (click): total 982ms | locate_action 444ms | screenshot 60ms | other 478ms
+[pause] step 2: waiting up to 180s for an answer in the live log (step_failed)
+[note] The browser window was closed - the run stopped at step 2.
+==================================================
+REPLAY COMPLETED
+==================================================
+
+Recorded: 29
+JSON: 29
+Generated: 29
+Executed: 2
+Successful: 1
+Failed: 1
+Total replay time: 63.89s
+Not executed: 3-29 (27 action(s))
+
+RESULT: FAIL
+
+Final URL:
+None
+
+Screenshots:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/screenshoots/session_20261103_111817_edited_20261103_151745
+
+Generated Script:
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py
+
+No open page remained - skipping the close delay.
+Browser closed successfully.
+==================================================
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py:11342: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py:17880: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py:23297: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py:32706: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/generated_scripts/session_20261103_111817_edited_script.py:32853: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();

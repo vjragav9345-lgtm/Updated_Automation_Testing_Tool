@@ -1,0 +1,29 @@
+{
+    "name": "session_20261103_174255",
+    "session_id": "06b7c349c8ef4d228c932f8fca9c27a3",
+    "start_url": "https://www.google.com",
+    "recorded_at": "2026-11-03T17:42:56.564178",
+    "stop_reason": "browser_closed",
+    "total_actions": 1,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.google.com",
+            "timestamp": "2026-11-03T12:12:52.154Z",
+            "page_id": 0,
+            "delay_before_ms": 0
+        }
+    ],
+    "saved_at": "2026-11-03T17:42:56.566875"
+}

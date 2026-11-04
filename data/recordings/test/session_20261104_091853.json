@@ -1,0 +1,1206 @@
+{
+    "name": "session_20261104_091853",
+    "session_id": "6d5b4d09e8b2494382839ff0842673db",
+    "start_url": "https://sportzia-preprod.kovaionplay.com/feed",
+    "recorded_at": "2026-11-04T09:19:08.284000",
+    "stop_reason": "browser_closed",
+    "total_actions": 10,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T03:48:50.238Z",
+            "page_id": 0,
+            "page_title": "Sportzia",
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Sign in",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='Sign in']",
+                "text": "Sign in",
+                "element_text": "Sign in",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 0,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1pcd2l5",
+                        "div.css-g5y9jx.r-1kihuf0.r-14lw9ot.r-1ylenci.r-acq42y.r-13awgt0.r-1y6u10y.r-dnmrzs.r-1udh08x.r-lrx3fh",
+                        "div.css-g5y9jx.r-13awgt0.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 410,
+                        "y": 411.5,
+                        "width": 460,
+                        "height": 49.5
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Sign in",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='Sign in']",
+                "text": "Sign in",
+                "element_text": "Sign in",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 0,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1pcd2l5",
+                        "div.css-g5y9jx.r-1kihuf0.r-14lw9ot.r-1ylenci.r-acq42y.r-13awgt0.r-1y6u10y.r-dnmrzs.r-1udh08x.r-lrx3fh",
+                        "div.css-g5y9jx.r-13awgt0.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 410,
+                        "y": 411.5,
+                        "width": 460,
+                        "height": 49.5
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1226.1328125,
+                "y": 18.75,
+                "width": 38.8671875,
+                "height": 41.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T03:48:54.094Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"align-items: center; transition-duration: 0.25s;\"><div class=\"css-g5y9jx\" style=\"width: 22px; height: 22px; border-radius: 11px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Sign in</div></div>",
+                    "<div class=\"css-g5y9jx\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"align-items: center; transition-duration: 0.25s;\"><div class=\"css-g5y9jx\" style=\"width: 22px; height: 22px; border-radius: 11px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Sign in</div></div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-15kgiig\"><div class=\"css-g5y9jx\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"align-items: center; transition-duration: 0.25s;\"><div class=\"css-g5y9jx\" style=\"width: 22px; height: 22px; border-radius: 11px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Sign in</div></div></div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"tran...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div t...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.794,
+                "y_ratio": 0.56
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/login",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/login",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/login"
+            ],
+            "delay_before_ms": 3856,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/login",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Enter your email or phone number",
+                "placeholder": "Enter your email or phone number",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > input",
+                "xpath": "//input[@placeholder='Enter your email or phone number']",
+                "text": "Enter your email or phone number",
+                "element_text": "Enter your email or phone number",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Enter your email or phone number",
+                    "type": "email"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": "Signin",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz"
+                },
+                "content_hint": "input:email",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Enter your email or phone number",
+                "placeholder": "Enter your email or phone number",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > input",
+                "xpath": "//input[@placeholder='Enter your email or phone number']",
+                "text": "Enter your email or phone number",
+                "element_text": "Enter your email or phone number",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Enter your email or phone number",
+                    "type": "email"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": "Signin",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz"
+                },
+                "content_hint": "input:email",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 443,
+                "y": 347,
+                "width": 426,
+                "height": 43.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/login",
+            "timestamp": "2026-11-04T03:48:55.417Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"email\" value=\"\" style=\"--placeholderTextColor: #777777;\">",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"email\" value=\"\" style=\"--placeholderTextColor: #777777;\"></div>",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"email\" value=\"\" style=\"--placeholderTextColor: #777777;\"></div></div>",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email address or mobile number.</div></div><div class=\"css-g5y9jx r-117bsoe\"><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input place...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email addr...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Int...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.845,
+                "y_ratio": 0.621
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/login",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/login",
+                "focus": {
+                    "parts": [
+                        "Enter your email or phone number"
+                    ],
+                    "role": null,
+                    "tag": "input"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1323,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/login",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "fill",
+            "value": "9345691852",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Enter your email or phone number",
+                "placeholder": "Enter your email or phone number",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > input",
+                "xpath": "//input[@placeholder='Enter your email or phone number']",
+                "text": "Enter your email or phone number",
+                "element_text": "Enter your email or phone number",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Enter your email or phone number",
+                    "type": "tel"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": "Signin",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz"
+                },
+                "content_hint": "input:tel",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Enter your email or phone number",
+                "placeholder": "Enter your email or phone number",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > input",
+                "xpath": "//input[@placeholder='Enter your email or phone number']",
+                "text": "Enter your email or phone number",
+                "element_text": "Enter your email or phone number",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Enter your email or phone number",
+                    "type": "tel"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": "Signin",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz"
+                },
+                "content_hint": "input:tel",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 443,
+                "y": 347,
+                "width": 426,
+                "height": 43.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/login",
+            "timestamp": "2026-11-04T03:48:59.899Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"tel\" value=\"9345691852\" style=\"--placeholderTextColor: #777777;\">",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"tel\" value=\"9345691852\" style=\"--placeholderTextColor: #777777;\"></div>",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input placeholder=\"Enter your email or phone number\" autocapitalize=\"none\" autocorrect=\"off\" autocomplete=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"false\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1shif8y r-13awgt0 r-1u8a0ir r-ubezar r-1ny4l3l r-xyw6el\" type=\"tel\" value=\"9345691852\" style=\"--placeholderTextColor: #777777;\"></div></div>",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email address or mobile number.</div></div><div class=\"css-g5y9jx r-117bsoe\"><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input place...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email addr...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Int...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "tel",
+            "focus_type": "email",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 4482
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Sign in",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Sign in'][not(parent::*[normalize-space(.)='Sign in'])]",
+                "text": "Sign in",
+                "element_text": "Sign in",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Sign in",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Sign in'][not(parent::*[normalize-space(.)='Sign in'])]",
+                "text": "Sign in",
+                "element_text": "Sign in",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 410,
+                "y": 411.5,
+                "width": 460,
+                "height": 49.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/login",
+            "timestamp": "2026-11-04T03:49:00.093Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-q3k7ks r-1xfd6ze r-1mnahxq r-1oqcu8e\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-ubezar r-1kfrs79\" style=\"font-family: Inter;\">Sign in</div></div>",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email address or mobile number.</div></div><div class=\"css-g5y9jx r-117bsoe\"><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-18u37iz\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-18yzcnr r-uhung1 r-yc9v9c\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/8620d1b7-6be6-4995-bc1d-9d9eec223a7a/icon_2.png\"></div><input place...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Inter;\">Please enter your registered email addr...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-rjixqe r-eektet r-q4m81j r-13qz1uu\" style=\"font-family: Int...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"auto\" class=\"css-146c3p1...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Signin</div></div><div class=\"css-g5y9jx\" style=\"align-items: center;\"><div dir=\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1mnahxq\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-famil...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.891,
+                "y_ratio": 0.879
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/login",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/otp",
+                "focus": {
+                    "parts": [],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 1,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber"
+            ],
+            "delay_before_ms": 194,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "fill",
+            "value": "1",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 4,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1xfd6ze.r-rs99b7.r-13awgt0.r-1iud8zs",
+                        "div.css-g5y9jx.r-18u37iz.r-uaa2di.r-1wtj0ep",
+                        "div.css-g5y9jx.r-117bsoe"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 4,
+                    "bounding_box": {
+                        "x": 411,
+                        "y": 389.5,
+                        "width": 105.5,
+                        "height": 48.5
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 4,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1xfd6ze.r-rs99b7.r-13awgt0.r-1iud8zs",
+                        "div.css-g5y9jx.r-18u37iz.r-uaa2di.r-1wtj0ep",
+                        "div.css-g5y9jx.r-117bsoe"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 4,
+                    "bounding_box": {
+                        "x": 411,
+                        "y": 389.5,
+                        "width": 105.5,
+                        "height": 48.5
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 411,
+                "y": 389.5,
+                "width": 105.5,
+                "height": 48.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "timestamp": "2026-11-04T03:49:02.340Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\">",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div>",
+                    "<div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"c...[truncated]",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholde...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 2247
+        },
+        {
+            "action_type": "fill",
+            "value": "2",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 528.5,
+                "y": 389.5,
+                "width": 105.5,
+                "height": 48.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "timestamp": "2026-11-04T03:49:02.603Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\">",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div>",
+                    "<div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4...[truncated]",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placehold...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 263
+        },
+        {
+            "action_type": "fill",
+            "value": "3",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[3]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[3]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 646,
+                "y": 389.5,
+                "width": 105.5,
+                "height": 48.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "timestamp": "2026-11-04T03:49:02.861Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\">",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"\"></div>",
+                    "<div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"2\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=...[truncated]",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"2\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placehold...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 258
+        },
+        {
+            "action_type": "fill",
+            "value": "4",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[4]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > input",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[4]/input[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": ""
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Enter OTP",
+                "near_text": "Enter OTP",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 763.5,
+                "y": 389.5,
+                "width": 105.5,
+                "height": 48.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "timestamp": "2026-11-04T03:49:03.799Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"4\">",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"4\"></div>",
+                    "<div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"2\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=...[truncated]",
+                    "<div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"2\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"...[truncated]",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placehold...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 938
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Verify",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Verify'][not(parent::*[normalize-space(.)='Verify'])]",
+                "text": "Verify",
+                "element_text": "Verify",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "OTP has been sent to 9345691852",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Verify",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Verify'][not(parent::*[normalize-space(.)='Verify'])]",
+                "text": "Verify",
+                "element_text": "Verify",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "OTP has been sent to 9345691852",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 410,
+                "y": 458.5,
+                "width": 460,
+                "height": 49.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber",
+            "timestamp": "2026-11-04T03:49:03.994Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-q3k7ks r-1xfd6ze r-1mnahxq r-1oqcu8e\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-ubezar r-1kfrs79\" style=\"font-family: Inter;\">Verify</div></div>",
+                    "<div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-djgu52 r-ubezar r-5oul0u\" style=\"font-family: Inter;\">Enter OTP</div><div class=\"css-g5y9jx r-18u37iz r-uaa2di r-1wtj0ep\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placeholder=\"\" autocomplete=\"off\" maxlength=\"4\" autocapitalize=\"sentences\" autocorrect=\"on\" dir=\"auto\" inputmode=\"numeric\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-1niwhzg r-1xfd6ze r-1yadl64 r-1khnkhu r-13awgt0 r-1u8a0ir r-adyw6z r-1kfrs79 r-1ny4l3l r-xyw6el r-q4m81j\" value=\"1\"></div><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1xfd6ze r-rs99b7 r-13awgt0 r-1iud8zs\"><input placehold...[truncated]",
+                    "<div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div class=\"css-g5y9jx r-117bsoe\"><div dir=\"auto...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=\"font-family: Inter;\">9345691852</span>\nPlease check your Message</div></div><div...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-1iaw8kj r-majxgm\" style=...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-rjixqe r-q4m81j\" style=\"font-family: Inter;\">OTP has been sent to <span class=\"css-1jxf684 r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp r-13qz1uu\"><div class=\"css-g5y9jx r-13awgt0 r-13qz1uu\"><div class=\"css-g5y9jx r-1kihuf0 r-14lw9ot r-1ylenci r-acq42y r-13awgt0 r-1y6u10y r-dnmrzs r-1udh08x r-lrx3fh\"><div class=\"css-g5y9jx r-bnwqim r-13qz1uu\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-1urfncx r-1o9pxga r-13qz1uu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/a4426876-7388-4520-967a-f28a771aa19c/icon_1.png\"></div></div><div class=\"css-g5y9jx r-1pcd2l5\"><div dir=\"auto\" class=\"css-146c3p1 r-1iaw8kj r-1ra0lkn r-1kfrs79 r-ku1wi2 r-q4m81j\" style=\"font-family: Inter;\">Verify OTP</div><div class=\"css-g5y9jx r-1awozwy r-117bsoe\"><div dir=\"auto\" class=\"css-146c3p1 r-1ckabvr r-1b43r93 r-r...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.224504"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.82,
+                "y_ratio": 0.717
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/otp",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 4,
+                    "field_cleared": true,
+                    "content_added": true,
+                    "fields_removed": 4,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "delay_before_ms": 195,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        }
+    ],
+    "folder": "test",
+    "saved_at": "2026-11-04T09:19:08.287944"
+}

@@ -55,51 +55,60 @@ no Selenium anywhere in this project.
 new_test/
 ├── app.py                       # Flask entry point - run this file directly
 ├── requirements.txt              # Flask, Playwright, Pillow, Jinja2
-├── utils.py                      # normalize_url(), attach_dialog_handler()
+├── config/
+│   └── message_keywords.json     # Editable message keyword list used by the replay
 │
-├── recorder/
-│   ├── record_session.py         # Recorder class - captures actions on a live page
-│   ├── action_capture.js         # Injected into the page to listen for DOM events
-│   └── pick_element.py           # "Pick Element" - click-to-fill a locator in the Add Action dialog
+├── backend/
+│   ├── utils.py                  # normalize_url(), attach_dialog_handler()
+│   ├── remote_view.py            # Remote live browser blueprint (Render only)
+│   ├── recorder/
+│   │   ├── record_session.py     # Recorder class - captures actions on a live page
+│   │   ├── action_capture.js     # Injected into the page to listen for DOM events
+│   │   ├── page_snapshot.py      # Page snapshots used by Pick Element / Validate
+│   │   └── pick_element.py       # "Pick Element" - click-to-fill a locator in the Add Action dialog
+│   ├── generator/
+│   │   └── script_generator.py   # Turns a recording JSON into a standalone .py script
+│   ├── executor/
+│   │   └── run_execution.py      # Runs a generated script as a subprocess, builds the result
+│   ├── validation/
+│   │   ├── compare.py            # Pixel-diff screenshot comparison
+│   │   └── report_generator.py   # Renders the self-contained HTML report
+│   └── storage/
+│       ├── repository.py         # The only module that reads/writes JSON on disk
+│       ├── session_files.py      # Finds every file that belongs to one session
+│       └── retention.py          # Age-based cleanup sweep (see "Retention / Cleanup")
 │
-├── generator/
-│   └── script_generator.py       # Turns a recording JSON into a standalone .py script
+├── frontend/
+│   ├── templates/
+│   │   ├── index.html                 # Dashboard page
+│   │   ├── recording_editor.html      # View/Edit screen for one recording
+│   │   ├── live_log.html              # Live replay log
+│   │   ├── run_stages.html            # Screenshot Stages viewer for one run
+│   │   ├── screenshots_viewer.html    # Dashboard-level viewer listing every past run
+│   │   └── report.html                # HTML report template
+│   └── static/
+│       ├── js/script.js              # Dashboard JS (launch/stop recording, list recordings, Replay + live progress)
+│       └── css/style.css             # All styling
 │
-├── executor/
-│   └── run_execution.py          # Runs a generated script as a subprocess, builds the result
-│
-├── validation/
-│   ├── compare.py                # Pixel-diff screenshot comparison
-│   └── report_generator.py       # Renders the self-contained HTML report
-│
-├── storage/
-│   ├── repository.py             # The only module that reads/writes JSON on disk
-│   ├── retention.py               # Age-based cleanup sweep (see "Retention / Cleanup")
+├── data/
 │   ├── recordings/                # Saved recordings (session_*.json, + edited/, trimmed/)
+│   ├── snapshots/                 # Page snapshots per recording
 │   ├── executions/                # Legacy, unused - see "Current Limitations"
-│   └── searches/                  # Legacy, unused - see "Current Limitations"
+│   ├── searches/                  # Legacy, unused - see "Current Limitations"
+│   ├── generated_scripts/         # Standalone Playwright scripts, one per recording
+│   │   ├── edited/                # Scripts generated from edited recordings
+│   │   └── screenshoots/          # Per-run screenshots + report.json/report.html (note: "screenshoots" is the real directory name)
+│   ├── screenshots/               # One folder per recording session, launch screenshot only
+│   └── reports/                   # Legacy, unused - see "Current Limitations"
 │
-├── templates/
-│   ├── index.html                 # Dashboard page
-│   ├── recording_editor.html      # View/Edit screen for one recording
-│   ├── recording_trim.html        # Trim screen for one recording
-│   ├── run_stages.html            # Screenshot Stages viewer for one run
-│   ├── screenshots_viewer.html    # Dashboard-level viewer listing every past run
-│   └── report.html                # HTML report template
-│
-├── static/
-│   ├── js/script.js              # Dashboard JS (launch/stop recording, list recordings, Replay + live progress)
-│   └── css/style.css             # All styling
-│
-├── generated_scripts/            # Standalone Playwright scripts, one per recording
-│   ├── edited/                    # Scripts generated from edited recordings
-│   └── screenshoots/              # Per-run screenshots + report.json/report.html (note: "screenshoots" is the real directory name)
-├── screenshots/                  # One folder per recording session, launch screenshot only
-└── reports/                      # Legacy, unused - see "Current Limitations"
+├── scripts/
+│   └── regenerate.py             # Regenerate scripts: python scripts/regenerate.py [recording.json ...]
+├── tests/                        # Test and investigation scripts
+└── docs/                         # Change reports and guides
 ```
 
-`generated_scripts/`, `screenshots/`, `reports/`, and everything under
-`storage/` are **runtime output directories** — they are created and filled
+Everything under `data/` (`generated_scripts/`, `screenshots/`, `reports/`,
+`recordings/`, `snapshots/`) is a **runtime output directory** — they are created and filled
 in automatically the first time you record something or run a test. They
 are not part of the source code you need to set up.
 
@@ -262,7 +271,7 @@ Recording is tied to the **Launch Browser** button; stopping it can be done
 either from the dashboard's **Stop Recording** button or, as before, by
 pressing **ENTER** in the terminal running `app.py` — both trigger the exact
 same stop mechanism (there is no second/duplicate implementation). This is
-the actual mechanism implemented in `app.py` / `recorder/record_session.py`
+the actual mechanism implemented in `app.py` / `backend/recorder/record_session.py`
 — here is exactly what happens, step by step:
 
 1. You type a URL into the dashboard's URL field and click **Launch
@@ -298,7 +307,7 @@ the actual mechanism implemented in `app.py` / `recorder/record_session.py`
 9. **To stop recording**, either click the dashboard's **Stop Recording**
    button (`POST /api/recording/stop`) or click into the terminal window
    running `python app.py` and press **ENTER** — both set the exact same
-   internal stop signal (`recorder/record_session.py`'s `Recorder.stop()`
+   internal stop signal (`backend/recorder/record_session.py`'s `Recorder.stop()`
    is the one true stop path either way is routed through). Clicking Stop
    Recording again while a stop is already in progress, or with nothing
    active, is a safe no-op rather than an error. (If the browser is closed
@@ -307,10 +316,10 @@ the actual mechanism implemented in `app.py` / `recorder/record_session.py`
 10. On stop, the recorder sorts all captured actions by their true
     timestamp (some actions can arrive at Python slightly out of order due
     to double-click disambiguation — sorting by timestamp restores the real
-    order), and the JSON is saved via `storage/repository.py`.
-11. Immediately after saving, `generator/script_generator.py` is called
+    order), and the JSON is saved via `backend/storage/repository.py`.
+11. Immediately after saving, `backend/generator/script_generator.py` is called
     automatically to turn that same JSON into a standalone Python script
-    under `generated_scripts/`. Both paths are printed to the terminal.
+    under `data/generated_scripts/`. Both paths are printed to the terminal.
 
 ---
 
@@ -372,10 +381,10 @@ Total actions: 7
 Stop reason: terminal_enter
 
 JSON saved:
-D:\new_test\storage\recordings\session_20260813_160512.json
+D:\new_test\data\recordings\session_20260813_160512.json
 
 Python script generated:
-D:\new_test\generated_scripts\session_20260813_160512_script.py
+D:\new_test\data\generated_scripts\session_20260813_160512_script.py
 ==================================================
 ```
 
@@ -386,26 +395,26 @@ this new recording appears as a card.
 
 ## Where Recordings Are Saved
 
-From `storage/repository.py`:
+From `backend/storage/repository.py`:
 
 ```python
-BASE_DIR = Path(__file__).resolve().parent.parent
-RECORDINGS_DIR = BASE_DIR / "storage" / "recordings"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+RECORDINGS_DIR = BASE_DIR / "data" / "recordings"
 ```
 
 So, relative to the project root:
 ```
-storage/recordings/
+data/recordings/
 ```
 
 Recordings are saved as JSON, named `session_<YYYYMMDD_HHMMSS>.json`, e.g.:
 ```
-storage/recordings/session_20260812_131205.json
+data/recordings/session_20260812_131205.json
 ```
 
 Two subfolders hold derived recordings, never the originals they came from:
-`storage/recordings/edited/<name>_edited.json` (from Save Edited JSON) and
-`storage/recordings/trimmed/<name>_trimmed.json` (from the Trim screen) —
+`data/recordings/edited/<name>_edited.json` (from Save Edited JSON) and
+`data/recordings/trimmed/<name>_trimmed.json` (from the Trim screen) —
 see [Dashboard: Viewing and Editing a Recording](#dashboard-viewing-and-editing-a-recording).
 All three locations show up identically in the Dashboard's recording list.
 
@@ -438,7 +447,7 @@ here is invented):
 
 ## Supported Action Types
 
-Directly from `recorder/action_capture.js`, these are the action types
+Directly from `backend/recorder/action_capture.js`, these are the action types
 actually produced by **recording live browser interaction**:
 
 | Action type | How it's captured |
@@ -464,7 +473,7 @@ captured from live browser interaction; they're added afterward through
 the Recording Editor's **Add Action** dialog (see
 [Dashboard: Viewing and Editing a Recording](#dashboard-viewing-and-editing-a-recording)),
 each with its own guided fields and (for the ones that need one) an XPath
-+ Pick Element locator. `generator/script_generator.py` has a real handler
++ Pick Element locator. `backend/generator/script_generator.py` has a real handler
 for every one of these — they're not just UI stubs.
 
 **Duplicate suppression that's actually implemented:**
@@ -495,7 +504,7 @@ id, css_path, xpath, text, tag, attributes{data-testid, data-test, data-cy,
 name, aria-label, placeholder, role, title, href, type}
 ```
 
-At **replay time**, `generator/script_generator.py`'s `resolve_and_act()`
+At **replay time**, `backend/generator/script_generator.py`'s `resolve_and_act()`
 (used by `click`/`dblclick`/`right_click`/`fill`/`select`/`submit`/`press`/
 `check`) tries these, in this exact order, stopping at the first one that
 finds an element:
@@ -573,7 +582,7 @@ count**, **saved path**, **saved time**, and **View / Edit**, **Trim**,
 **Replay**, and **View Last Log** buttons.
 
 Clicking **View / Edit** opens `GET /recording/edit?path=...`, which loads
-`templates/recording_editor.html`. That page calls `GET
+`frontend/templates/recording_editor.html`. That page calls `GET
 /api/recordings/view?path=...` to fetch the recording's full JSON (this is
 a pure read — opening a recording never modifies the original file) and
 renders:
@@ -612,13 +621,13 @@ edits/deletes/adds/reorders/Add Action changes happen only in the browser
 tab's in-memory state.
 
 **Save Edited JSON** sends the current in-memory state to `POST
-/api/recordings/save`, which writes it into `storage/recordings/edited/` —
+/api/recordings/save`, which writes it into `data/recordings/edited/` —
 the original recording is never overwritten. Unlike an earlier version of
 this feature, the edited filename is **stable, not timestamped**:
 ```
-storage/recordings/edited/<original_name>_edited.json
+data/recordings/edited/<original_name>_edited.json
 ```
-e.g. `storage/recordings/edited/session_20260812_121227_edited.json` — every
+e.g. `data/recordings/edited/session_20260812_121227_edited.json` — every
 subsequent **Save Edited JSON** click for the same original recording
 overwrites that same file (and its generated script) with the latest edit,
 rather than piling up a new dated copy each time. It still shows up in the
@@ -628,7 +637,7 @@ side-by-side for comparison when you reopen an edited recording.
 
 There is also a separate **Trim** screen (`GET /recording/trim?path=...`) —
 a checklist of one recording's steps where you pick a subset to keep,
-saved as a brand-new `storage/recordings/trimmed/<name>_trimmed.json`
+saved as a brand-new `data/recordings/trimmed/<name>_trimmed.json`
 recording; the source recording is never modified.
 
 **Fill → Navigation editing:** if you edit a `fill`/`select` step's value
@@ -647,18 +656,18 @@ replays exactly as recorded.
 ## Generated Script
 
 ```
-Recording JSON (storage/recordings/*.json)
+Recording JSON (data/recordings/*.json)
         │
         ▼
-generator/script_generator.py  ->  generate_script()
+backend/generator/script_generator.py  ->  generate_script()
         │
         ▼
-generated_scripts/<name>_script.py
+data/generated_scripts/<name>_script.py
 ```
 
 Filename pattern: `<recording name>_script.py`, e.g.:
 ```
-generated_scripts/session_20260812_131205_script.py
+data/generated_scripts/session_20260812_131205_script.py
 ```
 
 This is a **standalone Playwright script** — it does not import anything
@@ -668,7 +677,7 @@ elsewhere and run it on its own as long as `playwright` is installed.
 
 **Running it directly:**
 ```powershell
-python generated_scripts\session_20260812_131205_script.py [qa_url] [output_json_path] [screenshot_dir] [headless] [product_name]
+python data\generated_scripts\session_20260812_131205_script.py [qa_url] [output_json_path] [screenshot_dir] [headless] [product_name]
 ```
 
 All five arguments are optional, taken exactly from the script's own
@@ -678,14 +687,14 @@ All five arguments are optional, taken exactly from the script's own
 |---|---|---|
 | 1 | `qa_url` | The originally recorded URL |
 | 2 | `output_json_path` | `report.json` inside the same auto-generated `screenshot_dir` below (never "nowhere") |
-| 3 | `screenshot_dir` | `generated_scripts/screenshoots/<slugified-recording-name>_<timestamp>/` |
+| 3 | `screenshot_dir` | `data/generated_scripts/screenshoots/<slugified-recording-name>_<timestamp>/` |
 | 4 | `headless` | `"0"` — i.e. **headed** (visible) when run by hand |
 | 5 | `product_name` | Not set — product validation is skipped entirely |
 
 Running it with no arguments at all replays against the originally recorded
 URL in a visible browser window, which is handy for watching a replay live.
 **Note: when the dashboard triggers a replay** (via `/api/test/run` or
-`/api/test/run/start`, see next section), `executor/run_execution.py`
+`/api/test/run/start`, see next section), `backend/executor/run_execution.py`
 always passes `headless="0"` (headed/visible) too, deliberately — a
 dashboard-triggered Replay opens a real, visible browser window so you can
 watch it run, the same as running the generated script by hand.
@@ -698,22 +707,22 @@ watch it run, the same as running the generated script by hand.
 Recording (existing or edited JSON)
         │
         ▼
-generator/script_generator.py  ->  generate_script()
+backend/generator/script_generator.py  ->  generate_script()
         │
         ▼
-generated_scripts/<name>_script.py
+data/generated_scripts/<name>_script.py
         │
-        ▼  (run as a subprocess by executor/run_execution.py)
+        ▼  (run as a subprocess by backend/executor/run_execution.py)
 Chromium replays every action against qa_url, headed (visible)
         │
         ├── screenshots grouped by stage + report.json written incrementally
         ▼
-generated_scripts/screenshoots/<run_id>/report.json
+data/generated_scripts/screenshoots/<run_id>/report.json
         │
         ▼  (read back and interpreted by run_execution.py once the run ends)
 + UI-element / content / screenshot-diff / product validation
         │
-        └── validation/report_generator.py -> generated_scripts/screenshoots/<run_id>/report.html
+        └── backend/validation/report_generator.py -> data/generated_scripts/screenshoots/<run_id>/report.html
 ```
 
 **This now has a dashboard UI, not just an API.** Every recording card in
@@ -730,7 +739,7 @@ script/curl call should use directly:
 ```powershell
 curl -X POST http://127.0.0.1:5000/api/test/run ^
   -H "Content-Type: application/json" ^
-  -d "{\"qa_url\": \"https://your-qa-site.com\", \"recording_path\": \"storage/recordings/session_20260812_131205.json\"}"
+  -d "{\"qa_url\": \"https://your-qa-site.com\", \"recording_path\": \"data/recordings/session_20260812_131205.json\"}"
 ```
 
 **Request fields**, read directly from `app.py` (shared by both
@@ -757,7 +766,7 @@ Response fields (both endpoints, once done): `status` (`PASS`/`FAIL`),
 
 ## QA URL Mapping
 
-From `generator/script_generator.py`'s `to_qa_url()`, embedded in every
+From `backend/generator/script_generator.py`'s `to_qa_url()`, embedded in every
 generated script:
 
 - If a recorded `navigate` action's URL has **no domain** (a relative
@@ -792,21 +801,21 @@ scheme+host are swapped.
 
 **Note: this section previously described `screenshots/execution_runs/` —
 that path no longer exists in the code.** The current output location, from
-`executor/run_execution.py`'s `execute_test()`/`start_replay()`:
+`backend/executor/run_execution.py`'s `execute_test()`/`start_replay()`:
 
 ```python
-run_dir = BASE_DIR / "generated_scripts" / "screenshoots" / run_id
+run_dir = BASE_DIR / "data" / "generated_scripts" / "screenshoots" / run_id
 ```
 
 (`screenshoots` — that's the actual directory name in the code, not a typo
 in this README.) Each replay (`/api/test/run` or `/api/test/run/start`)
 creates one folder, named `<recording-name-slug>_<YYYYMMDD_HHMMSS>`:
 ```
-generated_scripts/screenshoots/<run_id>/
+data/generated_scripts/screenshoots/<run_id>/
 ```
 Real example:
 ```
-generated_scripts/screenshoots/session_20260917_142337_20260919_120352/
+data/generated_scripts/screenshoots/session_20260917_142337_20260919_120352/
 ```
 
 Inside that folder:
@@ -817,7 +826,7 @@ Inside that folder:
 | `report.json` | The full result (see below) — written incrementally, once per completed step, during the run itself (so a dashboard polling `/api/test/run/progress` can show live step-by-step progress), then finalized with UI-element/content/screenshot/product validation once the run ends |
 | `report.html` | The self-contained HTML report (see [HTML Report](#html-report)) |
 
-Separately, the top-level `screenshots/<timestamp>/img1.png` folder holds
+Separately, the top-level `data/screenshots/<timestamp>/img1.png` folder holds
 one best-effort screenshot taken right when **Launch Browser** first opens a
 page for recording — a different, unrelated purpose from the replay output
 above.
@@ -828,12 +837,12 @@ above.
 
 **Note: this section previously described `storage/executions/
 execution_<id>.json` — nothing in the current code writes to that
-directory anymore** (`storage/repository.py` still defines
-`save_execution()`, but no caller in `app.py` or `executor/` invokes it; any
-files already in `storage/executions/` are historical leftovers from an
-earlier version of the project, the same situation as `storage/searches/`
+directory anymore** (`backend/storage/repository.py` still defines
+`save_execution()`, but no caller in `app.py` or `backend/executor/` invokes it; any
+files already in `data/executions/` are historical leftovers from an
+earlier version of the project, the same situation as `data/searches/`
 below). The current, actually-written result file is `report.json` inside
-each run's own `generated_scripts/screenshoots/<run_id>/` folder described
+each run's own `data/generated_scripts/screenshoots/<run_id>/` folder described
 above.
 
 **Actual top-level fields** (verified against a real saved file):
@@ -869,17 +878,17 @@ as `PASS` when there were zero recorded actions to fail; it's correctly
 Execution result (the dict above)
         │
         ▼
-validation/report_generator.py  ->  generate_report()
+backend/validation/report_generator.py  ->  generate_report()
         │
         ▼
-generated_scripts/screenshoots/<run_id>/report.html
+data/generated_scripts/screenshoots/<run_id>/report.html
 ```
 Real example:
 ```
-generated_scripts/screenshoots/session_20260812_130826_20260919_120352/report.html
+data/generated_scripts/screenshoots/session_20260812_130826_20260919_120352/report.html
 ```
 (This replaces the report location an earlier version of this README
-described, `reports/report_<run_id>.html` — that `reports/` folder is now
+described, `data/reports/report_<run_id>.html` — that `data/reports/` folder is now
 legacy/unused, see [Current Limitations](#current-limitations).)
 
 Every screenshot referenced by the result is **embedded directly into the
@@ -887,7 +896,7 @@ HTML as a base64 `data:image/png;base64,...` URI** — the report is a single
 file with no external dependencies; you can email it or open it from
 anywhere without also handing over the `screenshots/` folder.
 
-**Sections actually present in `templates/report.html`** (verified — this
+**Sections actually present in `frontend/templates/report.html`** (verified — this
 is the complete list, in order):
 
 1. **Overall banner** — PASS/FAIL + the message
@@ -916,7 +925,7 @@ is the complete list, in order):
 
 ## Screenshot Comparison
 
-From `validation/compare.py`:
+From `backend/validation/compare.py`:
 
 ```python
 DEFAULT_THRESHOLD = 0.02          # fraction of max possible pixel difference
@@ -972,17 +981,17 @@ button calls — clicking it will always show this message.
 
 ## Retention / Cleanup
 
-From `storage/retention.py`:
+From `backend/storage/retention.py`:
 
 ```python
 RETENTION_DAYS = 30
 ```
 
 An age-only sweep over the directories this project accumulates files in:
-`storage/recordings/` (+ `edited/`, `trimmed/`), `generated_scripts/`
-(+ `edited/`, `fill_diagnostics/`), `generated_scripts/screenshoots/` (every
-past run's screenshots + report), `screenshots/` (launch screenshots), and
-`reports/`. Nothing runs automatically — **this project has no background
+`data/recordings/` (+ `edited/`, `trimmed/`), `data/generated_scripts/`
+(+ `edited/`, `fill_diagnostics/`), `data/generated_scripts/screenshoots/` (every
+past run's screenshots + report), `data/screenshots/` (launch screenshots), and
+`data/reports/`. Nothing runs automatically — **this project has no background
 scheduler/cron** — a sweep only happens when `GET`/`POST
 /api/maintenance/cleanup` is actually called.
 
@@ -991,9 +1000,9 @@ scheduler/cron** — a sweep only happens when `GET`/`POST
   `dry_run` value passed.
 - **`POST`** with `{"dry_run": false}` performs it for real. Optional body
   fields: `retention_days` (default `30`), `mode` (`"archive"`, the
-  default — moves matched items under `retention_archive/<label>/`,
+  default — moves matched items under `data/retention_archive/<label>/`,
   recoverable — or `"delete"`, which removes them for good).
-- **Safety, all enforced in `storage/retention.py` itself:** a recording is
+- **Safety, all enforced in `backend/storage/retention.py` itself:** a recording is
   never touched while a recording session is actively in progress; a run
   folder is never touched while its replay is still in-flight, regardless
   of age; every candidate path is verified to actually resolve inside one
@@ -1044,15 +1053,15 @@ Only steps actually supported by the current code/UI/API are listed.
    navigate, scroll — whatever the real flow is).
 3. Click **Stop Recording** in the dashboard, or press **ENTER** in the
    `app.py` terminal.
-4. JSON is saved to `storage/recordings/`, and a script is generated to
-   `generated_scripts/` automatically.
+4. JSON is saved to `data/recordings/`, and a script is generated to
+   `data/generated_scripts/` automatically.
 
 **Optional — editing before replay (via the Dashboard UI):**
 5. Refresh the dashboard, click **View / Edit** on the new card.
 6. Modify field values, delete unwanted steps, add new steps via the guided
    **Add Action** dialog (optionally using **🎯 Pick Element** to fill in a
    locator by clicking the real element), reorder with Up/Down.
-7. Click **Save Edited JSON** — `storage/recordings/edited/<name>_edited.json`
+7. Click **Save Edited JSON** — `data/recordings/edited/<name>_edited.json`
    is created (or overwritten, if you'd already saved an edit of this
    recording before) and shows up in the Dashboard list.
 
@@ -1068,9 +1077,9 @@ Only steps actually supported by the current code/UI/API are listed.
 10. The existing executor runs that script as a subprocess against
     `qa_url`, headed (visible), capturing screenshots grouped by
     page/stage plus a final screenshot.
-11. `generated_scripts/screenshoots/<run_id>/report.json` is written
+11. `data/generated_scripts/screenshoots/<run_id>/report.json` is written
     (incrementally, step by step, then finalized).
-12. `generated_scripts/screenshoots/<run_id>/report.html` is generated
+12. `data/generated_scripts/screenshoots/<run_id>/report.html` is generated
     with everything embedded, including validation cards for any
     validate_*/check_checked/compare_*/... steps in the recording.
 13. Open that HTML file in any browser — no server required, no
@@ -1084,30 +1093,30 @@ Only steps actually supported by the current code/UI/API are listed.
 |---|---|
 | Application entry point | `app.py` |
 | Dependencies | `requirements.txt` |
-| Shared helpers | `utils.py` |
-| Recorder (Python side) | `recorder/record_session.py` |
-| Recorder (injected JS) | `recorder/action_capture.js` |
-| Pick Element | `recorder/pick_element.py` |
-| Script generator | `generator/script_generator.py` |
-| Executor | `executor/run_execution.py` |
-| Screenshot comparison | `validation/compare.py` |
-| Report generator | `validation/report_generator.py` |
-| Storage (single source of truth for disk I/O) | `storage/repository.py` |
-| Retention / cleanup sweep | `storage/retention.py` |
-| Saved recordings | `storage/recordings/` (+ `edited/`, `trimmed/`) |
-| Legacy/unused execution results | `storage/executions/` |
-| Legacy/unused search results | `storage/searches/` |
-| Generated Playwright scripts | `generated_scripts/` (+ `edited/`) |
-| Per-run replay screenshots + `report.json`/`report.html` | `generated_scripts/screenshoots/<run_id>/` |
-| Legacy/unused shared HTML reports | `reports/` |
-| Launch screenshots (one per recording session start) | `screenshots/<timestamp>/` |
-| Dashboard template | `templates/index.html` |
-| Recording editor template | `templates/recording_editor.html` |
-| Recording trim screen template | `templates/recording_trim.html` |
-| Screenshot stages/viewer templates | `templates/run_stages.html`, `templates/screenshots_viewer.html` |
-| Report template | `templates/report.html` |
-| Dashboard JavaScript | `static/js/script.js` |
-| Stylesheet | `static/css/style.css` |
+| Shared helpers | `backend/utils.py` |
+| Recorder (Python side) | `backend/recorder/record_session.py` |
+| Recorder (injected JS) | `backend/recorder/action_capture.js` |
+| Pick Element | `backend/recorder/pick_element.py` |
+| Script generator | `backend/generator/script_generator.py` |
+| Executor | `backend/executor/run_execution.py` |
+| Screenshot comparison | `backend/validation/compare.py` |
+| Report generator | `backend/validation/report_generator.py` |
+| Storage (single source of truth for disk I/O) | `backend/storage/repository.py` |
+| Retention / cleanup sweep | `backend/storage/retention.py` |
+| Saved recordings | `data/recordings/` (+ `edited/`, `trimmed/`) |
+| Legacy/unused execution results | `data/executions/` |
+| Legacy/unused search results | `data/searches/` |
+| Generated Playwright scripts | `data/generated_scripts/` (+ `edited/`) |
+| Per-run replay screenshots + `report.json`/`report.html` | `data/generated_scripts/screenshoots/<run_id>/` |
+| Legacy/unused shared HTML reports | `data/reports/` |
+| Launch screenshots (one per recording session start) | `data/screenshots/<timestamp>/` |
+| Dashboard template | `frontend/templates/index.html` |
+| Recording editor template | `frontend/templates/recording_editor.html` |
+| Recording trim screen template | `frontend/templates/recording_trim.html` |
+| Screenshot stages/viewer templates | `frontend/templates/run_stages.html`, `frontend/templates/screenshots_viewer.html` |
+| Report template | `frontend/templates/report.html` |
+| Dashboard JavaScript | `frontend/static/js/script.js` |
+| Stylesheet | `frontend/static/css/style.css` |
 
 ---
 
@@ -1123,10 +1132,10 @@ Only steps actually supported by the current code/UI/API are listed.
 | Nothing prints when I click/type in the browser | The page hasn't finished the initial `Recorder.start()` injection, or you're interacting with a browser tab that isn't the one that was launched | Wait for "RECORDING STARTED" to print before acting; only the originally launched tab/page is recorded (new tabs are logged as a `navigate`, not followed) |
 | Recording not saved / no JSON appears | You closed the terminal or killed the process before stopping cleanly | Click **Stop Recording** in the dashboard, or press ENTER in the `app.py` terminal, to stop cleanly; an unexpected browser close is still auto-saved, but killing the whole Python process is not |
 | "A recording is already in progress" when clicking Launch Browser | A previous recording session is still active | Click **Stop Recording** (or press ENTER in the terminal) to end it first |
-| Generated script fails immediately with a Python error | The recording JSON is malformed, or was hand-edited into invalid JSON via `/api/recordings/save` with something odd in the body | Re-open the file in the Recording Editor to check it loads without an error, or inspect the raw JSON in `storage/recordings/` |
-| `/api/test/run` (or the dashboard's Replay button) returns `"the test script didn't complete - couldn't reach the QA URL or it crashed"` | The generated script's subprocess didn't produce a `report.json` — often a bad `qa_url`, or the script hit its timeout | Check `generated_scripts/screenshoots/<run_id>/` for partial output; try running the generated script directly (see [Generated Script](#generated-script)) to see the real Playwright error |
+| Generated script fails immediately with a Python error | The recording JSON is malformed, or was hand-edited into invalid JSON via `/api/recordings/save` with something odd in the body | Re-open the file in the Recording Editor to check it loads without an error, or inspect the raw JSON in `data/recordings/` |
+| `/api/test/run` (or the dashboard's Replay button) returns `"the test script didn't complete - couldn't reach the QA URL or it crashed"` | The generated script's subprocess didn't produce a `report.json` — often a bad `qa_url`, or the script hit its timeout | Check `data/generated_scripts/screenshoots/<run_id>/` for partial output; try running the generated script directly (see [Generated Script](#generated-script)) to see the real Playwright error |
 | Report not generated | `execute_test()`/`start_replay()` itself raised before `generate_report()` was reached, or the request never reached `/api/test/run` (e.g. wrong method/body) | Check the Flask terminal for a traceback; confirm the request is `POST` with a JSON body containing `qa_url` |
-| Screenshot missing in report | The step's screenshot capture failed (page in a bad state) or the baseline path in `expected_screenshot` doesn't exist | The report shows "skipped" for a missing baseline rather than failing outright; check `generated_scripts/screenshoots/<run_id>/` directly for what was actually captured |
+| Screenshot missing in report | The step's screenshot capture failed (page in a bad state) or the baseline path in `expected_screenshot` doesn't exist | The report shows "skipped" for a missing baseline rather than failing outright; check `data/generated_scripts/screenshoots/<run_id>/` directly for what was actually captured |
 | Recording JSON missing after a run | The run crashed before `repository.save_recording()` was reached | Check the Flask/terminal logs for the actual exception; a save failure specifically now surfaces as a "Recording Failed" status in the dashboard rather than hanging silently |
 | `OSError: [WinError 10048] ... port 5000` / address already in use | Another process (or a previous `python app.py` that didn't fully exit) is already bound to port 5000 | Close the other process, or find and stop it via Task Manager; the app has no built-in way to pick a different port without editing `app.py` |
 
@@ -1157,14 +1166,14 @@ Confirmed directly from the code, not hidden:
   (works the same on any site), not a guaranteed-accurate product-title
   parser; short nav/category links can occasionally be miscounted as
   results.
-- **`storage/searches/` and `storage/executions/` are legacy.**
-  `storage/repository.py` still defines `save_search()`/`save_execution()`
+- **`data/searches/` and `data/executions/` are legacy.**
+  `backend/storage/repository.py` still defines `save_search()`/`save_execution()`
   and creates both directories on startup, but no code path in the current
   project calls either function — files already in those folders are
   historical artifacts from an earlier version of the project, not
   something the current code produces. The real, currently-written replay
   result is `report.json` inside each run's own
-  `generated_scripts/screenshoots/<run_id>/` folder (see
+  `data/generated_scripts/screenshoots/<run_id>/` folder (see
   [Screenshot Storage](#screenshot-storage)).
 - **Screenshot comparison is still a deterministic pixel-sum diff, not a
   perceptual/structural comparison or an AI/vision service** — the default
@@ -1185,15 +1194,15 @@ Confirmed directly from the code, not hidden:
 ## Existing Runtime Data
 
 If you extract this ZIP as-is, several folders already contain files from
-previous runs: `storage/recordings/`, `storage/executions/` (legacy - see
-[Current Limitations](#current-limitations)), `storage/searches/` (also
-legacy), `generated_scripts/` (including `generated_scripts/screenshoots/`
+previous runs: `data/recordings/`, `data/executions/` (legacy - see
+[Current Limitations](#current-limitations)), `data/searches/` (also
+legacy), `data/generated_scripts/` (including `data/generated_scripts/screenshoots/`
 — every past run's screenshots + `report.json`/`report.html`),
-`screenshots/` (launch screenshots), and `reports/`. **These are runtime
+`data/screenshots/` (launch screenshots), and `data/reports/`. **These are runtime
 artifacts, not part of the source code** — nothing in `app.py` or any other
-module requires them to exist for the app to start; `storage/repository.py`
-creates the `storage/recordings/`, `storage/executions/`, and
-`storage/searches/` folders automatically on import if they're missing, and
+module requires them to exist for the app to start; `backend/storage/repository.py`
+creates the `data/recordings/`, `data/executions/`, and
+`data/searches/` folders automatically on import if they're missing, and
 the other folders are created the first time they're needed.
 
 These folders will continue to **grow** the more you record and run tests:
@@ -1209,7 +1218,7 @@ automatically **unless you trigger it**, via `/api/maintenance/cleanup`
 You do **not** need to delete anything to start using the app fresh —
 new recordings and runs simply add more timestamped files alongside the
 existing ones, and the Dashboard will show everything in
-`storage/recordings/`.
+`data/recordings/`.
 
 If you'd specifically like to start with an empty Dashboard/report history,
 two options exist:
@@ -1224,14 +1233,14 @@ two options exist:
 
 ```powershell
 # WARNING: deletes all previously recorded/executed data. Source code is untouched.
-Remove-Item -Recurse -Force storage\recordings\*
-Remove-Item -Recurse -Force storage\executions\*
-Remove-Item -Recurse -Force storage\searches\*
-Remove-Item -Recurse -Force generated_scripts\*
+Remove-Item -Recurse -Force data\recordings\*
+Remove-Item -Recurse -Force data\executions\*
+Remove-Item -Recurse -Force data\searches\*
+Remove-Item -Recurse -Force data\generated_scripts\*
 Remove-Item -Recurse -Force reports\*
 Remove-Item -Recurse -Force screenshots\*
 ```
 
 None of these paths contain source code — `app.py`, `requirements.txt`,
-`recorder/`, `generator/`, `executor/`, `validation/`, `storage/retention.py`,
-`templates/`, `static/`, and `utils.py` are never touched by this cleanup.
+`backend/recorder/`, `backend/generator/`, `backend/executor/`, `backend/validation/`, `backend/storage/retention.py`,
+`frontend/templates/`, `frontend/static/`, and `backend/utils.py` are never touched by this cleanup.

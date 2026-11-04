@@ -1,0 +1,1446 @@
+{
+    "name": "session_20261103_111917",
+    "session_id": "fa0e0f9d8ec54d9082f05238c275c05b",
+    "start_url": "https://myntra.com",
+    "recorded_at": "2026-11-03T11:19:38.189052",
+    "stop_reason": "browser_closed",
+    "total_actions": 17,
+    "page_count": 3,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://myntra.com",
+            "timestamp": "2026-11-03T05:49:08.466Z",
+            "page_id": 0,
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Flip Flops",
+                "placeholder": null,
+                "title": null,
+                "href": "/men-flip-flops",
+                "product_id": null,
+                "css_path": "header#desktop-header-cnt > div:nth-of-type(2) > nav > div > div > div > div > div > div > li:nth-of-type(3) > ul > li:nth-of-type(7) > a",
+                "xpath": "//a[@href='/men-flip-flops']",
+                "text": "Flip Flops",
+                "element_text": "Flip Flops",
+                "tag": "a",
+                "attributes": {
+                    "href": "/men-flip-flops"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 6,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Flip Flops",
+                "placeholder": null,
+                "title": null,
+                "href": "/men-flip-flops",
+                "product_id": null,
+                "css_path": "header#desktop-header-cnt > div:nth-of-type(2) > nav > div > div > div > div > div > div > li:nth-of-type(3) > ul > li:nth-of-type(7) > a",
+                "xpath": "//a[@href='/men-flip-flops']",
+                "text": "Flip Flops",
+                "element_text": "Flip Flops",
+                "tag": "a",
+                "attributes": {
+                    "href": "/men-flip-flops"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 6,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 542,
+                "y": 238,
+                "width": 191,
+                "height": 23
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/",
+            "timestamp": "2026-11-03T05:49:13.765Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<a href=\"/men-flip-flops\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"104\">Flip Flops</a>",
+                    "<li data-reactid=\"103\"><a href=\"/men-flip-flops\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"104\">Flip Flops</a></li>",
+                    "<ul class=\"desktop-navBlock\" data-reactid=\"90\"><li data-reactid=\"91\"><a href=\"/men-footwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"92\">Footwear</a></li><li data-reactid=\"93\"><a href=\"/men-casual-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"94\">Casual Shoes</a></li><li data-reactid=\"95\"><a href=\"/men-sports-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"96\">Sports Shoes</a></li><li data-reactid=\"97\"><a href=\"/men-formal-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"98\">Formal Shoes</a></li><li data-reactid=\"99\"><a href=\"/men-sneakers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"100\">Sneakers</a></li><li data-reactid=\"101\"><a href=\"/men-sandals\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"102\">Sandals &amp; Floaters</a></li><li data-reactid=\"103\"><a href=\"/men-flip-flops\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"104\">Flip Flops</a></li><li data-reactid=\"105\"><a href=\"/men-socks\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"106\">Socks</a></li><div class=\"desktop-hrLine\" data-reactid=\"107\"></div><li data-reac...[truncated]",
+                    "<li class=\"desktop-oddColumnContent\" data-reactid=\"89\"><ul class=\"desktop-navBlock\" data-reactid=\"90\"><li data-reactid=\"91\"><a href=\"/men-footwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"92\">Footwear</a></li><li data-reactid=\"93\"><a href=\"/men-casual-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"94\">Casual Shoes</a></li><li data-reactid=\"95\"><a href=\"/men-sports-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"96\">Sports Shoes</a></li><li data-reactid=\"97\"><a href=\"/men-formal-shoes\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"98\">Formal Shoes</a></li><li data-reactid=\"99\"><a href=\"/men-sneakers\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"100\">Sneakers</a></li><li data-reactid=\"101\"><a href=\"/men-sandals\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"102\">Sandals &amp; Floaters</a></li><li data-reactid=\"103\"><a href=\"/men-flip-flops\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"104\">Flip Flops</a></li><li data-reactid=\"105\"><a href=\"/men-socks\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"106\">Socks</a></li><div class=...[truncated]",
+                    "<div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"41\">Jackets</a></li><li data-reactid=\"42\"><a href=\"/men-blazers\" sty...[truncated]",
+                    "<div class=\"desktop-paneContent\" data-reactid=\"24\"><div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"41\">Jackets</a></...[truncated]",
+                    "<div class=\"desktop-backdropStyle\" data-reactid=\"23\"><div class=\"desktop-paneContent\" data-reactid=\"24\"><div class=\"desktop-categoryContainer\" data-index=\"0\" data-group=\"men\" data-color=\"#ee5f73\" data-reactid=\"25\"><li class=\"desktop-oddColumnContent\" data-reactid=\"26\"><ul class=\"desktop-navBlock\" data-reactid=\"27\"><li data-reactid=\"28\"><a href=\"/men-topwear\" style=\"color:#ee5f73;\" class=\"desktop-categoryName\" data-reactid=\"29\">Topwear</a></li><li data-reactid=\"30\"><a href=\"/men-tshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"31\">T-Shirts</a></li><li data-reactid=\"32\"><a href=\"/men-casual-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"33\">Casual Shirts</a></li><li data-reactid=\"34\"><a href=\"/men-formal-shirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"35\">Formal Shirts</a></li><li data-reactid=\"36\"><a href=\"/men-sweatshirts\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"37\">Sweatshirts</a></li><li data-reactid=\"38\"><a href=\"/men-sweaters\" style=\"color:;\" class=\"desktop-categoryLink\" data-reactid=\"39\">Sweaters</a></li><li data-reactid=\"40\"><a href=\"/men-jackets\" style=\"color:;\" class=\"...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.105,
+                "y_ratio": 0.217
+            },
+            "popup_container": {
+                "kind": "layer",
+                "tag": "header",
+                "id": "desktop-header-cnt",
+                "role": null,
+                "aria_label": null,
+                "css_path": "header#desktop-header-cnt",
+                "text_hint": "MEN Topwear T-Shirts Casual Shirts Formal Shirts Sweatshirts"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 5299
+        },
+        {
+            "action_type": "scroll",
+            "value": null,
+            "delta_x": 0,
+            "delta_y": 400,
+            "scroll_y_before": 0,
+            "scroll_y_after": 400,
+            "viewport_height": 720,
+            "document_height": 8828,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/men-flip-flops",
+            "timestamp": "2026-11-03T05:49:16.936Z",
+            "scroll_anchors": [
+                {
+                    "text": "Men Rubber Thong Flip-Flops",
+                    "tag": "h4",
+                    "x": 290,
+                    "y": 566
+                },
+                {
+                    "text": "Sizes: UK8",
+                    "tag": "h4",
+                    "x": 544,
+                    "y": 566
+                },
+                {
+                    "text": "Baya Sandal",
+                    "tag": "h4",
+                    "x": 799,
+                    "y": 566
+                }
+            ],
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 3171
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Crocs\nSizes: UK8\nRs. 1347Rs. 2995(55% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "product_id": "27275482",
+                "css_path": "li#27275482 > a",
+                "xpath": "//a[normalize-space(.)='123456789CrocsBaya SandalSizes: UK8Rs. 1347Rs. 2995(55% OFF)']",
+                "text": "Crocs Rs. 1347Rs. 2995(55% OFF)",
+                "element_text": "Crocs Rs. 1347Rs. 2995(55% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Crocs",
+                "item_context": {
+                    "text": "Crocs",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Crocs\nSizes: UK8\nRs. 1347Rs. 2995(55% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "product_id": "27275482",
+                "css_path": "li#27275482 > a",
+                "xpath": "//a[normalize-space(.)='123456789CrocsBaya SandalSizes: UK8Rs. 1347Rs. 2995(55% OFF)']",
+                "text": "Crocs Rs. 1347Rs. 2995(55% OFF)",
+                "element_text": "Crocs Rs. 1347Rs. 2995(55% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Crocs",
+                "item_context": {
+                    "text": "Crocs",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 788.6640625,
+                "y": 252,
+                "width": 210,
+                "height": 360
+            },
+            "scroll_x": 0,
+            "scroll_y": 400,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/men-flip-flops",
+            "timestamp": "2026-11-03T05:49:17.706Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<a data-refreshpage=\"true\" target=\"_blank\" href=\"flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\"><div class=\"slick-initialized slick-slider\"><div class=\"slick-list\"><div class=\"slick-track\" style=\"opacity: 1; width: 2730px; transform: translate3d(-210px, 0px, 0px);\"><div class=\"slick-slide\" data-index=\"-1\" style=\"width: 210px;\"><div><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb12270486231706774027462CrocsUnisexCrosliteSliders1.jpg ,\n    https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb12270486231706774027462CrocsUnisexCrosliteSliders1.jpg 1.5x,\n    https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb12270486231706774027462C...[truncated]",
+                    "<li id=\"27275482\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.4</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 648 -->2.5k<!-- /react-text --></div></div><a data-refreshpage=\"true\" target=\"_blank\" href=\"flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\"><div class=\"slick-initialized slick-slider\"><div class=\"slick-list\"><div class=\"slick-track\" style=\"opacity: 1; width: 2730px; transform: translate3d(-210px, 0px, 0px);\"><div class=\"slick-slide\" data-index=\"-1\" style=\"width: 210px;\"><div><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb12270486231706774027462CrocsUnisexCro...[truncated]",
+                    "<ul class=\"results-base\"><li id=\"33272795\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.4</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->151<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"flip-flops/metro/metro-men-thong-flip-flops/33272795/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(255, 242, 223);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/20/EM7IAqas_cd15f9156618480c95c6dafe698d6e5f.jpg ,\n    https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/20/EM7IAqas_c...[truncated]",
+                    "<section style=\"width: 100%;\"><!-- react-empty: 369 --><!-- react-empty: 370 --><!-- react-empty: 371 --><div class=\"scrollToTop-button sprites-gototop myntraweb-sprite\"></div><ul class=\"results-base\"><li id=\"33272795\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.4</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->151<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"flip-flops/metro/metro-men-thong-flip-flops/33272795/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(255, 242, 223);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MA...[truncated]",
+                    "<div class=\"search-searchProductsContainer row-base\" style=\"display: -webkit-flex;\"><section style=\"width: 100%;\"><!-- react-empty: 369 --><!-- react-empty: 370 --><!-- react-empty: 371 --><div class=\"scrollToTop-button sprites-gototop myntraweb-sprite\"></div><ul class=\"results-base\"><li id=\"33272795\" class=\"product-base\"><div class=\"product-thumbShim\"></div><div class=\"product-ratingsContainer\"><span>4.4</span><span class=\"myntraweb-sprite product-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"product-ratingsCount\"><div class=\"product-separator\">|</div><!-- react-text: 381 -->151<!-- /react-text --></div></div><div class=\"product-waterMark\"> AD </div><a data-refreshpage=\"true\" target=\"_blank\" href=\"flip-flops/metro/metro-men-thong-flip-flops/33272795/buy\" style=\"display: block;\"><div class=\"product-imageSliderContainer\"><div class=\"product-sliderContainer\" style=\"display: block;\"><div style=\"background: rgb(255, 242, 223);\"><div style=\"height: 280px; width: 100%;\"><picture draggable=\"false\" class=\"img-responsive\" style=\"width: 100%; height: 100%; display: block;\"><source srcset=\"\n    https://assets.m...[truncated]",
+                    "<div id=\"desktopSearchResults\"><div class=\" row-base\" style=\"display: -webkit-flex;\"><section class=\"horizontal-filters-base\"><div><div class=\"horizontal-filters-sortContainer\"><div><div><div class=\"sort-sortBy\"><!-- react-text: 273 -->Sort by : <!-- /react-text --><span>Recommended</span><span class=\"myntraweb-sprite sort-downArrow sprites-downArrow\"></span><ul class=\"sort-list\"><li><label class=\"sort-label \"><input type=\"radio\" value=\"recommended\"><!-- react-text: 280 -->Recommended<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"new\"><!-- react-text: 284 -->What's New<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"popularity\"><!-- react-text: 288 -->Popularity<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"discount\"><!-- react-text: 292 -->Better Discount<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_desc\"><!-- react-text: 296 -->Price: High to Low<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_asc\"><!-- react-text: 300 -->Pri...[truncated]",
+                    "<div class=\"search-rightContainer column-base\" style=\"-webkit-box-flex: 1; flex: 1 1 0%;\"><div id=\"desktopSearchResults\"><div class=\" row-base\" style=\"display: -webkit-flex;\"><section class=\"horizontal-filters-base\"><div><div class=\"horizontal-filters-sortContainer\"><div><div><div class=\"sort-sortBy\"><!-- react-text: 273 -->Sort by : <!-- /react-text --><span>Recommended</span><span class=\"myntraweb-sprite sort-downArrow sprites-downArrow\"></span><ul class=\"sort-list\"><li><label class=\"sort-label \"><input type=\"radio\" value=\"recommended\"><!-- react-text: 280 -->Recommended<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"new\"><!-- react-text: 284 -->What's New<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"popularity\"><!-- react-text: 288 -->Popularity<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"discount\"><!-- react-text: 292 -->Better Discount<!-- /react-text --></label></li><li><label class=\"sort-label \"><input type=\"radio\" value=\"price_desc\"><!-- react-text: 296 -->Price: High to Low<!-- /react-text --></label></li><li><l...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.444,
+                "y_ratio": 0.336
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "new_tab": true,
+                "url_path_before": "https://www.myntra.com/men-flip-flops",
+                "url_path_after": "https://www.myntra.com/men-flip-flops",
+                "focus": {
+                    "parts": [
+                        "Crocs\nBaya Sandal\nRs. 1347Rs. 2995(55% OFF)",
+                        "Crocs Baya Sandal Unisex"
+                    ],
+                    "role": null,
+                    "tag": "a"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 770,
+            "result": {
+                "url_after": "https://www.myntra.com/men-flip-flops",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": true
+            }
+        },
+        {
+            "action_type": "tab_open",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:19.101Z",
+            "new_tab": true,
+            "page_id": 1,
+            "from_page_id": 0,
+            "delay_before_ms": 1395
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "3",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#sizeButtonsContainer > div:nth-of-type(2) > div > div > button",
+                "xpath": "//button[normalize-space(.)='3']",
+                "text": "3",
+                "element_text": "3",
+                "tag": "button",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "BODY:To Fit Foot Length - 22.0cm",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 10,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "3",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#sizeButtonsContainer > div:nth-of-type(2) > div > div > button",
+                "xpath": "//button[normalize-space(.)='3']",
+                "text": "3",
+                "element_text": "3",
+                "tag": "button",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "BODY:To Fit Foot Length - 22.0cm",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 1,
+                    "css_path": 10,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 767.9140625,
+                "y": 522.65625,
+                "width": 50,
+                "height": 50
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:20.116Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->3<!-- /react-text --></p></button>",
+                    "<div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->3<!-- /react-text --></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div>",
+                    "<div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->3<!-- /react-text --></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-buttons-measurementType\"><!-- react-text: 141 -->BODY<!-- /react-text --><!-- react-text: 142 -->:<!-- /react-text --></span><span class=\"size-buttons-measurementName\">To Fit Foot Length - 22.0cm</span></div></div></div></div>",
+                    "<div class=\"size-buttons-size-buttons\"><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->3<!-- /react-text --></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-buttons-measurementType\"><!-- react-text: 141 -->BODY<!-- /react-text --><!-- react-text: 142 -->:<!-- /react-text --></span><span class=\"size-buttons-measurementName\">To Fit Foot Length - 22.0cm</span></div></div></div></div><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button-disabled size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-show\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 149 -->4<!-- /react-text --></p></button></div><div class=\"size-buttons-sizeTip\"><div class=\"size-but...[truncated]",
+                    "<div class=\"size-buttons-size-container\" id=\"sizeButtonsContainer\"><div class=\"size-buttons-size-header\"><h4 class=\"size-buttons-select-size\"><!-- react-text: 125 -->SELECT SIZE <!-- /react-text --></h4><span class=\"size-buttons-size-chart\"><button class=\"size-buttons-show-size-chart\">Size Chart</button><span class=\"size-buttons-arrow\"></span></span></div><div class=\"size-buttons-size-buttons\"><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->3<!-- /react-text --></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-buttons-measurementType\"><!-- react-text: 141 -->BODY<!-- /react-text --><!-- react-text: 142 -->:<!-- /react-text --></span><span class=\"size-buttons-measurementName\">To Fit Foot Length - 22.0cm</span></div></div></div></div><div class=\"size-b...[truncated]",
+                    "<div><div class=\"colors-container\"><div><p class=\"colors-heading\"><strong>More Color</strong></p><a title=\"Navy Blue\" data-refreshpage=\"true\" href=\"/flip-flops/crocs/crocs-unisex-croslite-two-strap-sliders/25441652/buy\"><img draggable=\"false\" class=\"colors-image\" src=\"https://assets.myntassets.com/f_auto,h_150,q_auto:best,w_112/assets/images/25441652/2023/10/11/128e2a34-46b7-466b-8dd2-cc62154acfd41697019299484CrocsUnisexAdultNavyBlueSandal1.jpg\" style=\"background-color: rgb(159, 168, 171);\"></a></div></div><div class=\"size-buttons-size-container\" id=\"sizeButtonsContainer\"><div class=\"size-buttons-size-header\"><h4 class=\"size-buttons-select-size\"><!-- react-text: 125 -->SELECT SIZE <!-- /react-text --></h4><span class=\"size-buttons-size-chart\"><button class=\"size-buttons-show-size-chart\">Size Chart</button><span class=\"size-buttons-arrow\"></span></span></div><div class=\"size-buttons-size-buttons\"><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-t...[truncated]",
+                    "<div class=\"pdp-description-container\"><div class=\"pdp-price-info\"><h1 class=\"pdp-title\">Crocs</h1><h1 class=\"pdp-name\">Baya Sandal Unisex</h1><div><div class=\"index-overallRatingContainer\"><div class=\"index-overallRating\"><div>4.4</div><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"index-separator\">|</div><div class=\"index-ratingsCount\"><!-- react-text: 88 -->2.5k<!-- /react-text --><!-- react-text: 89 --> Ratings<!-- /react-text --></div></div></div><p class=\"pdp-discount-container\"><span class=\"pdp-price\" tabindex=\"0\"><strong>₹1347</strong></span><div class=\"pdp-mrp-verbiage\" tabindex=\"0\"><div><b>Price Details</b></div><div><!-- react-text: 97 -->Maximum Retail Price<!-- /react-text --><span class=\"pdp-mrp-verbiage-amt\"><!-- react-text: 99 -->Rs. <!-- /react-text --><!-- react-text: 100 -->2995<!-- /react-text --></span></div><div><!-- react-text: 102 -->(Incl. of all taxes)<!-- /react-text --></div><hr><div><!-- react-text: 105 -->Discount<!-- /react-text --><span class=\"pdp-mrp-verbiage-amt\">55% OFF</span></div><div><b>Selling Price</b><span class=\"pdp-mrp-verb...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "inline-block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.502,
+                "y_ratio": 0.087
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": {
+                    "parts": [
+                        "3"
+                    ],
+                    "role": null,
+                    "tag": "button"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1015,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "scroll",
+            "value": null,
+            "delta_x": 0,
+            "delta_y": 312,
+            "scroll_y_before": 0,
+            "scroll_y_after": 312,
+            "viewport_height": 720,
+            "document_height": 7405,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:21.022Z",
+            "scroll_anchors": [
+                {
+                    "text": "MORE COLOR",
+                    "tag": "div",
+                    "x": 768,
+                    "y": 37
+                },
+                {
+                    "text": "3 4 5 6 7 8 9 10 11 12",
+                    "tag": "div",
+                    "x": 768,
+                    "y": 201
+                }
+            ],
+            "during_reply": false,
+            "page_id": 1,
+            "delay_before_ms": 906
+        },
+        {
+            "action_type": "scroll",
+            "value": null,
+            "delta_x": 0,
+            "delta_y": 1462,
+            "scroll_y_before": 312,
+            "scroll_y_after": 1774,
+            "viewport_height": 720,
+            "document_height": 7425,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:23.552Z",
+            "scroll_anchors": [
+                {
+                    "text": "RATINGS",
+                    "tag": "div",
+                    "x": 768,
+                    "y": 116
+                }
+            ],
+            "during_reply": false,
+            "page_id": 1,
+            "delay_before_ms": 2530
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div",
+                "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[2]/div[2]/main[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Customer Photos (176)",
+                "near_text": "Customer Photos (176)",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 3,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div",
+                        "div.image-thumb-wrapper-container",
+                        "div.image-thumb-wrapper-imageThumbWrapper"
+                    ],
+                    "same_text_sibling_index": 1,
+                    "same_text_sibling_total": 9,
+                    "bounding_box": {
+                        "x": 767.9140625,
+                        "y": 336.4140625,
+                        "width": 75,
+                        "height": 75
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div",
+                "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[2]/div[2]/main[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "Customer Photos (176)",
+                "near_text": "Customer Photos (176)",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 3,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div",
+                        "div.image-thumb-wrapper-container",
+                        "div.image-thumb-wrapper-imageThumbWrapper"
+                    ],
+                    "same_text_sibling_index": 1,
+                    "same_text_sibling_total": 9,
+                    "bounding_box": {
+                        "x": 767.9140625,
+                        "y": 336.4140625,
+                        "width": 75,
+                        "height": 75
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 767.9140625,
+                "y": 336.4140625,
+                "width": 75,
+                "height": 75
+            },
+            "scroll_x": 0,
+            "scroll_y": 1774,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:24.583Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div>",
+                    "<div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div>",
+                    "<div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/28/ZN7TdkFV_d4049a3f33584196899d050ddaa4cbe2.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div></div>",
+                    "<div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/28/ZN7TdkFV_d4049a3f3358419689...[truncated]",
+                    "<div><!-- react-empty: 399 --><div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/...[truncated]",
+                    "<div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\">1770</div></div><div class=\"index-flexRow i...[truncated]",
+                    "<div class=\"detailed-reviews-flexContainer\"><div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\"...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.441,
+                "y_ratio": 0.768
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1031,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Cool product",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Cool product",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 678.6953125,
+                "y": 345,
+                "width": 30,
+                "height": 30
+            },
+            "scroll_x": 0,
+            "scroll_y": 1774,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:26.365Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div>",
+                    "<div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div></div>",
+                    "<div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip...[truncated]",
+                    "<div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708...[truncated]",
+                    "<div class=\"image-reviews-modal-container\"><div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 ....[truncated]",
+                    "<div><!-- react-empty: 399 --><div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/...[truncated]",
+                    "<div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\">1770</div></div><div class=\"index-flexRow i...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.043,
+                "y_ratio": 0.6
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1782,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "4 Very nice.. Omem17 Oct 2025 00",
+                "near_text": "Very nice..",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "4 Very nice.. Omem17 Oct 2025 00",
+                "near_text": "Very nice..",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 678.6953125,
+                "y": 345,
+                "width": 30,
+                "height": 30
+            },
+            "scroll_x": 0,
+            "scroll_y": 1774,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:27.132Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div>",
+                    "<div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div></div>",
+                    "<div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-r...[truncated]",
+                    "<div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-...[truncated]",
+                    "<div class=\"image-reviews-modal-container\"><div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .70...[truncated]",
+                    "<div><!-- react-empty: 399 --><div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/...[truncated]",
+                    "<div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\">1770</div></div><div class=\"index-flexRow i...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.043,
+                "y_ratio": 0.6
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 767,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "5 Jyoti Sharma28 June 2026 00",
+                "near_text": "Jyoti Sharma28 June 2026",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2)",
+                "xpath": "//*[@id='mountRoot']/div/div/main/div[2]/div[2]/main/div/div/div[2]/div[2]/div/div/div[3]/div[2]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "nearby_label": "5 Jyoti Sharma28 June 2026 00",
+                "near_text": "Jyoti Sharma28 June 2026",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 678.6953125,
+                "y": 345,
+                "width": 30,
+                "height": 30
+            },
+            "scroll_x": 0,
+            "scroll_y": 1774,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:27.715Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div>",
+                    "<div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-right\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z\" clip-rule=\"evenodd\"></path></svg></div></div>",
+                    "<div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/28/ZN7TdkFV_d4049a3f33584196899d050ddaa4cbe2.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-rule...[truncated]",
+                    "<div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/28/ZN7TdkFV_d4049a3f33584196899d050ddaa4cbe2.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6...[truncated]",
+                    "<div class=\"image-reviews-modal-container\"><div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/28/ZN7TdkFV_d4049a3f33584196899d050ddaa4cbe2.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7...[truncated]",
+                    "<div><!-- react-empty: 399 --><div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE/...[truncated]",
+                    "<div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\">1770</div></div><div class=\"index-flexRow i...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.043,
+                "y_ratio": 0.6
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 583,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div",
+                "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[2]/div[2]/main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Comfort and style on point as always Crocs have their own class 🔥Only thing is ",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div",
+                "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[2]/div[2]/main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Comfort and style on point as always Crocs have their own class 🔥Only thing is ",
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 180,
+                "y": 56,
+                "width": 30,
+                "height": 30
+            },
+            "scroll_x": 0,
+            "scroll_y": 1774,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:29.248Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div>",
+                    "<div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/21/ZHPrKcP2_0c84297af4ac44f5a84236aa92840d7a.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z\" clip-rule...[truncated]",
+                    "<div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/21/ZHPrKcP2_0c84297af4ac44f5a84236aa92840d7a.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6...[truncated]",
+                    "<div class=\"image-reviews-modal-container\"><div class=\"image-reviews-modal-modalContainer\"><div class=\"image-reviews-modal-imageWrapper\"><div class=\"image-reviews-modal-actionButton image-reviews-modal-closeModalButton\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-x\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z\" clip-rule=\"evenodd\"></path><path fill-rule=\"evenodd\" d=\"M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z\" clip-rule=\"evenodd\"></path></svg></div><div class=\"image-reviews-modal-lazyLoaderContainer\"><div class=\"image-reviews-modal-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/w_600,q_80,c_fill,fl_progressive/assets/images/2026/JUNE/21/ZHPrKcP2_0c84297af4ac44f5a84236aa92840d7a.jpg&quot;);\"></div></div><div class=\"image-reviews-modal-buttonContainer\"><div class=\"image-reviews-modal-actionButton \"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"30\" fill=\"#fff\" class=\"bi bi-chevron-left\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M13.354 3.646a.5.5 0 010 .708L7...[truncated]",
+                    "<div><!-- react-empty: 1288 --><div class=\"image-thumb-wrapper-imageThumbWrapper\"><div class=\"image-thumb-wrapper-headline\"><!-- react-text: 402 -->Customer Photos (<!-- /react-text --><!-- react-text: 403 -->176<!-- /react-text --><!-- react-text: 404 -->)<!-- /react-text --></div><div class=\"image-thumb-wrapper-container\"><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/SEPTEMBER/22/11C16cpF_b2e3cadb86b84fb581e168ea4ecab5f5.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2025/OCTOBER/17/31LktN8l_13724de1e3e6403a99c0e6ee862f68c8.jpg\"><div class=\"skeleton-skeletonLoader\"></div></div></div><div><div class=\"image-thumb-wrapper-thumb \" style=\"\"><img draggable=\"false\" class=\"image-thumb-wrapper-image\" src=\"https://assets.myntassets.com/h_150,q_75,w_150,c_fill,fl_progressive/assets/images/2026/JUNE...[truncated]",
+                    "<div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\">1770</div></div><div class=\"index-flexRow i...[truncated]",
+                    "<div class=\"detailed-reviews-flexContainer\"><div class=\"detailed-reviews-flexReviews\"><div class=\"detailed-reviews-ratingContainer\"><div id=\"detailedRatingContainer\" class=\"index-detailedRatingContainer index-inPdp \"><div id=\"headingContainer\" class=\"index-header\"><!-- react-text: 356 -->Ratings<!-- /react-text --><span class=\"myntraweb-sprite index-productRatingsIcon sprites-productRatingsIcon\"></span></div><div class=\"index-flexRow index-margin22\"><div class=\"index-flexColumn\"><div class=\"index-flexRow index-averageRating\"><span>4.4</span><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span></div><div class=\"index-countDesc\"><!-- react-text: 364 -->2.5k<!-- /react-text --><!-- react-text: 365 --> Verified Buyers<!-- /react-text --></div></div><div class=\"index-separator\"></div><div><div class=\"index-flexRow index-ratingBarContainer\"><div class=\"index-rating\"><span class=\"index-ratingLevel\">5</span><span class=\"myntraweb-sprite index-grayStarIcon sprites-productRatingsGrayIcon\"></span></div><progress min=\"0\" max=\"2489\" value=\"1770\" data-rating=\"5\"></progress><div class=\"index-count\"...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.533,
+                "y_ratio": 0.6
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1533,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "scroll",
+            "value": null,
+            "delta_x": 0,
+            "delta_y": 1066,
+            "scroll_y_before": 1774,
+            "scroll_y_after": 2840,
+            "viewport_height": 720,
+            "document_height": 7436,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:32.453Z",
+            "scroll_anchors": [
+                {
+                    "text": "4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)",
+                    "tag": "div",
+                    "x": 282,
+                    "y": 351
+                },
+                {
+                    "text": "4.1 Puma Divecat v2 Lite Cat Slider Rs. 1264Rs. 2299(45% OFF)",
+                    "tag": "div",
+                    "x": 534,
+                    "y": 351
+                },
+                {
+                    "text": "4.4 Puma Royalcat Comfort Slides Rs. 1689Rs. 2599(35% OFF)",
+                    "tag": "div",
+                    "x": 786,
+                    "y": 351
+                }
+            ],
+            "during_reply": false,
+            "page_id": 1,
+            "delay_before_ms": 3205
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "4.2\n\nPuma\n\nUnisex Printed Sliders\n\nRs. 1249Rs. 2499(50% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+                "product_id": "30035387",
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a",
+                "xpath": "//a[@href='/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy']",
+                "text": "4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)",
+                "element_text": "4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Puma Popcat 20 Injex Men Slides",
+                "item_context": {
+                    "text": "Rs. 1249Rs. 2499(50% OFF)",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 2,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "4.2\n\nPuma\n\nUnisex Printed Sliders\n\nRs. 1249Rs. 2499(50% OFF)",
+                "placeholder": null,
+                "title": null,
+                "href": "/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+                "product_id": "30035387",
+                "css_path": "div#mountRoot > div > div > main > div:nth-of-type(2) > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a",
+                "xpath": "//a[@href='/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy']",
+                "text": "4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)",
+                "element_text": "4.2 Puma Unisex Printed Sliders Rs. 1249Rs. 2499(50% OFF)",
+                "tag": "a",
+                "attributes": {
+                    "href": "/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": "Puma Popcat 20 Injex Men Slides",
+                "item_context": {
+                    "text": "Rs. 1249Rs. 2499(50% OFF)",
+                    "tag": "li"
+                },
+                "near_text": null,
+                "content_hint": "image",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 2,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 282,
+                "y": 350.8125,
+                "width": 212,
+                "height": 360.6640625
+            },
+            "scroll_x": 0,
+            "scroll_y": 2840,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+            "timestamp": "2026-11-03T05:49:32.886Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<a data-refreshpage=\"true\" class=\"product-list-link\" target=\"_blank\" href=\"/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy\"><div class=\"product-item-container\"><div class=\"product-item-imageCtn\" style=\"\"><picture draggable=\"false\" class=\"img-responsive\"><source srcset=\"https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg\" type=\"image/webp\"><img draggable=\"false\" class=\"product-item-image\" src=\"https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg\" alt=\"Puma Popcat 20 Injex Men Slides\" title=\"Puma Popcat 20 Injex Men Slides\" srcset=\"https://assets.myntassets.com/dpr_1.5/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 1.5x,https://assets.myntassets.com/dpr_2/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 2x,https://assets.myntassets.com/dpr_2.5/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 2.5x,https://assets.myntassets.com/dpr_3/h_560,q_90,w_420/v1/as...[truncated]",
+                    "<li class=\"product-list-gist\"><a data-refreshpage=\"true\" class=\"product-list-link\" target=\"_blank\" href=\"/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy\"><div class=\"product-item-container\"><div class=\"product-item-imageCtn\" style=\"\"><picture draggable=\"false\" class=\"img-responsive\"><source srcset=\"https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg\" type=\"image/webp\"><img draggable=\"false\" class=\"product-item-image\" src=\"https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg\" alt=\"Puma Popcat 20 Injex Men Slides\" title=\"Puma Popcat 20 Injex Men Slides\" srcset=\"https://assets.myntassets.com/dpr_1.5/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 1.5x,https://assets.myntassets.com/dpr_2/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 2x,https://assets.myntassets.com/dpr_2.5/h_560,q_90,w_420/v1/assets/images/2024/AUGUST/30/4KYzILCw_435ed186b99e47aa8660f88a583f2eaf.jpg 2.5x,https://assets.myntassets.co...[truncated]",
+                    "<ul class=\"product-list-list\"><li class=\"product-list-gist\"><a data-refreshpage=\"true\" class=\"product-list-link\" target=\"_blank\" href=\"/flip-flops/puma/puma-wave-flip-unisex-flip-flops/17543202/buy\"><div class=\"product-item-container\"><div class=\"product-item-imageCtn\" style=\"\"><picture draggable=\"false\" class=\"img-responsive\"><source srcset=\"https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" type=\"image/webp\"><img draggable=\"false\" class=\"product-item-image\" src=\"https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" alt=\"Puma Wave Flip Unisex Flip-Flops\" title=\"Puma Wave Flip Unisex Flip-Flops\" srcset=\"https://assets.myntassets.com/dpr_1.5/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 1.5x,https://assets.myntassets.com/dpr_2/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 2x,https://assets.myntassets.com/dpr_2.5/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 2.5x,https://assets.myntassets...[truncated]",
+                    "<div class=\"similar-container\"><h3 class=\"similar-heading\">SIMILAR PRODUCTS</h3><ul class=\"product-list-list\"><li class=\"product-list-gist\"><a data-refreshpage=\"true\" class=\"product-list-link\" target=\"_blank\" href=\"/flip-flops/puma/puma-wave-flip-unisex-flip-flops/17543202/buy\"><div class=\"product-item-container\"><div class=\"product-item-imageCtn\" style=\"\"><picture draggable=\"false\" class=\"img-responsive\"><source srcset=\"https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" type=\"image/webp\"><img draggable=\"false\" class=\"product-item-image\" src=\"https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" alt=\"Puma Wave Flip Unisex Flip-Flops\" title=\"Puma Wave Flip Unisex Flip-Flops\" srcset=\"https://assets.myntassets.com/dpr_1.5/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 1.5x,https://assets.myntassets.com/dpr_2/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 2x,https://assets.myntassets.com/dpr_2.5/h_560,q_90,w_420/v1/assets/images/2026/...[truncated]",
+                    "<div><div class=\"similar-container\"><h3 class=\"similar-heading\">SIMILAR PRODUCTS</h3><ul class=\"product-list-list\"><li class=\"product-list-gist\"><a data-refreshpage=\"true\" class=\"product-list-link\" target=\"_blank\" href=\"/flip-flops/puma/puma-wave-flip-unisex-flip-flops/17543202/buy\"><div class=\"product-item-container\"><div class=\"product-item-imageCtn\" style=\"\"><picture draggable=\"false\" class=\"img-responsive\"><source srcset=\"https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" type=\"image/webp\"><img draggable=\"false\" class=\"product-item-image\" src=\"https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg\" alt=\"Puma Wave Flip Unisex Flip-Flops\" title=\"Puma Wave Flip Unisex Flip-Flops\" srcset=\"https://assets.myntassets.com/dpr_1.5/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 1.5x,https://assets.myntassets.com/dpr_2/h_560,q_90,w_420/v1/assets/images/2026/SEPTEMBER/14/432663a30a8b4b9ea52148cf6eb4d1ae.jpg 2x,https://assets.myntassets.com/dpr_2.5/h_560,q_90,w_420/v1/assets/images/...[truncated]",
+                    "<div class=\"pdp-details common-clearfix\"><div class=\"image-grid-container common-clearfix\"><div class=\"image-grid-col50\"><div class=\"image-grid-imageContainer\"><div class=\"image-grid-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb12270486231706774027462CrocsUnisexCrosliteSliders1.jpg&quot;);\"></div><div class=\"image-grid-skeletonLoader\"></div></div></div><div class=\"image-grid-col50\"><div class=\"image-grid-imageContainer\"><div class=\"image-grid-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27275482/2024/2/1/819907c7-5472-4254-9618-618ec475dbeb1706774027449CrocsUnisexCrosliteSliders2.jpg&quot;);\"></div><div class=\"image-grid-similarColorsCta undefined\"><span class=\"myntraweb-sprite image-grid-similarColorsIcon sprites-similarProductsIcon\"></span><span class=\"image-grid-iconText\">VIEW SIMILAR</span></div><div class=\"image-grid-skeletonLoader\"></div></div></div><div class=\"brightcove-video-col50\"><div class=\"brightcove-video-wrapper\"><div class=\"brightcove-react-player-loader\"><video-js data-vid...[truncated]",
+                    "<main class=\"pdp-pdp-container\"><div class=\"breadcrumbs-container\"><a href=\"/\" class=\"breadcrumbs-link\">Home</a><span class=\"breadcrumbs-separator\">/</span><a href=\"/footwear\" class=\"breadcrumbs-link\">Footwear</a><span class=\"breadcrumbs-separator\">/</span><a href=\"/unisex-footwear\" class=\"breadcrumbs-link\">Unisex Footwear</a><span class=\"breadcrumbs-separator\">/</span><a href=\"/flip-flops\" class=\"breadcrumbs-link\">Flip Flops</a><span class=\"breadcrumbs-separator\">/</span><a href=\"/crocs-flip-flops\" class=\"breadcrumbs-bold-link breadcrumbs-link\">Crocs Flip Flops</a><span class=\"breadcrumbs-bold-separator breadcrumbs-separator\">&gt;</span><a href=\"/crocs\" class=\"breadcrumbs-bold-link breadcrumbs-link\"><!-- react-text: 46 -->More by <!-- /react-text --><!-- react-text: 47 -->Crocs<!-- /react-text --></a></div><div class=\"pdp-details common-clearfix\"><div class=\"image-grid-container common-clearfix\"><div class=\"image-grid-col50\"><div class=\"image-grid-imageContainer\"><div class=\"image-grid-image\" style=\"background-image: url(&quot;https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27275482/2024/2/1/dacc8f0e-f1f5-48ad-8393-fb122704862317067740...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "inline",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.373,
+                "y_ratio": 0.541
+            },
+            "during_reply": false,
+            "page_id": 1,
+            "post_click": {
+                "new_tab": true,
+                "url_path_before": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "focus": {
+                    "parts": [
+                        "4.2\n\nPuma\n\nUnisex Printed Sliders\n\nRs. 1249Rs. 2499(50% OFF)",
+                        "Puma Popcat 20 Injex Men Slides"
+                    ],
+                    "role": null,
+                    "tag": "a"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 433,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/crocs/crocs-baya-sandal-unisex/27275482/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": true
+            }
+        },
+        {
+            "action_type": "tab_open",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+            "timestamp": "2026-11-03T05:49:34.026Z",
+            "new_tab": true,
+            "page_id": 2,
+            "from_page_id": 1,
+            "delay_before_ms": 1140
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "8\nRs. 1249",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#sizeButtonsContainer > div:nth-of-type(2) > div:nth-of-type(3) > div > button",
+                "xpath": "//button[normalize-space(.)='8 Rs. 1249']",
+                "text": "8\nRs. 1249",
+                "element_text": "8\nRs. 1249",
+                "tag": "button",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "BODY:To Fit Foot Length - 26.2cm",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "8\nRs. 1249",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#sizeButtonsContainer > div:nth-of-type(2) > div:nth-of-type(3) > div > button",
+                "xpath": "//button[normalize-space(.)='8 Rs. 1249']",
+                "text": "8\nRs. 1249",
+                "element_text": "8\nRs. 1249",
+                "tag": "button",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "BODY:To Fit Foot Length - 26.2cm",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 952.9609375,
+                "y": 522.65625,
+                "width": 82.484375,
+                "height": 48
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+            "timestamp": "2026-11-03T05:49:35.765Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<button class=\"size-buttons-size-button size-buttons-size-button-default size-buttons-big-size\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 173 -->8<!-- /react-text --><div class=\"size-buttons-sku-price\"><!-- react-text: 175 --> Rs. <!-- /react-text --><!-- react-text: 176 -->1249<!-- /react-text --></div></p></button>",
+                    "<div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default size-buttons-big-size\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 173 -->8<!-- /react-text --><div class=\"size-buttons-sku-price\"><!-- react-text: 175 --> Rs. <!-- /react-text --><!-- react-text: 176 -->1249<!-- /react-text --></div></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div>",
+                    "<div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default size-buttons-big-size\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 173 -->8<!-- /react-text --><div class=\"size-buttons-sku-price\"><!-- react-text: 175 --> Rs. <!-- /react-text --><!-- react-text: 176 -->1249<!-- /react-text --></div></p></button><span class=\"size-buttons-inventory-left-hidden size-buttons-inventory-left\">Hide</span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-buttons-measurementType\"><!-- react-text: 182 -->BODY<!-- /react-text --><!-- react-text: 183 -->:<!-- /react-text --></span><span class=\"size-buttons-measurementName\">To Fit Foot Length - 26.2cm</span></div></div></div></div>",
+                    "<div class=\"size-buttons-size-buttons\"><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default size-buttons-big-size\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->6<!-- /react-text --><div class=\"size-buttons-sku-price\"><!-- react-text: 137 --> Rs. <!-- /react-text --><!-- react-text: 138 -->1249<!-- /react-text --></div></p></button><span class=\"size-buttons-inventory-left\" style=\"bottom: -10px;\"><!-- react-text: 140 -->1<!-- /react-text --><!-- react-text: 141 --> left<!-- /react-text --></span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-buttons-measurementType\"><!-- react-text: 146 -->BODY<!-- /react-text --><!-- react-text: 147 -->:<!-- /react-text --></span><span class=\"size-buttons-measurementName\">To Fit Foot Length - 24.5cm</span></div></div></div></div><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-butto...[truncated]",
+                    "<div class=\"size-buttons-size-container\" id=\"sizeButtonsContainer\"><div class=\"size-buttons-size-header\"><h4 class=\"size-buttons-select-size\"><!-- react-text: 125 -->SELECT SIZE <!-- /react-text --></h4><span class=\"size-buttons-size-chart\"><button class=\"size-buttons-show-size-chart\">Size Chart</button><span class=\"size-buttons-arrow\"></span></span></div><div class=\"size-buttons-size-buttons\"><div class=\"size-buttons-tipAndBtnContainer\"><div class=\"size-buttons-buttonContainer\"><button class=\"size-buttons-size-button size-buttons-size-button-default size-buttons-big-size\"><span class=\"size-buttons-size-strike-hide\"></span><p class=\"size-buttons-unified-size\"><!-- react-text: 135 -->6<!-- /react-text --><div class=\"size-buttons-sku-price\"><!-- react-text: 137 --> Rs. <!-- /react-text --><!-- react-text: 138 -->1249<!-- /react-text --></div></p></button><span class=\"size-buttons-inventory-left\" style=\"bottom: -10px;\"><!-- react-text: 140 -->1<!-- /react-text --><!-- react-text: 141 --> left<!-- /react-text --></span></div><div class=\"size-buttons-sizeTip\"><div class=\"size-buttons-sizeTipMeta\"><div class=\"size-buttons-bodymeasure\"><span class=\"size-butto...[truncated]",
+                    "<div><div class=\"colors-container\"><div><p class=\"colors-heading\"><strong>More Colors</strong></p><a title=\"White\" data-refreshpage=\"true\" href=\"/flip-flops/puma/puma-popcat-20-injex-men-slides/30035390/buy\"><img draggable=\"false\" class=\"colors-image\" src=\"https://assets.myntassets.com/f_auto,h_150,q_auto:best,w_112/assets/images/30035390/2024/11/11/0f9410d4-f0b4-442c-890a-53ef061d229d1731311442688-Popcat-20-Injex-Res-Unisex-Slides-7301731311442333-1.jpg\" style=\"background-color: rgb(255, 255, 255);\"></a><a title=\"Black\" data-refreshpage=\"true\" href=\"/flip-flops/puma/puma-unisex-popcat-20-injex-sliders/30035397/buy\"><img draggable=\"false\" class=\"colors-image\" src=\"https://assets.myntassets.com/f_auto,h_150,q_auto:best,w_112/assets/images/30035397/2024/11/15/9b666c15-ae5c-468d-9233-b26604b854b11731657780155-Popcat-20-Injex-Res-Unisex-Slides-5811731657779821-1.jpg\" style=\"background-color: rgb(54, 69, 79);\"></a></div></div><div class=\"size-buttons-size-container\" id=\"sizeButtonsContainer\"><div class=\"size-buttons-size-header\"><h4 class=\"size-buttons-select-size\"><!-- react-text: 125 -->SELECT SIZE <!-- /react-text --></h4><span class=\"size-buttons-size-c...[truncated]",
+                    "<div class=\"pdp-description-container\"><div class=\"pdp-price-info\"><h1 class=\"pdp-title\">Puma</h1><h1 class=\"pdp-name\">Popcat 20 Injex Men Slides</h1><div><div class=\"index-overallRatingContainer\"><div class=\"index-overallRating\"><div>4.2</div><span class=\"myntraweb-sprite index-starIcon index-productRatingsExcellentIcon sprites-productRatingsExcellentIcon\"></span><div class=\"index-separator\">|</div><div class=\"index-ratingsCount\"><!-- react-text: 88 -->572<!-- /react-text --><!-- react-text: 89 --> Ratings<!-- /react-text --></div></div></div><p class=\"pdp-discount-container\"><span class=\"pdp-price\" tabindex=\"0\"><strong>₹1249</strong></span><div class=\"pdp-mrp-verbiage\" tabindex=\"0\"><div><b>Price Details</b></div><div><!-- react-text: 97 -->Maximum Retail Price<!-- /react-text --><span class=\"pdp-mrp-verbiage-amt\"><!-- react-text: 99 -->Rs. <!-- /react-text --><!-- react-text: 100 -->2499<!-- /react-text --></span></div><div><!-- react-text: 102 -->(Incl. of all taxes)<!-- /react-text --></div><hr><div><!-- react-text: 105 -->Discount<!-- /react-text --><span class=\"pdp-mrp-verbiage-amt\">50% OFF</span></div><div><b>Selling Price</b><span class=\"pdp-mr...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "inline-block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.643,
+                "y_ratio": 0.59
+            },
+            "during_reply": false,
+            "page_id": 2,
+            "post_click": {
+                "url_path_before": "https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+                "url_path_after": "https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+                "focus": {
+                    "parts": [
+                        "8\nRs. 1249"
+                    ],
+                    "role": null,
+                    "tag": "button"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1739,
+            "result": {
+                "url_after": "https://www.myntra.com/flip-flops/puma/puma-popcat-20-injex-men-slides/30035387/buy",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        }
+    ],
+    "saved_at": "2026-11-03T11:19:38.192795"
+}

@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>session_20261103_111817_edited</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f1f5f9;
+        color: #1e293b;
+        padding: 24px;
+    }
+    .report-wrap { max-width: 1000px; margin: 0 auto; }
+    h1 { color: #1e3a8a; margin-bottom: 4px; }
+    .meta { color: #64748b; font-size: 13px; margin-bottom: 20px; }
+    .banner {
+        border-radius: 8px;
+        padding: 20px 24px;
+        font-size: 22px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .banner.pass { background: #16a34a; }
+    .banner.fail { background: #dc2626; }
+    .banner .msg { display: block; font-size: 14px; font-weight: 400; margin-top: 6px; }
+    section {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 20px 24px;
+        margin-bottom: 20px;
+    }
+    section h2 { margin-top: 0; color: #1e3a8a; font-size: 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+    th { color: #64748b; font-size: 12px; text-transform: uppercase; }
+    tr.fragile { background: #fef3c7; }
+    tr.failed { background: #fee2e2; }
+    tr.not-run-row { background: #f8fafc; color: #94a3b8; }
+    /* FOLLOW-UP FIX 2: a step that PASSED but carries a warning note -
+       its own distinct, yellow row, never indistinguishable from an
+       ordinary passed row. */
+    tr.warning-row { background: #fffbeb; }
+    .pill {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .pill.ok { background: #dcfce7; color: #166534; }
+    .pill.warn { background: #fef3c7; color: #92400e; }
+    .pill.bad { background: #fee2e2; color: #991b1b; }
+    .pill.unknown { background: #e2e8f0; color: #475569; }
+    .shots { display: flex; gap: 16px; flex-wrap: wrap; }
+    .shots figure { margin: 0; }
+    .shots img { max-width: 320px; border: 1px solid #e2e8f0; border-radius: 8px; }
+    .shots figcaption { font-size: 12px; color: #64748b; margin-top: 4px; text-align: center; }
+    .result-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #e2e8f0; }
+    .result-row:last-child { border-bottom: none; }
+    .result-label { color: #64748b; font-weight: 600; font-size: 13px; }
+    .validation-stats { color: #475569; font-size: 13px; margin-bottom: 14px; }
+    .validation-cards { display: flex; flex-direction: column; gap: 8px; }
+    .validation-card { border-radius: 8px; padding: 10px 12px; border: 1px solid #e2e8f0; background: #f8fafc; }
+    .validation-card.pass { border-color: #bbf7d0; background: #f0fdf4; }
+    .validation-card.fail { border-color: #fecaca; background: #fef2f2; }
+    .validation-card.not-run { border-color: #e2e8f0; background: #f8fafc; opacity: 0.75; }
+    .validation-card.manual-input { border-color: #bfdbfe; background: #eff6ff; }
+    .validation-card-line { font-weight: 600; font-size: 14px; }
+    .validation-card-field { font-size: 12px; color: #64748b; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div class="report-wrap">
+    <!-- PHASE 2d: display_name (or, absent that, test_name) shown as the
+         report's own title when this run's recording has one - falls
+         back to the original fixed heading otherwise, unchanged. -->
+    <h1>session_20261103_111817_edited</h1>
+    
+    <p class="meta">Run session_20261103_111817_edited_20261103_152057 against https://sportzia-preprod.kovaionplay.com/feed - generated 2026-11-03T15:21:06.405206</p>
+    <p class="meta">Full replay console output (every locator method and wait): generated_scripts/screenshoots/session_20261103_111817_edited_20261103_152057/replay_console.txt</p>
+
+    <div class="banner fail">
+        FAIL
+        <span class="msg">Step 4 (icon button next to '0') failed: Stopped: The browser window was closed. The replay stopped.; Elements missing at step(s) 4; The browser window was closed, so the run stopped</span>
+    </div>
+
+    <!-- PHASE 4c: one plain sentence on whether replay matched the
+         recording overall - purely a wording layer, computed in
+         validation/report_generator.py's own _plain_summary(); pass/fail
+         itself is unchanged (the banner above still reflects it). -->
+    <p class="meta" style="font-size: 15px; color: #1e293b; font-weight: 600;">Replay stopped at step 4: Failed: Stopped: The browser window was closed. The replay stopped. The replay stopped.</p>
+
+    
+    <section>
+        <h2>Step Validations</h2>
+        <p class="validation-stats">
+            29 steps executed ·
+            3/28 actions passed
+            
+            · 0/1 validation passed
+            
+            · 1 failed
+            
+            · 25 not run
+            
+            
+            
+        </p>
+        
+        <div class="validation-cards">
+            
+            <div class="validation-card not-run">
+                <div class="validation-card-line">
+                    ○
+                    
+                        validate_text
+                    
+                </div>
+                
+                    <div class="validation-card-field">NOT RUN (the browser window was closed)</div>
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+    <section>
+        <h2>Validations</h2>
+        <div class="result-row">
+            <span class="result-label">Expected Content Found</span>
+            <span>
+                
+                    <span class="pill unknown">not checked</span>
+                
+            </span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Screenshot Diff</span>
+            <span>
+                
+                    <span class="pill unknown">not requested</span>
+                
+            </span>
+        </div>
+    </section>
+
+    
+
+    <section>
+        <h2>Execution</h2>
+        <div class="result-row">
+            <span class="result-label">Total Steps</span>
+            <span>29</span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Passed</span>
+            <span><span class="pill ok">3</span></span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Warnings</span>
+            <span>
+                <span class="pill ok">0</span>
+            </span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Failed</span>
+            <span>
+                <span class="pill bad">1</span>
+                
+            </span>
+        </div>
+        
+        <div class="result-row">
+            <span class="result-label">Not Run</span>
+            <span><span class="pill unknown">25</span></span>
+        </div>
+        
+        
+        
+        <div class="result-row">
+            <span class="result-label">First Failed Step</span>
+            <span>#4 (click) - Stopped: The browser window was closed. The replay stopped.</span>
+        </div>
+        
+    </section>
+
+    <section>
+        <h2>Steps</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Action</th>
+                    <th>Locator Strategy Used</th>
+                    <th>Result</th>
+                    <th>Effect Verified</th>
+                    <!-- PHASE 4b: recorded URL/element text next to what
+                         replay actually found - "Replayed" text is only
+                         ever populated for a validate_* step today (the
+                         one existing field that already captures it; see
+                         report_generator.py's own comment on replayed_text) -
+                         "-" for every other action type. -->
+                    <th>Recorded vs Replayed</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr class="">
+                    <td>1</td>
+                    <td>navigate
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Open – Feed</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill ok">passed</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: https://sportzia-preprod.kovaionplay.com/feed
+                    </td>
+                    <td>
+                        
+                        
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="">
+                    <td>2</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Accept" element</small>
+                    </td>
+                    <td>
+                        
+                            CSS path
+                            
+                            <details>
+                                <summary>Advanced</summary>
+                                <div>Raw strategy: css_path</div>
+                                <div>Resolved in 1997ms</div>
+                            </details>
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill ok">passed</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Accept"<br>
+                        Replayed: https://sportzia-preprod.kovaionplay.com/feed
+                    </td>
+                    <td>
+                        
+                        
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="">
+                    <td>3</td>
+                    <td>scroll
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>down 447px on Feed</small>
+                    </td>
+                    <td>
+                        
+                            unknown
+                            
+                            <details>
+                                <summary>Advanced</summary>
+                                <div>Raw strategy: -</div>
+                                <div>Resolved in 305ms</div>
+                            </details>
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill ok">passed</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill ok">Yes</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: https://sportzia-preprod.kovaionplay.com/feed
+                    </td>
+                    <td>
+                        
+                        
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="failed">
+                    <td>4</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>icon button next to '0'</small>
+                    </td>
+                    <td>
+                        
+                            -
+                            
+                            <details>
+                                <summary>Advanced</summary>
+                                <div>Raw strategy: -</div>
+                                
+                            </details>
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill bad">failed</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: https://sportzia-preprod.kovaionplay.com/feed
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>Failed: Stopped: The browser window was closed. The replay stopped. The replay stopped.</strong>
+                            
+                            <details>
+                                <summary>Details</summary>
+                                <div>Page.wait_for_timeout: Target page, context or browser has been closed; The failure screenshot could not be captured (Page.screenshot: Target page, context or browser has been closed); What AutoFlow did: Waiting for the page to finish loading (up to 4s) > Waiting for the page to stop changing before the screenshot (up to 3s)</div>
+                                <div>Stopped: The browser window was closed. The replay stopped.</div>
+                                
+                            </details>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>5</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Sign In" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Sign In"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>6</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Enter your email or phone number" field</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/login - "Enter your email or phone number"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>7</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Enter your email or phone number: "9345691852"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/login - "Enter your email or phone number"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>8</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Sign in" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/login - "Sign in"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>9</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Enter OTP box: "1"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>10</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Enter OTP box: "2"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>11</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Enter OTP box: "3"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>12</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Enter OTP box: "4"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>13</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Verify" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/otp?userId=9345691852&loginType=phoneNumber - "Verify"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>14</td>
+                    <td>scroll
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>down 447px on Feed</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>15</td>
+                    <td>hover
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Share" (div)</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Share"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>16</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>icon button next to '0'</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>17</td>
+                    <td>hover
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Share" (div)</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Share"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>18</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"1" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "1"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>19</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>area in the popup</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>20</td>
+                    <td>hover
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Share" (div)</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Share"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>21</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"0" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "0"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>22</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>area in the popup</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>23</td>
+                    <td>scroll
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>down 2205px on Feed</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>24</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Events" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/feed - "Events"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>25</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"Search for events, e.g., “this weekend e" field</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/events - "Search for events, e.g., “this weekend events”"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>26</td>
+                    <td>fill
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Search for events, e.g., “this weekend e: "GAGNER"</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/events - "Search for events, e.g., “this weekend events”"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>27</td>
+                    <td>validate_text
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>Check text 'See all the results' in See all results</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/events<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>28</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"See all results" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/events - "See all results"<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>29</td>
+                    <td>click
+                        <span class="pill unknown" title="Captured by the recorder">recorded</span>
+                        <br><small>"GAGNER SPORTS PRESNTS - DD SPOTRTS HUB F" element</small>
+                    </td>
+                    <td>
+                        
+                            -
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">not run</span>
+                        
+                        
+                        
+                        
+                    </td>
+                    <td>
+                        
+                            <span class="pill unknown">&mdash;</span>
+                        
+                    </td>
+                    <td style="font-size: 12px;">
+                        Recorded: https://sportzia-preprod.kovaionplay.com/search?searchText=GAGNER<br>
+                        Replayed: -
+                    </td>
+                    <td>
+                        
+                        
+                            <strong>NOT RUN (the browser window was closed)</strong>
+                            
+                        
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+    </section>
+
+    <!-- PHASE 5b: one table per Count Summary step, using the exact
+         label/count/expected/result data that step already collected
+         (count_summary_rows - see generator/script_generator.py's own
+         count_summary branch) - no re-running or re-counting anything. -->
+    
+
+    <!-- BUG 2 fix: one table per Validate Value Range step, using the
+         per-element value_range_rows data that step already collected
+         (see generator/script_generator.py's own validate_value_range
+         branch) - no re-running or re-evaluating anything. -->
+    
+
+    <!-- FIX 2: a dedicated section per page mismatch, with the settled
+         evidence screenshot - see generator/script_generator.py's own
+         page_mismatch_info, built once at the moment of detection. -->
+    
+
+    <section>
+        <h2>UI Elements</h2>
+        <div class="result-row">
+            <span class="result-label">Expected Elements</span>
+            <span>25</span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Found</span>
+            <span><span class="pill ok">1</span></span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Missing</span>
+            <span>
+                <span class="pill bad">1</span>
+                
+            </span>
+        </div>
+        <div class="result-row">
+            <span class="result-label">Overall</span>
+            <span>
+                <span class="pill bad">FAIL</span>
+                
+            </span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Action</th>
+                    <th>Locator Strategy Used</th>
+                    <th>Status</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr class="">
+                    <td>2</td>
+                    <td>click</td>
+                    <td>css_path</td>
+                    <td>
+                        <span class="pill ok">PASS</span>
+                        
+                    </td>
+                    <td></td>
+                </tr>
+                
+                <tr class="failed">
+                    <td>4</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill bad">FAIL</span>
+                    </td>
+                    <td>Expected UI element was not found</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>5</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>6</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>7</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>8</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>9</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>10</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>11</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>12</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>13</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>15</td>
+                    <td>hover</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>16</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>17</td>
+                    <td>hover</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>18</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>19</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>20</td>
+                    <td>hover</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>21</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>22</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>24</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>25</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>26</td>
+                    <td>fill</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>27</td>
+                    <td>validate_text</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>28</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+                <tr class="not-run-row">
+                    <td>29</td>
+                    <td>click</td>
+                    <td>-</td>
+                    <td>
+                        <span class="pill unknown">NOT RUN</span>
+                        
+                    </td>
+                    <td>Step was never executed - replay stopped before reaching it</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+    </section>
+
+    <section>
+        <h2>Screenshots</h2>
+        <div class="shots">
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+        </div>
+    </section>
+</div>
+</body>
+</html>

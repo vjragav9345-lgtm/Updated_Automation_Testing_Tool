@@ -1,0 +1,31 @@
+CORE FIX MISSING: fill/select retry logic not found - results from this run cannot be trusted.
+Starting replay...
+Browser launched.
+[note] -> Waiting for the page to finish loading (up to 1.2s)
+REPLAY SOURCE: session_20261103_111917
+ACTION COUNT: 17
+SOURCE TYPE: ORIGINAL
+
+Executing recorded actions...
+
+[note] Run stopped by the user before step 1.
+
+
+===== stderr =====
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py:6557: SyntaxWarning: invalid escape sequence '\s'
+  desc += '.' + node.className.trim().split(/\s+/).join('.');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py:13095: SyntaxWarning: invalid escape sequence '\s'
+  "    const t = lb.split(/\s+/).map(id => {"
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py:18512: SyntaxWarning: invalid escape sequence '\d'
+  if (txt && txt.length < 200 && /\d/.test(txt)) {
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py:27921: SyntaxWarning: invalid escape sequence '\s'
+  return t.trim().replace(/\s+/g, ' ');
+/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py:28068: SyntaxWarning: invalid escape sequence '\s'
+  return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+Traceback (most recent call last):
+  File "/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py", line 35004, in <module>
+    run(target, out_json, out_shots, headless=(headless_arg == "1"), product_name=product_arg)
+  File "/Users/kovaionconsulting/Downloads/automate_testing_tool_new-main/data/generated_scripts/session_20261103_111917_script.py", line 34701, in run
+    "count_summary_rows": count_summary_rows,  # PHASE 5b
+                          ^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'count_summary_rows' where it is not associated with a value
