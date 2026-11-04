@@ -1,15 +1,16 @@
-.venv
-venv
+```gitignore
+# Python virtual environments
+.venv/
+venv/
+
 # Environment and secrets
 .env
 .env.*
 !.env.example
 
-# Python cache and virtual environments
+# Python cache
 __pycache__/
 *.py[cod]
-.venv/
-venv/
 
 # macOS files
 .DS_Store
@@ -21,6 +22,7 @@ venv/
 # Local backups
 *.bak
 *.bak*
+*.rollback_saved
 _backup_before_crossplatform/
 backups/
 
@@ -28,18 +30,15 @@ backups/
 out_shots/
 screenshots/
 
-
-
 # Claude temporary worktrees
 .claude/worktrees/
 
-# Generated test reports and screenshots
+# Generated scripts output
 generated_scripts/screenshoots/
 generated_scripts/fill_diagnostics/
 
 # Temporary test artifacts
 tests/*.zip
-# Temporary investigation and debugging outputs
 tests/_probe_out/
 
 # Generated test screenshots and debug folders
@@ -54,5 +53,5 @@ tests/fixtures/**/report.json
 /video_run_recording.json
 /video_run_report*.json
 
-# Backup and rollback source files
-*.rollback_saved
+# Large archive files
+_archive/root_outputs/storage.zip
