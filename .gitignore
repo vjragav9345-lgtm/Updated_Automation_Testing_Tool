@@ -55,3 +55,15 @@ tests/fixtures/**/report.json
 
 # Large archive files
 _archive/root_outputs/storage.zip
+
+
+
+# Backup folders and archived files
+_backup*/
+backups/
+_archive/
+
+# Backup files
+*.bak
+*.bak*
+*.rollback_saved
