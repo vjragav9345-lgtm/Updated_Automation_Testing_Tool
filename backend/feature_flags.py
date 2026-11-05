@@ -33,3 +33,10 @@ LIVE_LOG_RETRY_ENABLED = False
 # appears; the step is judged by the normal pass/fail rules.
 # To turn the field-error pause back on, set this to True.
 ALREADY_EXISTS_PAUSE_ENABLED = False
+
+# The live log's "Step failed - step N of M (paused)" card after a failed step (with "Accept this page and
+# continue" / "Stop run") and its "Paused - waiting for you" state.
+# False: a failed step never opens this card and the replay never waits for an answer - the step is FAILED with its
+# reasons and the normal stop-on-failure rule applies at once.
+# To turn the failure card back on, set this to True.
+FAILURE_PAUSE_CARD_ENABLED = False

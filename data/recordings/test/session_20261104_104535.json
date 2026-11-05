@@ -1,0 +1,1012 @@
+{
+    "name": "session_20261104_104535",
+    "session_id": "4a572d3f319246f890e0fbde4f44a0ef",
+    "start_url": "https://sportzia-preprod.kovaionplay.com/feed",
+    "recorded_at": "2026-11-04T10:45:56.984734",
+    "stop_reason": "browser_closed",
+    "total_actions": 9,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T05:15:32.727Z",
+            "page_id": 0,
+            "page_title": "Sportzia",
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Events'][not(parent::*[normalize-space(.)='Events'])]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 2
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Events'][not(parent::*[normalize-space(.)='Events'])]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 2
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 945.9921875,
+                "y": 0,
+                "width": 38.609375,
+                "height": 79
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T05:15:37.212Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Events</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Home</div><div class=\"css-g5y9jx r-ysccxm r-qwd59z r-1p0dtai r-1yhswuc r-u8s1d r-13qz1uu\"></div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"tran...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div t...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]",
+                    "<div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.415,
+                "y_ratio": 0.709
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "focus": {
+                    "parts": [
+                        "Events"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events"
+            ],
+            "delay_before_ms": 4485,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 338,
+                "y": 155.5,
+                "width": 219,
+                "height": 145
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-04T05:15:40.008Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div>",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5...[truncated]",
+                    "<div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-1...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 20...[truncated]",
+                    "<div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q ...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%; height: 620px;\"><div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"aut...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.712,
+                "y_ratio": 0.5
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist"
+            ],
+            "delay_before_ms": 2796,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438?from=eventslist",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "navigate",
+            "history": "back",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "page_title": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+            "induced_by_prev": null,
+            "timestamp": "2026-11-04T05:15:41.946Z",
+            "page_id": 0,
+            "caused_by_timestamp": null,
+            "dom_snapshot_path": null,
+            "delay_before_ms": 1938
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Search for events, e.g., “this weekend events”",
+                "placeholder": "Search for events, e.g., “this weekend events”",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > input",
+                "xpath": "//input[@placeholder='Search for events, e.g., “this weekend events”']",
+                "text": "Search for events, e.g., “this weekend events”",
+                "element_text": "Search for events, e.g., “this weekend events”",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Search for events, e.g., “this weekend events”"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Home",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Search for events, e.g., “this weekend events”",
+                "placeholder": "Search for events, e.g., “this weekend events”",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > input",
+                "xpath": "//input[@placeholder='Search for events, e.g., “this weekend events”']",
+                "text": "Search for events, e.g., “this weekend events”",
+                "element_text": "Search for events, e.g., “this weekend events”",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Search for events, e.g., “this weekend events”"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Home",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 1,
+                    "xpath": 1
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 284,
+                "y": 31.25,
+                "width": 261.1328125,
+                "height": 16.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-04T05:15:43.060Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-13hce6t r-1ny4l3l r-1udh08x r-1udbk01 r-3s2u2q\" value=\"\" style=\"--placeholderTextColor: #7F808E;\">",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-wizibn r-qb41rp r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png\"></div><input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-13hce6t r-1ny4l3l r-1udh08x r-1udbk01 r-3s2u2q\" value=\"\" style=\"--placeholderTextColor: #7F808E;\"></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 139, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-wizibn r-qb41rp r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png\"></div><input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 139, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1ud...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 139, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-col...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.123,
+                "y_ratio": 0.348
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "focus": {
+                    "parts": [
+                        "Search for events, e.g., “this weekend events”"
+                    ],
+                    "role": null,
+                    "tag": "input"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1114,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "fill",
+            "value": "GAGNER",
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Search for events, e.g., “this weekend events”",
+                "placeholder": "Search for events, e.g., “this weekend events”",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > input",
+                "xpath": "//input[@placeholder='Search for events, e.g., “this weekend events”']",
+                "text": "Search for events, e.g., “this weekend events”",
+                "element_text": "Search for events, e.g., “this weekend events”",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Search for events, e.g., “this weekend events”"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Home",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Search for events, e.g., “this weekend events”",
+                "placeholder": "Search for events, e.g., “this weekend events”",
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > input",
+                "xpath": "//input[@placeholder='Search for events, e.g., “this weekend events”']",
+                "text": "Search for events, e.g., “this weekend events”",
+                "element_text": "Search for events, e.g., “this weekend events”",
+                "tag": "input",
+                "attributes": {
+                    "placeholder": "Search for events, e.g., “this weekend events”"
+                },
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": "Home",
+                "icon_signature": null,
+                "sibling_index": 0,
+                "sibling_total": 1,
+                "icon_container": {
+                    "tag": "div",
+                    "class": "css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz"
+                },
+                "content_hint": "input:text",
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 284,
+                "y": 31.25,
+                "width": 261.1328125,
+                "height": 16.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-04T05:15:50.690Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-13hce6t r-1ny4l3l r-1udh08x r-1udbk01 r-3s2u2q\" value=\"GAGNER\" style=\"--placeholderTextColor: #7F808E;\">",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-wizibn r-qb41rp r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png\"></div><input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-13hce6t r-1ny4l3l r-1udh08x r-1udbk01 r-3s2u2q\" value=\"GAGNER\" style=\"--placeholderTextColor: #7F808E;\"></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 143, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-wizibn r-qb41rp r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/e0331a70-eb87-410e-b4ad-4133dc510011/2b7278ce-87e9-4787-8f86-9e0c8446f6a4_search_12.png\"></div><input placeholder=\"Search for events, e.g., “this weekend events”\" autocapitalize=\"sentences\" autocomplete=\"on\" autocorrect=\"on\" dir=\"auto\" rows=\"1\" spellcheck=\"true\" virtualkeyboardpolicy=\"auto\" class=\"css-11aywtz r-6taxm2 r-z1mlqz r-13awgt0 r-1b43r93 r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 143, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1ud...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-color: rgb(0, 143, 255);\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\" style=\"border-col...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-kvuf4a r-mw4fk6 r-1h84pjw r-d045u9 r-1vsl0ce r-13awgt0 r-18u37iz r-...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "value_source": "user",
+            "input_type": "text",
+            "focus_type": "text",
+            "during_reply": false,
+            "page_id": 0,
+            "delay_before_ms": 7630
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "See all results",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='See all results']",
+                "text": "See all results",
+                "element_text": "See all results",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 2,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "See all results",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='See all results']",
+                "text": "See all results",
+                "element_text": "See all results",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 2,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 158,
+                "y": 73,
+                "width": 452,
+                "height": 42
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-04T05:15:50.877Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1oox17p r-1xfd6ze r-lcslpx r-156q2ks r-xyw6el\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1j7ouym r-a023e6 r-majxgm\" style=\"font-family: Inter;\">See all results</div></div>",
+                    "<div class=\"css-g5y9jx r-nsbfu8 r-u9wvl5\" style=\"width: 100%; margin-bottom: 12px;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1oox17p r-1xfd6ze r-lcslpx r-156q2ks r-xyw6el\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1j7ouym r-a023e6 r-majxgm\" style=\"font-family: Inter;\">See all results</div></div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-1dzdj1l r-uvuy5l r-1777fci r-249f41 r-1udh08x r-u8s1d r-zchlnj r-zjvcp2 r-pok8hz r-8fdsdq\"><div class=\"css-g5y9jx r-nsbfu8 r-u9wvl5\" style=\"width: 100%; margin-bottom: 12px;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1oox17p r-1xfd6ze r-lcslpx r-156q2ks r-xyw6el\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-1j7ouym r-a023e6 r-majxgm\" style=\"font-family: Inter;\">See all results</div></div></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/ico...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"la...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><im...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.467,
+                "y_ratio": 0.429
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/search",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 1,
+                    "field_cleared": true,
+                    "content_added": true,
+                    "fields_removed": 1,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/search?searchText=GAGNER",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/search?searchText=GAGNER"
+            ],
+            "delay_before_ms": 187,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/search?searchText=GAGNER",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div > div > div > div > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div > div > div > div > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                    "tag": "div"
+                },
+                "near_text": "GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 338,
+                "y": 188.5,
+                "width": 219,
+                "height": 145
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/search?searchText=GAGNER",
+            "timestamp": "2026-11-04T05:15:52.605Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div>",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5...[truncated]",
+                    "<div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-1...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 20...[truncated]",
+                    "<div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q ...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%; height: 620px;\"><div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"aut...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.712,
+                "y_ratio": 0.728
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/search",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438"
+            ],
+            "delay_before_ms": 1728,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register Now",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "//div[normalize-space(.)='Register Now'][not(parent::*[normalize-space(.)='Register Now'])]",
+                "text": "Register Now",
+                "element_text": "Register Now",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register Now",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "//div[normalize-space(.)='Register Now'][not(parent::*[normalize-space(.)='Register Now'])]",
+                "text": "Register Now",
+                "element_text": "Register Now",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1030.671875,
+                "y": 181.5,
+                "width": 182.40625,
+                "height": 35.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+            "timestamp": "2026-11-04T05:15:54.072Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div>",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">₹ 1999/-</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Let's book now!</div></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; min-width: 320px; max-width: 340px; padding-left: 15px;\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">₹ 1999/-</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register Now</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Let's book now!</div></div></div><div class=\"css-g5y9jx ...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\"></div></...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/user...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" ...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg&quot;);\"></div><img alt=\"\" dra...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.303,
+                "y_ratio": 0.662
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "delay_before_ms": 1467,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/gagner-sports-presnts---dd-spotrts-hub-football-tournament-2026-E1438/register",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        }
+    ],
+    "folder": "test",
+    "saved_at": "2026-11-04T10:45:56.987779",
+    "display_name": "test_case1"
+}

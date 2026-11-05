@@ -4647,6 +4647,124 @@ def _export_otp_mask_indexes(actions, report_steps):
     return out
 
 
+# EXPORT live_logs.csv: the columns of every row (Session, Run folder, Time, Step, Level, Message are the older ones)
+_EXPORT_LIVE_LOG_COLUMNS = [
+    "Folder", "Session", "Session file name", "Run folder", "Time", "Step", "Level", "Message",
+    "Row type", "Step name", "Action", "Status", "Started", "Ended", "Duration (s)",
+    "Locator / how found", "Plain reason", "Exact reason", "Screenshot file",
+]
+# the status word the live log window shows for each display status (live_log.html's own statusText)
+_EXPORT_STATUS_TEXT = {"pass": "PASS", "warning": "WARNING", "fail": "FAILED", "skipped": "NOT RUN", "fast": "PASS (FAST)"}
+
+
+def _export_note_row(folder, session, file_name, run_folder, message):
+    """One "note" row of live_logs.csv (a part of a session that could not be exported)."""
+    row = dict.fromkeys(_EXPORT_LIVE_LOG_COLUMNS, "")
+    row.update({"Folder": folder, "Session": session, "Session file name": file_name, "Run folder": run_folder,
+                "Row type": "note", "Level": "note", "Message": message})
+    return [row[c] for c in _EXPORT_LIVE_LOG_COLUMNS]
+
+
+def _export_live_log_rows(folder, session, file_name, run_folder, report, actions, shot, when, masked_values):
+    """live_logs.csv rows for one run: the lines the live log window shows, in its order (steps by their end
+    time, log lines by theirs - the same merge as /api/test/run/stream), each step's reason lines under it, then
+    the run summary. Statuses, labels and reasons come from the live log's own helpers. Values of OTP / password
+    steps are masked in every text. Every step is listed, also the ones NOT RUN / STOPPED BY USER."""
+    from backend.executor.run_execution import _complete_steps
+
+    def _mask(v):
+        text = "" if v is None else str(v)
+        for mv in masked_values:
+            text = text.replace(mv, "******")
+        return text
+
+    def _row(**kw):
+        row = dict.fromkeys(_EXPORT_LIVE_LOG_COLUMNS, "")
+        row.update({"Folder": folder, "Session": session, "Session file name": file_name, "Run folder": run_folder})
+        row.update(kw)
+        return [_mask(row[c]) if isinstance(row[c], str) else row[c] for c in _EXPORT_LIVE_LOG_COLUMNS]
+
+    def _epoch(iso):
+        try:
+            return datetime.fromisoformat(str(iso)).timestamp()
+        except Exception:
+            return None
+
+    steps = [st for st in (report.get("steps") or []) if isinstance(st, dict)]
+    try:
+        # the same completion the finished run's result gets (the dashboard card's step list): a step without a
+        # result is listed too
+        steps, _ = _complete_steps(steps, report, report.get("recorded_steps") or len(actions), None, "")
+    except Exception:
+        pass
+    events = []
+    for st in steps:
+        ts = _epoch(st.get("ended_at"))
+        events.append((ts if ts is not None else float("inf"), 1, "step", st))
+    for e in report.get("live_log") or []:
+        if isinstance(e, dict):
+            t = e.get("t")
+            events.append((float(t) if isinstance(t, (int, float)) else float("-inf"), 0, "log", e))
+    events.sort(key=lambda ev: (ev[0], ev[1]))
+
+    rows = []
+    for _when_ts, _rank, kind, item in events:
+        if kind == "log":
+            msg = item.get("message") or ""
+            is_note = item.get("level") == "note" or msg.startswith("\u21b3")
+            rows.append(_row(**{"Time": when(item.get("t")), "Step": item.get("step") or "",
+                                "Level": item.get("level") or "", "Message": msg,
+                                "Row type": "note" if is_note else "info"}))
+            continue
+        st = item
+        label = _step_element_label(actions, st) or st.get("name") or ""
+        display = _step_display_status(st)
+        reason = _step_failure_reason(st, label) or {}
+        status = _EXPORT_STATUS_TEXT.get(display, str(display).upper())
+        if display == "skipped" and str(reason.get("plain") or "").startswith("Stopped by user"):
+            status = "STOPPED BY USER"
+        lr = st.get("locator_report") if isinstance(st.get("locator_report"), dict) else {}
+        rows.append(_row(**{
+            "Time": st.get("ended_at") or st.get("started_at") or "", "Step": st.get("index") or "",
+            "Level": display, "Message": st.get("error") or st.get("warning") or "",
+            "Row type": "step", "Step name": st.get("name") or label, "Action": st.get("action_type") or "",
+            "Status": status, "Started": st.get("started_at") or "", "Ended": st.get("ended_at") or "",
+            "Duration (s)": st.get("duration") if st.get("duration") is not None else "",
+            "Locator / how found": lr.get("message") or "", "Plain reason": reason.get("plain") or "",
+            "Exact reason": _step_exact_reason(st) or "", "Screenshot file": shot(st.get("screenshot")),
+        }))
+        # the lines the live log shows under the step line
+        if display in ("fail", "warning", "skipped") and reason:
+            details = "; ".join(x for x in (reason.get("technical"), reason.get("error") if reason.get("error") != reason.get("plain") else None,
+                                            reason.get("warning") if reason.get("warning") != reason.get("plain") else None,
+                                            f"Locator strategy: {reason['selector']}" if reason.get("selector") else None,
+                                            f"URL: {reason['url']}" if reason.get("url") else None) if x)
+            rows.append(_row(**{"Step": st.get("index") or "", "Level": display, "Message": details,
+                                "Row type": {"fail": "failed", "warning": "warning"}.get(display, "note"),
+                                "Step name": st.get("name") or label, "Status": status,
+                                "Plain reason": reason.get("plain") or "", "Exact reason": _step_exact_reason(st) or "",
+                                "Screenshot file": shot(reason.get("screenshot"))}))
+        pm = st.get("page_mismatch_info") if isinstance(st.get("page_mismatch_info"), dict) else None
+        if pm:
+            rows.append(_row(**{"Step": st.get("index") or "", "Row type": "info", "Status": status,
+                                "Message": f"Expected: {pm.get('expected_url') or ''} - Actual: {pm.get('actual_url') or ''}",
+                                "Screenshot file": shot(pm.get("screenshot"))}))
+        for r in (st.get("count_summary_rows") or []):
+            if isinstance(r, dict):
+                rows.append(_row(**{"Step": st.get("index") or "", "Row type": "info",
+                                    "Message": f"{r.get('label')} = {r.get('count')}"
+                                               + (f" (expected {r.get('expected')})" if r.get("expected") is not None else "")}))
+    tally = _summarize_steps(steps)
+    skipped = sum(1 for s_ in steps if _step_display_status(s_) == "skipped")
+    prefix = ("The browser window was closed, so the run stopped. " if report.get("browser_closed")
+              else "Stopped by the user. " if report.get("stopped_by_user") else "")
+    rows.append(_row(**{"Row type": "summary", "Status": report.get("status") or "",
+                        "Message": prefix + (report.get("message") or "")
+                                   + f" | Total steps: {len(steps)} - Passed: {tally['passed']} - Warnings: {tally['warnings']}"
+                                     f" - Failed: {tally['failed']} - Not run: {skipped}"}))
+    return rows
+
+
 @app.route("/api/recordings/export", methods=["POST"])
 def api_recordings_export():
     import csv
@@ -4697,99 +4815,115 @@ def api_recordings_export():
         used_folders = set()
         for rec in listed:
             rel_path = rec.get("path") or ""
+            # EXPORT: the dashboard's folder of this session ("Ungrouped" for a recording without one)
+            folder_label = rec.get("folder") or "Ungrouped"
             try:
                 recording = repository.load_recording(str(_resolve_recording_file(rel_path)))
             except Exception as e:
                 logger.warning("export: couldn't read %s: %s", rel_path, e)
-                session_rows.append([rec.get("display_name") or rec.get("name"), rec.get("name"), rel_path, "", "",
-                                     rec.get("timestamp"), rec.get("step_count"), "Could not be read", "", "", ""])
+                session_rows.append([folder_label, rec.get("display_name") or rec.get("name"), rec.get("name"), rel_path,
+                                     "", "", rec.get("timestamp"), rec.get("step_count"), "Could not be read", "", "", ""])
+                log_rows.append(_export_note_row(folder_label, rec.get("display_name") or rec.get("name"),
+                                                 rec.get("name"), "", f"The recording could not be read: {e}"))
                 continue
             name = recording.get("name") or rec.get("name") or ""
             label = recording.get("display_name") or name
-            actions = recording.get("actions") if isinstance(recording.get("actions"), list) else []
-            run_dir = _export_last_run_dir(name)
-            report = {}
-            if run_dir is not None:
-                try:
-                    with open(run_dir / "report.json", encoding="utf-8") as f:
-                        report = json.load(f) or {}
-                except (OSError, ValueError) as e:
-                    logger.warning("export: couldn't read the last result of %s: %s", name, e)
-                    report = {}
-            rsteps = report.get("steps") if isinstance(report.get("steps"), list) else []
-            by_index = {st.get("index"): st for st in rsteps if isinstance(st, dict)}
-
-            # screenshots/<session>/<path inside the run folder>
-            folder = re.sub(r"[^A-Za-z0-9._-]+", "_", name) or "session"
-            while folder in used_folders:
-                folder += "_"
-            used_folders.add(folder)
-            shot_map = {}
-            if run_dir is not None:
-                for img in _get_image_files(run_dir, recursive=True):
+            # EXPORT: one bad session never stops the export - only its own unreadable part is skipped (a note row)
+            try:
+                actions = recording.get("actions") if isinstance(recording.get("actions"), list) else []
+                run_dir = _export_last_run_dir(name)
+                report = {}
+                if run_dir is not None:
                     try:
-                        inner = img.relative_to(run_dir).as_posix()
-                        arc = f"screenshots/{folder}/{inner}"
-                        zf.write(img, arc)
-                        shot_map[str(img.resolve())] = arc
+                        with open(run_dir / "report.json", encoding="utf-8") as f:
+                            report = json.load(f) or {}
                     except (OSError, ValueError) as e:
-                        logger.warning("export: screenshot %s skipped: %s", img, e)
+                        logger.warning("export: couldn't read the last result of %s: %s", name, e)
+                        report = {}
+                        log_rows.append(_export_note_row(folder_label, label, name, run_dir.name,
+                                                         f"The last run's report.json could not be read: {e}"))
+                rsteps = report.get("steps") if isinstance(report.get("steps"), list) else []
+                by_index = {st.get("index"): st for st in rsteps if isinstance(st, dict)}
 
-            def _shot(p):
-                if not p:
-                    return ""
-                try:
-                    return shot_map.get(str((BASE_DIR / p).resolve()), "")
-                except (OSError, ValueError):
-                    return ""
+                # screenshots/<folder or Ungrouped>/<session>/<path inside the run folder>
+                folder = (re.sub(r"[^A-Za-z0-9._-]+", "_", folder_label) or "Ungrouped") + "/" + (
+                    re.sub(r"[^A-Za-z0-9._-]+", "_", name) or "session")
+                while folder in used_folders:
+                    folder += "_"
+                used_folders.add(folder)
+                shot_map = {}
+                if run_dir is not None:
+                    for img in _get_image_files(run_dir, recursive=True):
+                        try:
+                            inner = img.relative_to(run_dir).as_posix()
+                            arc = f"screenshots/{folder}/{inner}"
+                            zf.write(img, arc)
+                            shot_map[str(img.resolve())] = arc
+                        except (OSError, ValueError) as e:
+                            logger.warning("export: screenshot %s skipped: %s", img, e)
 
-            run_at = ""
-            if rsteps:
-                run_at = next((st.get("started_at") for st in rsteps if isinstance(st, dict) and st.get("started_at")), "")
-            session_rows.append([
-                label, name, rel_path, recording.get("start_url"), recording.get("recorded_at"),
-                recording.get("saved_at") or rec.get("timestamp"), len(actions),
-                ("Passed" if report.get("status") == "PASS" else "Failed" if report.get("status") else "Not run"),
-                run_at, report.get("message") or "", _shot(report.get("final_screenshot")),
-            ])
+                def _shot(p):
+                    if not p:
+                        return ""
+                    try:
+                        return shot_map.get(str((BASE_DIR / p).resolve()), "")
+                    except (OSError, ValueError):
+                        return ""
 
-            masked = _export_otp_mask_indexes(actions, rsteps)
-            for k, a in enumerate(actions):
-                if not isinstance(a, dict):
-                    continue
-                lp = a.get("locator_profile") if isinstance(a.get("locator_profile"), dict) else {}
-                st = by_index.get(k + 1)
-                value = a.get("value")
-                if k in masked and value not in (None, ""):
-                    value = "******"
-                elif isinstance(value, (dict, list)):
-                    value = json.dumps(value, ensure_ascii=False)
-                target = (lp.get("element_text") or lp.get("text") or lp.get("accessible_name")
-                          or lp.get("aria_label") or lp.get("placeholder") or "")
-                message = ""
-                if isinstance(st, dict):
-                    message = st.get("error") or st.get("warning") or ""
-                step_rows.append([
-                    label, k + 1, (st or {}).get("name") or a.get("name") or "", a.get("action_type"),
-                    target, lp.get("xpath") or "", lp.get("css_path") or "", value, a.get("page_url") or "",
-                    _outcome(st) if report else "Not run",
-                    (st or {}).get("duration") if isinstance(st, dict) else "",
-                    (st or {}).get("started_at") if isinstance(st, dict) else "",
-                    message, _shot((st or {}).get("screenshot")) if isinstance(st, dict) else "",
+                run_at = ""
+                if rsteps:
+                    run_at = next((st.get("started_at") for st in rsteps if isinstance(st, dict) and st.get("started_at")), "")
+                session_rows.append([
+                    folder_label, label, name, rel_path, recording.get("start_url"), recording.get("recorded_at"),
+                    recording.get("saved_at") or rec.get("timestamp"), len(actions),
+                    ("Passed" if report.get("status") == "PASS" else "Failed" if report.get("status") else "Not run yet"),
+                    run_at, report.get("message") or "", _shot(report.get("final_screenshot")),
                 ])
-            for e in report.get("live_log") or []:
-                if isinstance(e, dict):
-                    log_rows.append([label, run_dir.name if run_dir else "", _when(e.get("t")), e.get("step") or "",
-                                     e.get("level") or "", e.get("message") or ""])
+
+                masked = _export_otp_mask_indexes(actions, rsteps)
+                for k, a in enumerate(actions):
+                    if not isinstance(a, dict):
+                        continue
+                    lp = a.get("locator_profile") if isinstance(a.get("locator_profile"), dict) else {}
+                    st = by_index.get(k + 1)
+                    value = a.get("value")
+                    if k in masked and value not in (None, ""):
+                        value = "******"
+                    elif isinstance(value, (dict, list)):
+                        value = json.dumps(value, ensure_ascii=False)
+                    target = (lp.get("element_text") or lp.get("text") or lp.get("accessible_name")
+                              or lp.get("aria_label") or lp.get("placeholder") or "")
+                    message = ""
+                    if isinstance(st, dict):
+                        message = st.get("error") or st.get("warning") or ""
+                    step_rows.append([
+                        folder_label, label, k + 1, (st or {}).get("name") or a.get("name") or "", a.get("action_type"),
+                        target, lp.get("xpath") or "", lp.get("css_path") or "", value, a.get("page_url") or "",
+                        _outcome(st) if report else "Not run",
+                        (st or {}).get("duration") if isinstance(st, dict) else "",
+                        (st or {}).get("started_at") if isinstance(st, dict) else "",
+                        message, _shot((st or {}).get("screenshot")) if isinstance(st, dict) else "",
+                    ])
+                if report:
+                    # EXPORT: the full live log of the last run - every step line and every line under it, plus the
+                    # summary - built from the same data and helpers as the live log stream
+                    masked_values = [str(actions[k].get("value")) for k in masked
+                                     if k < len(actions) and isinstance(actions[k], dict)
+                                     and len(str(actions[k].get("value") or "")) >= 3]
+                    log_rows.extend(_export_live_log_rows(folder_label, label, name, run_dir.name if run_dir else "",
+                                                          report, actions, _shot, _when, masked_values))
+            except Exception as e:
+                logger.warning("export: part of session %s skipped: %s", name, e)
+                log_rows.append(_export_note_row(folder_label, label, name, "",
+                                                 f"Part of this session could not be exported: {e}"))
 
         zf.writestr("sessions.csv", _csv(
-            ["Session", "Recording name", "Recording file", "Start URL", "Recorded at", "Saved at", "Actions",
+            ["Folder", "Session", "Recording name", "Recording file", "Start URL", "Recorded at", "Saved at", "Actions",
              "Last result", "Last run at", "Last result message", "Final screenshot"], session_rows))
         zf.writestr("steps.csv", _csv(
-            ["Session", "Step", "Step name", "Action", "Target", "XPath", "CSS path", "Value", "Page URL",
+            ["Folder", "Session", "Step", "Step name", "Action", "Target", "XPath", "CSS path", "Value", "Page URL",
              "Last result", "Duration (s)", "Started at", "Message", "Screenshot"], step_rows))
-        zf.writestr("live_logs.csv", _csv(
-            ["Session", "Run folder", "Time", "Step", "Level", "Message"], log_rows))
+        zf.writestr("live_logs.csv", _csv(_EXPORT_LIVE_LOG_COLUMNS, log_rows))
 
     zbuf.seek(0)
     return send_file(zbuf, mimetype="application/zip", as_attachment=True,
@@ -4810,6 +4944,7 @@ def live_log_page():
         otp_live_entry_enabled=feature_flags.OTP_LIVE_ENTRY_ENABLED,
         live_log_retry_enabled=feature_flags.LIVE_LOG_RETRY_ENABLED,
         already_exists_pause_enabled=feature_flags.ALREADY_EXISTS_PAUSE_ENABLED,
+        failure_pause_card_enabled=feature_flags.FAILURE_PAUSE_CARD_ENABLED,
     )
 
 

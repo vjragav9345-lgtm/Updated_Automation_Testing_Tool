@@ -2708,10 +2708,10 @@ if (exportRecordingsBtn) {
             _showPlayAllPanel("There are no sessions to export.", [], "done");
             return;
         }
-        // FOLDER VIEW: inside an opened folder its selected tests (or all of them); with no folder open, everything
-        const { list: _folderList } = _chosenRecordings();
-        const list = openFolderKey ? _folderList : allRecordings.slice();
-        const selectedCount = openFolderKey ? list.length : 0;
+        // EXPORT: always every session on the dashboard (every folder, "Ungrouped tests" and edited copies),
+        // whichever folder is open and whatever is ticked (ticks are for Play All only)
+        const list = allRecordings.slice();
+        const selectedCount = 0;
         if (!list.length) {
             _showPlayAllPanel("There are no sessions to export.", [], "done");
             return;

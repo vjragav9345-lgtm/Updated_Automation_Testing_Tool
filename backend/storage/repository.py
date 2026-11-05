@@ -272,7 +272,9 @@ def migrate_expected_urls(test_case: dict) -> dict:
         ):
             run.append(actions[j])
             j += 1
-        urls = [r.get("page_url") for r in run if r.get("page_url")]
+        # the page the action STARTED on is never where it leads
+        urls = [r.get("page_url") for r in run if r.get("page_url")
+                and _norm_cmp_url(r.get("page_url")) != _norm_cmp_url(a.get("page_url"))]
         if not urls:
             continue
         a["expected_url"] = urls[0]
@@ -388,8 +390,65 @@ def normalize_reveal_steps(test_case: dict) -> dict:
     return test_case
 
 
+_RESULT_ACTIONS = ("click", "dblclick", "right_click", "press", "submit")
+POST_CLICK_RESULT_WINDOW_S = 10.0   # same window as record_session.Recorder.POST_CLICK_RESULT_WINDOW_S
+
+
+def _unknown_result_timestamp(test_case: dict):
+    """The timestamp of a recording's LAST action when it is a click-type action whose result the recording
+    could not know: the recording stopped within POST_CLICK_RESULT_WINDOW_S (+2 s) after it and it shows no new
+    tab and no navigation. None otherwise (or when the stop time is not recorded). Never raises."""
+    try:
+        actions = [a for a in (test_case.get("actions") or []) if isinstance(a, dict)]
+        if not actions or not test_case.get("recorded_at"):
+            return None
+        last = max(actions, key=lambda a: a.get("timestamp") or "")
+        pc = last.get("post_click") if isinstance(last.get("post_click"), dict) else None
+        if (last.get("action_type") not in _RESULT_ACTIONS or pc is None or pc.get("new_tab")
+                or pc.get("navigated") or last.get("expected_url")):
+            return None
+        stopped = datetime.fromisoformat(str(test_case["recorded_at"])).astimezone()
+        clicked = datetime.fromisoformat(str(last.get("timestamp")).replace("Z", "+00:00"))
+        gap = (stopped - clicked).total_seconds()
+        return last.get("timestamp") if 0 <= gap < POST_CLICK_RESULT_WINDOW_S + 2.0 else None
+    except Exception:
+        return None
+
+
+def mark_unknown_last_click_result(test_case: dict) -> dict:
+    """In memory, idempotent; nothing on disk is rewritten. A recording made before the recorder marked it
+    itself: its last click's result is UNKNOWN when the recording stopped right after it (see
+    _unknown_result_timestamp) - so replay never expects "no page change" from a route change that only came
+    after the stop. An edited copy (no stop time of its own) takes the answer from its original recording,
+    matched by the step's recorded timestamp."""
+    try:
+        ts = _unknown_result_timestamp(test_case)
+        name = str(test_case.get("name") or "")
+        if ts is None and not test_case.get("recorded_at") and name.endswith("_edited"):
+            original = name[: -len("_edited")]
+            for d in [RECORDINGS_DIR] + [RECORDINGS_DIR / f for f in list_folders()]:
+                p = d / f"{original}.json"
+                if p.is_file():
+                    ts = _unknown_result_timestamp(_read_json(p))
+                    break
+        if ts is None:
+            return test_case
+        for a in test_case.get("actions") or []:
+            if isinstance(a, dict) and a.get("timestamp") == ts and isinstance(a.get("post_click"), dict):
+                pc = a["post_click"]
+                if not pc.get("new_tab") and not pc.get("navigated") and not a.get("expected_url"):
+                    pc["result_unknown"] = True
+                    if isinstance(a.get("result"), dict):
+                        a["result"]["unknown"] = True
+                        a["result"]["new_tab"] = None
+    except Exception as e:
+        logger.warning("last click result could not be checked: %s", e)
+    return test_case
+
+
 def migrate_recording(test_case: dict) -> dict:
     """Every load-time, in-memory migration, in order (all idempotent)."""
+    test_case = mark_unknown_last_click_result(test_case)
     test_case = strip_auto_created_validations(test_case)
     test_case = repair_misattached_expected_urls(test_case)
     test_case = migrate_expected_urls(test_case)

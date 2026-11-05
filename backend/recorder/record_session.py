@@ -1816,12 +1816,13 @@ class Recorder:
                     _pc.pop("late_navigation", None)
                 break
 
-        # the browser was closed while the LAST click's result could still be on its way (within
-        # POST_CLICK_RESULT_WINDOW_S, no new tab and no navigation seen yet): its result is UNKNOWN - saved as
-        # such, never as "no new tab", so replay does not treat a guess as a fact
+        # the recording ended (browser closed, Stop Recording, ENTER, an error - any stop) while the LAST click's
+        # result could still be on its way (within POST_CLICK_RESULT_WINDOW_S, no new tab and no navigation seen
+        # yet): its result is UNKNOWN - saved as such, never as "no new tab" / "no page change", so replay does not
+        # treat a guess as a fact (a route change that came after the stop was never credited to the click)
         try:
             _lc = self._last_click_ref
-            if (stop_reason == "browser_closed" and _lc is not None and ordered_actions
+            if (_lc is not None and ordered_actions
                     and ordered_actions[-1] is _lc
                     and _lc.get("action_type") in ("click", "dblclick", "right_click", "press", "submit")
                     and time.time() - self._last_click_wall < self.POST_CLICK_RESULT_WINDOW_S + 2.0):

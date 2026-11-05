@@ -4189,6 +4189,7 @@ if ON_PAGE_MISMATCH_DEFAULT not in ("fail_continue", "warn_continue"):
 OTP_LIVE_ENTRY_ENABLED = $otp_live_entry_enabled_literal
 LIVE_LOG_RETRY_ENABLED = $live_log_retry_enabled_literal
 ALREADY_EXISTS_PAUSE_ENABLED = $already_exists_pause_enabled_literal
+FAILURE_PAUSE_CARD_ENABLED = $failure_pause_card_enabled_literal
 
 # how many ancestor levels _reveal_via_ancestor_hover will try hovering,
 # nearest first, before giving up - bounds the worst case for a target
@@ -7184,7 +7185,8 @@ def _expected_post_click_destination(step, next_step):
     # pre_url: the page this action starts on; expected_url: where it LEADS.
     # An action's own page_url is never its post-action expectation.
     before = pc.get("url_path_before") or step.get("page_url")
-    if step.get("expected_url"):
+    # the page the click STARTED on is never where it leads (a stale / shifted expectation is not used)
+    if step.get("expected_url") and not (before and _dest_key(step["expected_url"]) == _dest_key(before)):
         return "recorded", step["expected_url"]
     after = pc.get("url_path_after")
     late_not_caused = _late_nav_not_caused(step, next_step)
@@ -7205,8 +7207,35 @@ def _expected_post_click_destination(step, next_step):
         except Exception:
             pass
     if after and before and _dest_key(after) == _dest_key(before):
+        # the recording shows no page change for the click itself - but when the user's NEXT recorded step was
+        # made on another page, the recording itself shows where the click led: that page is the expectation
+        # (never the page the click started on)
+        _np = _next_page_evidence(step, next_step)
+        if _np and _dest_key(_np) != _dest_key(before):
+            return "next_page", _np
         return "none", before
     return None, None
+
+
+def _next_page_evidence(step, next_step):
+    """The page the user was really on right after this click, from the NEXT recorded step: its page_url when it
+    is an action made in the same tab, or the address of a Navigate this click caused (induced_by_prev /
+    caused_by_timestamp). None when the next step cannot tell (another tab, a tab step, a Navigate the user made
+    themselves - typed address, Back / Forward). Never raises."""
+    try:
+        if not isinstance(next_step, dict) or next_step.get("page_id", 0) != step.get("page_id", 0):
+            return None
+        nt = str(next_step.get("action_type") or "")
+        if nt.startswith("tab_") or nt.startswith("__"):
+            return None
+        if nt == "navigate":
+            if next_step.get("induced_by_prev") or (
+                    next_step.get("caused_by_timestamp") and next_step.get("caused_by_timestamp") == step.get("timestamp")):
+                return next_step.get("page_url")
+            return None
+        return next_step.get("page_url")
+    except Exception:
+        return None
 
 
 _DIALOG_PRESENT_JS = """
@@ -7468,7 +7497,7 @@ def _compare_post_click(page, step, snapshot_ok, page_count_before, qa_url=None,
         if url_at_start:
             before_q = url_at_start
         still_here = bool(before_q) and _dest_key(live_url) == _dest_key(before_q)
-        if verdict == "mismatch" and kind in ("recorded", "next_navigate") and still_here:
+        if verdict == "mismatch" and kind in ("recorded", "next_navigate", "next_page") and still_here:
             # the navigation the click started has not committed yet: wait for
             # it BY EVENT (URL change / history change / load commit), raced
             # against the existing bounded navigation timeout, and decide the
@@ -7489,7 +7518,7 @@ def _compare_post_click(page, step, snapshot_ok, page_count_before, qa_url=None,
         navigated_away = bool(before_q) and _dest_key(live_url) != _dest_key(before_q)
         # the site may have passed through the recorded destination and redirected on, or gone on to the page the
         # recording itself reached next: verified then (paths logged), otherwise the result stands as before
-        if verdict == "mismatch" and kind in ("recorded", "next_navigate", "href") and navigated_away:
+        if verdict == "mismatch" and kind in ("recorded", "next_navigate", "href", "next_page") and navigated_away:
             if _verify_destination_by_chain_or_recording(live_url, expected_q, chain_q, None, next_step, qa_url):
                 verdict = "match"
         if verdict == "match" and kind != "none":
@@ -7533,6 +7562,11 @@ def _compare_post_click(page, step, snapshot_ok, page_count_before, qa_url=None,
                 _url_verification_failure_note(expected_q, live_url)
                 return _page_mismatch_message(expected_q, live_url)
         elif verdict == "mismatch":
+            if kind == "next_page" and bool(before_q) and _dest_key(live_url) == _dest_key(before_q):
+                # the expectation comes from the NEXT step's page (the click's own recorded result showed no page
+                # change): still on the start page after the bounded wait is left to that next step's own page
+                # check - never a failure of this click on that weaker evidence
+                return None
             if bool(before_q) and _dest_key(live_url) == _dest_key(before_q) and kind in ("recorded", "next_navigate"):
                 # the page never left where the step started: the action did not do what it did in the recording
                 if _next_step_owns_destination(next_step, expected_q, qa_url):
@@ -7648,7 +7682,7 @@ def _compare_post_click(page, step, snapshot_ok, page_count_before, qa_url=None,
         _diag_log(f"result: PASS - recorded new_tab={rec_tab}, replay opened a tab={opened}")
     # a click that took the page somewhere new leaves a different document
     # behind: its focus / fields belong to the old page, nothing to compare
-    if kind in ("recorded", "next_navigate", "href") and navigated_away:
+    if kind in ("recorded", "next_navigate", "href", "next_page") and navigated_away:
         return None
     rf = rec.get("focus")
     lf = live.get("focus")
@@ -30234,7 +30268,7 @@ def run(qa_url, output_json_path=None, screenshot_dir=None, headless=True, produ
                             _url_note_log(f"Step {i}: the form could not be corrected on this page - {_tr_reason}.",
                                           result, output_json_path)
                         # PHASE 5: this card's only choices are Retry / Stop run - not shown while Retry is switched off
-                        _tr_answer = None if (_rm_passed or not LIVE_LOG_RETRY_ENABLED) else _pause_and_ask(
+                        _tr_answer = None if (_rm_passed or not LIVE_LOG_RETRY_ENABLED or not FAILURE_PAUSE_CARD_ENABLED) else _pause_and_ask(
                             page, result, output_json_path, run_dir, "step_failed", i, total_steps,
                             f"The form could not be corrected on this page: {_tr_reason}.", ("retry", "stop"),
                             PAUSE_CARD_TIMEOUT_S, extra={"screenshot": None},
@@ -30294,8 +30328,10 @@ def run(qa_url, output_json_path=None, screenshot_dir=None, headless=True, produ
                 # PHASE 5: with the Retry button switched off (LIVE_LOG_RETRY_ENABLED False) the card is shown only when
                 # it still offers a choice (a page mismatch's "Accept this page"); otherwise the normal failure
                 # handling below runs straight away, exactly as when no card is answered
+                # FAILURE_PAUSE_CARD_ENABLED False: this card is never shown - the failed step is handled by the normal
+                # failure rules below at once (stop on failure), exactly as when no card is answered
                 if (not ok and not _fe_card_shown and not _stop_requested(run_dir) and _viewer_present(output_json_path)
-                        and (LIVE_LOG_RETRY_ENABLED or _LAST_PAGE_MISMATCH[0])):
+                        and (LIVE_LOG_RETRY_ENABLED or _LAST_PAGE_MISMATCH[0]) and FAILURE_PAUSE_CARD_ENABLED):
                     try:
                         _fc_entry = result["steps"][-1] if (result["steps"] and result["steps"][-1].get("index") == i) else {}
                         _fc_reason = (_split_tech_multi(_fc_entry.get("error") or str(err or ""))[0] or "").strip()
@@ -31326,6 +31362,7 @@ def generate_script(test_case: dict, out_name: str = None, output_dir: Path = No
         otp_live_entry_enabled_literal=repr(bool(feature_flags.OTP_LIVE_ENTRY_ENABLED)),
         live_log_retry_enabled_literal=repr(bool(feature_flags.LIVE_LOG_RETRY_ENABLED)),
         already_exists_pause_enabled_literal=repr(bool(feature_flags.ALREADY_EXISTS_PAUSE_ENABLED)),
+        failure_pause_card_enabled_literal=repr(bool(feature_flags.FAILURE_PAUSE_CARD_ENABLED)),
     )
 
     target_dir.mkdir(parents=True, exist_ok=True)

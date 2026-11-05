@@ -332,6 +332,7 @@
 const OTP_LIVE_ENTRY_ENABLED = {{ otp_live_entry_enabled | default(true) | tojson }};
 const LIVE_LOG_RETRY_ENABLED = {{ live_log_retry_enabled | default(true) | tojson }};
 const ALREADY_EXISTS_PAUSE_ENABLED = {{ already_exists_pause_enabled | default(true) | tojson }};
+const FAILURE_PAUSE_CARD_ENABLED = {{ failure_pause_card_enabled | default(true) | tojson }};
 
 // PHASE 6: the exact reason of a failed step (check, exception type, message), shown on the step itself
 function exactReasonHtml(r) {
@@ -1095,6 +1096,9 @@ if (!runId) {
         const isField = data.kind === "field_error";
         // PHASE 4 / 5B: the OTP card and the field-error card are switched off (the replay never asks for them)
         if ((isOtp && !OTP_LIVE_ENTRY_ENABLED) || (isField && !ALREADY_EXISTS_PAUSE_ENABLED)) return;
+        // FAILURE_PAUSE_CARD_ENABLED false: the "Step failed (paused)" card and its "Paused - waiting for you" state
+        // are never shown (the replay does not ask; this only guards the page) - nothing is remembered for it
+        if (!isOtp && !isField && !FAILURE_PAUSE_CARD_ENABLED) { pauseToken = null; pauseStepIndex = null; return; }
         document.getElementById("pauseCardTitle").textContent =
             (isOtp ? "OTP needed" : (isField ? "The website reported a problem" : "Step failed")) +
             ` - step ${data.step_index}` + (data.total_steps ? ` of ${data.total_steps}` : "") + " (paused)" +

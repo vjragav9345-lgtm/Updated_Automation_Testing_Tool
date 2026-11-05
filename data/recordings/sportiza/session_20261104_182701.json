@@ -1,0 +1,1435 @@
+{
+    "name": "session_20261104_182701",
+    "session_id": "13642d2e70854af8a0b441d8b550d861",
+    "start_url": "https://sportzia-preprod.kovaionplay.com/feed",
+    "recorded_at": "2026-11-04T18:27:25.351080",
+    "stop_reason": "browser_closed",
+    "total_actions": 13,
+    "page_count": 1,
+    "viewport_width": 1280,
+    "viewport_height": 720,
+    "device_scale_factor": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "locale": "en-GB",
+    "timezone_id": "Asia/Calcutta",
+    "color_scheme": "light",
+    "actions": [
+        {
+            "action_type": "navigate",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T12:56:59.481Z",
+            "page_id": 0,
+            "page_title": "Sportzia",
+            "delay_before_ms": 0
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Accept",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Accept'][not(parent::*[normalize-space(.)='Accept'])]",
+                "text": "Accept",
+                "element_text": "Accept",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Accept",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Accept'][not(parent::*[normalize-space(.)='Accept'])]",
+                "text": "Accept",
+                "element_text": "Accept",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Whether you're running as a team or taking on the ultimate marathon challenge, there's a race catego",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1140,
+                "y": 667.5,
+                "width": 100,
+                "height": 36.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T12:57:02.454Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1wtj0ep r-f8sm7e r-1sp8lnq r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-13awgt0 r-p1pxzi r-88pszg r-q4m81j\">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div></div>",
+                    "<div class=\"css-g5y9jx r-b6idm3 r-1p0dtai r-1d2f490 r-nsbfu8 r-u8s1d r-zchlnj r-13qz1uu r-sfbmgh\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1wtj0ep r-f8sm7e r-1sp8lnq r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-13awgt0 r-p1pxzi r-88pszg r-q4m81j\">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-s53p2z r-z2wwpe r-1gwld19 r-ytbthy r-u9wvl5\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-vw2c0b r-q4m81j\">Accept</div></div></div></div>",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/ico...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"la...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255); padding: 0px;\"><div class=\"css-g5y9jx r-wot5s1 r-pillhh r-1cx02gd r-1va21c0 r-1eihkk3\" style=\"flex: 1 1 0%; background-color: rgb(255, 255, 255);\"><div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><im...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.34,
+                "y_ratio": 0.699
+            },
+            "popup_container": {
+                "kind": "layer",
+                "tag": "div",
+                "id": null,
+                "role": null,
+                "aria_label": null,
+                "css_path": "div#root > div > div > div > div > div:nth-of-type(3)",
+                "text_hint": "We use cookies to ensure that we give you the best experienc"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 2973,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/feed",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Events'][not(parent::*[normalize-space(.)='Events'])]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 2
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Events",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+                "xpath": "//div[normalize-space(.)='Events'][not(parent::*[normalize-space(.)='Events'])]",
+                "text": "Events",
+                "element_text": "Events",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 4,
+                    "css_path": 1,
+                    "xpath": 2
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 945.9921875,
+                        "y": 0,
+                        "width": 38.609375,
+                        "height": 79
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 945.9921875,
+                "y": 0,
+                "width": 38.609375,
+                "height": 79
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/feed",
+            "timestamp": "2026-11-04T12:57:03.678Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/59216be0-b021-4d20-bf25-0a3445b04567/8dd26432-cad8-4a19-bb02-05ebc74196e1_calendar.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Events</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Home</div><div class=\"css-g5y9jx r-ysccxm r-qwd59z r-1p0dtai r-1yhswuc r-u8s1d r-13qz1uu\"></div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-13awgt0 r-18u37iz\" style=\"tran...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r-18u37iz r-tmtnm0 r-1obld4x r-1ezpcd1\"><div t...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx r-1awozwy r-1ha4jm4 r-r9hte5 r-1afez2q r-1lz4bg0 r-1h84pjw r-rs99b7 r-1ij7py4 r-13awgt0 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]",
+                    "<div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.544,
+                "y_ratio": 0.722
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/feed",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "focus": {
+                    "parts": [
+                        "Events"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events"
+            ],
+            "delay_before_ms": 1224,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "LARSEN MEMORIAL RUN 13th EDITION",
+                    "tag": "div"
+                },
+                "near_text": "LARSEN MEMORIAL RUN 13th EDITION",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > div > div",
+                "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "LARSEN MEMORIAL RUN 13th EDITION",
+                    "tag": "div"
+                },
+                "near_text": "LARSEN MEMORIAL RUN 13th EDITION",
+                "content_hint": "image",
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 808,
+                "y": 155.5,
+                "width": 219,
+                "height": 145
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "timestamp": "2026-11-04T12:57:07.928Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div>",
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">LARSEN MEMORIAL RUN 13th EDITION</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-siz...[truncated]",
+                    "<div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">LARSEN MEMORIAL RUN 13th EDITION</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-5oul0u r-13qz1uu\"><div di...[truncated]",
+                    "<div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026</div><div class=\"css-g5y9jx r-1w6e6rj r-dr54s0 r-13qz...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1shif8y r-a023e6 r-1kfrs79 r-15d164r\" style=\"font-family: Inter;\">GAGNER SPORTS PRESNTS - DD SPOTRTS HUB FOOTBALL TOURNAMENT 2026<...[truncated]",
+                    "<div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" class=\"css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%; height: 620px;\"><div class=\"css-g5y9jx r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-agouwx r-150rngu r-728xn r-17562nj r-1jwulwa r-17y9yhz r-qr0nzb r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 8px;\"><div class=\"css-g5y9jx r-18u37iz r-1w6e6rj r-13qz1uu\"><div class=\"css-g5y9jx r-1ifxtd0 r-is05cd r-1xce0ei\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-14lw9ot r-1dzdj1l r-dnejsp r-qgawr9\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-j9b53g r-1i97xy8 r-1udh08x r-bnwqim r-13qz1uu\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 145px; background-color: rgb(240, 240, 240);\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/banner/b414e504-4aed-4cac-be23-e0a747886994/cropped-1792757344064.jpg\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear;\"></div></div></div><div class=\"css-g5y9jx r-6koalj r-eqz5dr r-1d7fvdj r-1oqcu8e r-13qz1uu\"><div dir=\"auto\" ...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.584,
+                "y_ratio": 0.693
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist"
+            ],
+            "delay_before_ms": 4250,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Pricing",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(3)",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='Pricing']",
+                "text": "Pricing",
+                "element_text": "Pricing",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 3,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1029.6015625,
+                        "y": 0,
+                        "width": 40.0625,
+                        "height": 79
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Pricing",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(3)",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='Pricing']",
+                "text": "Pricing",
+                "element_text": "Pricing",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 3,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1029.6015625,
+                        "y": 0,
+                        "width": 40.0625,
+                        "height": 79
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1029.6015625,
+                "y": 0,
+                "width": 40.0625,
+                "height": 79
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "timestamp": "2026-11-04T12:57:09.383Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-61z16t\" style=\"width: 20px; height: 20px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/0381cddd-3923-4f52-a60f-efd75b9b1704/abb38891-fa28-4fcc-ac13-6361a8e56ee3_01.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/0381cddd-3923-4f52-a60f-efd75b9b1704/abb38891-fa28-4fcc-ac13-6361a8e56ee3_01.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Pricing</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Home</div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-dur...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]",
+                    "<div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.859,
+                "y_ratio": 0.658
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/pricing",
+                "focus": {
+                    "parts": [
+                        "Pricing"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/pricing",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/pricing"
+            ],
+            "delay_before_ms": 1455,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/pricing",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Notification",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Notification'][not(parent::*[normalize-space(.)='Notification'])]",
+                "text": "Notification",
+                "element_text": "Notification",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1114.6640625,
+                        "y": 0,
+                        "width": 66.46875,
+                        "height": 79
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Notification",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(4)",
+                "xpath": "//div[normalize-space(.)='Notification'][not(parent::*[normalize-space(.)='Notification'])]",
+                "text": "Notification",
+                "element_text": "Notification",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-14lw9ot.r-6koalj.r-18u37iz.r-jl58or.r-16e1t0z.r-9jpwak.r-1f720gc",
+                        "div.css-g5y9jx.r-1awozwy.r-13awgt0.r-18u37iz.r-1wtj0ep.r-ywje51.r-12jhh2u.r-ubg91z",
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-5w3kjk.r-qklmqi.r-6koalj.r-18u37iz.r-1ph75f1.r-1777fci.r-13qz1uu"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1114.6640625,
+                        "y": 0,
+                        "width": 66.46875,
+                        "height": 79
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1114.6640625,
+                "y": 0,
+                "width": 66.46875,
+                "height": 79
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/pricing",
+            "timestamp": "2026-11-04T12:57:10.545Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0.25s;\"><div class=\"css-g5y9jx r-1awozwy r-1472mwg r-1777fci r-bnwqim r-lrsllp\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 20px; height: 20px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-ehq7j7\" style=\"filter: url(&quot;#tint-7&quot;); background-image: url(&quot;/assets/assets/images/bel.dd02e6aef7b23b6cc5fc87c50fa4eb29.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"/assets/assets/images/bel.dd02e6aef7b23b6cc5fc87c50fa4eb29.png\"><svg style=\"position: absolute; height: 0px; visibility: hidden; width: 0px;\"><defs><filter id=\"tint-7\"><feFlood flood-color=\"#0084ff\"></feFlood><feComposite in2=\"SourceAlpha\" operator=\"in\"></feComposite></filter></defs></svg></div></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Notification</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-z80fyv r-61z16t r-19wmn03\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/icon/4ba76ed4-4bdb-442b-bec6-ef77b1c010ae/5b69fc5c-6bf8-4c62-8af5-062dc704efcb_home.png\"></div><div dir=\"auto\" class=\"css-146c3p1 r-jw6ls8 r-1enofrn r-majxgm r-1g94qm0\" style=\"font-family: Inter;\">Home</div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz5dr r-1pi2tsx r-1777fci r-15kgiig r-bnwqim r-iyfy8q\" style=\"transition-dur...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-14lw9ot r-6koalj r-eqz...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-18u37iz r-jl58or r-16e1t0z r-9jpwak r-1f720gc...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class=\"css-g5y9jx\" style=\"flex: 1 1 0%;\"></div></div><div class=\"css-g5y9jx r-1awozwy r-14lw9ot r-6koalj r-...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-6koalj r-13awgt0 r-eqz5dr r-1pi2tsx r-1wtj0ep r-13qz1uu\"><div class=\"css-g5y9jx\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-5w3kjk r-qklmqi r-6koalj r-18u37iz r-1ph75f1 r-1777fci r-13qz1uu\"><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-18u37iz r-1wtj0ep r-ywje51 r-12jhh2u r-ubg91z\"><div class=\"css-g5y9jx r-1awozwy r-6koalj r-13awgt0 r-18u37iz\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"flex-direction: row; align-items: center; transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-zx5fkf r-tmtnm0 r-1mf7evn r-ljfeiu\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost/logo/b752642a-4e85-411f-8073-e58bab3d8473/a42c1c03-5f64-4b71-8ff2-45e4e98dcab1_sportzia.png\"></div></div><div class...[truncated]",
+                    "<div class=\"css-g5y9jx r-1habvwh r-14lw9ot r-6koalj r-13awgt0 r-18u37iz r-zh076v r-1h0z5md r-13qz1uu\"><div class=\"css-g5y9jx r-1p0dtai r-18u37iz r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-c97pre\" style=\"display: none;\"><div class=\"css-g5y9jx r-14lw9ot r-1ywtca7 r-1pi2tsx r-146iojx r-1ipicw7\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 40px;\"><div class=\"css-g5y9jx r-1habvwh r-1la3zjv r-u9wvl5 r-bijgke\"><div class=\"css-g5y9jx r-1oox17p r-a1yn9n r-1mwlp6a r-6gpygo r-1udh08x r-18tzken\"><div class=\"css-g5y9jx\" style=\"width: 56px; height: 56px; border-radius: 28px; overflow: hidden;\"><div data-expoimage=\"true\" class=\"css-g5y9jx\" style=\"overflow: hidden; width: 100%; height: 100%;\"><div><img fetchpriority=\"auto\" loading=\"lazy\" src=\"https://cdn.sportzia.com/userpost/icon/a7fb7378-c94b-4430-ae58-87721fc92518/fec89f8b-98b7-4d95-bca2-641366e651d6_image.png\" style=\"object-position: left 50% top 50%; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover; transition-duration: 0ms; transition-timing-function: linear...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.318283"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": false,
+            "click_offset": {
+                "x_ratio": 0.381,
+                "y_ratio": 0.633
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/pricing",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/notification",
+                "focus": {
+                    "parts": [
+                        "Notification"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/notification",
+            "expected_url_chain": [
+                "https://sportzia-preprod.kovaionplay.com/notification"
+            ],
+            "delay_before_ms": 1162,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/notification",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div",
+                "xpath": "//div[normalize-space(text())='']",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 3,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-1777fci.r-nj0m1c.r-u9wvl5",
+                        "div.css-g5y9jx.r-13awgt0.r-dnmrzs.r-17gur6a.r-15i92mo.r-ku1wi2.r-1udh08x.r-13qz1uu",
+                        "div.css-g5y9jx.r-13awgt0.r-18u37iz.r-1777fci.r-ubg91z.r-1qxgc49"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 1,
+                    "bounding_box": {
+                        "x": 626,
+                        "y": 275.5,
+                        "width": 28,
+                        "height": 31.5
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div",
+                "xpath": "//div[normalize-space(text())='']",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 3,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-1awozwy.r-1niwhzg.r-1777fci.r-nj0m1c.r-u9wvl5",
+                        "div.css-g5y9jx.r-13awgt0.r-dnmrzs.r-17gur6a.r-15i92mo.r-ku1wi2.r-1udh08x.r-13qz1uu",
+                        "div.css-g5y9jx.r-13awgt0.r-18u37iz.r-1777fci.r-ubg91z.r-1qxgc49"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 1,
+                    "bounding_box": {
+                        "x": 626,
+                        "y": 275.5,
+                        "width": 28,
+                        "height": 31.5
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 626,
+                "y": 275.5,
+                "width": 28,
+                "height": 31.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/notification",
+            "timestamp": "2026-11-04T12:57:12.546Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 28px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1niwhzg r-1777fci r-nj0m1c r-u9wvl5\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 28px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-152nim3 r-a023e6 r-b88u0q r-1s2bzr4 r-q4m81j\" style=\"font-family: Inter;\">Sign in required</div><div dir=\"auto\" class=\"css-146c3p1 r-1g0p51s r-n6v787 r-hjklzo r-kc8jnq r-7mdpej r-q4m81j\" style=\"font-family: Inter;\">Your personal notification inbox appears here after you sign in.</div></div>",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-dnmrzs r-17gur6a r-15i92mo r-ku1wi2 r-1udh08x r-13qz1uu\"><div class=\"css-g5y9jx r-14lw9ot r-4fqch7 r-qklmqi r-1t2hasf r-h0bjfv r-1knelpx\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1ssbvtb r-1wtj0ep r-1ifxtd0\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-k200y r-16yfgmv r-1dwn2qq r-cpet4d r-rs99b7 r-18u37iz r-1cmwbt1 r-11f147o r-3o4zer\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(16, 22, 27); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-n6v787 r-b88u0q\" style=\"font-family: Inter;\">Back</div></div></div><div class=\"css-g5y9jx r-1habvwh r-18u37iz r-1ssbvtb\"><div class=\"css-g5y9jx r-1awozwy r-10jpwwh r-1okj1b1 r-1q9bdsx r-rs99b7 r-eu3ka r-1777fci r-1aockid\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div class=\"css-g5y9jx r-13awgt0\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-1x35g6 r-1vr29t4\" style=\"font-fa...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-18u37iz r-5oul0u r-knv0ih\" style=\"transition-duration: 0s;...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvib...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14l...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.714,
+                "y_ratio": 0.587
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/notification",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/notification",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": false,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 2001,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/notification",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Back",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div",
+                "xpath": "//div[normalize-space(.)='Back'][not(*[normalize-space(.)='Back'])]",
+                "text": "Back",
+                "element_text": "Back",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Back",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div",
+                "xpath": "//div[normalize-space(.)='Back'][not(*[normalize-space(.)='Back'])]",
+                "text": "Back",
+                "element_text": "Back",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 0,
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 364.5,
+                "y": 115,
+                "width": 83.34375,
+                "height": 38
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/notification",
+            "timestamp": "2026-11-04T12:57:14.438Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-k200y r-16yfgmv r-1dwn2qq r-cpet4d r-rs99b7 r-18u37iz r-1cmwbt1 r-11f147o r-3o4zer\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(16, 22, 27); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-n6v787 r-b88u0q\" style=\"font-family: Inter;\">Back</div></div>",
+                    "<div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1ssbvtb r-1wtj0ep r-1ifxtd0\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-k200y r-16yfgmv r-1dwn2qq r-cpet4d r-rs99b7 r-18u37iz r-1cmwbt1 r-11f147o r-3o4zer\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(16, 22, 27); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-n6v787 r-b88u0q\" style=\"font-family: Inter;\">Back</div></div></div>",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-4fqch7 r-qklmqi r-1t2hasf r-h0bjfv r-1knelpx\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1ssbvtb r-1wtj0ep r-1ifxtd0\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-k200y r-16yfgmv r-1dwn2qq r-cpet4d r-rs99b7 r-18u37iz r-1cmwbt1 r-11f147o r-3o4zer\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(16, 22, 27); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-n6v787 r-b88u0q\" style=\"font-family: Inter;\">Back</div></div></div><div class=\"css-g5y9jx r-1habvwh r-18u37iz r-1ssbvtb\"><div class=\"css-g5y9jx r-1awozwy r-10jpwwh r-1okj1b1 r-1q9bdsx r-rs99b7 r-eu3ka r-1777fci r-1aockid\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div class=\"css-g5y9jx r-13awgt0\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-1x35g6 r-1vr29t4\" style=\"font-family: Inter;\">Notifications</div><div dir=\"auto\" class=\"css-146c3p1 r-cnwv0l r-n6v787 r-r...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-dnmrzs r-17gur6a r-15i92mo r-ku1wi2 r-1udh08x r-13qz1uu\"><div class=\"css-g5y9jx r-14lw9ot r-4fqch7 r-qklmqi r-1t2hasf r-h0bjfv r-1knelpx\"><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-1ssbvtb r-1wtj0ep r-1ifxtd0\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-k200y r-16yfgmv r-1dwn2qq r-cpet4d r-rs99b7 r-18u37iz r-1cmwbt1 r-11f147o r-3o4zer\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(16, 22, 27); font-family: ionicons; font-weight: normal; font-style: normal;\"></div><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-n6v787 r-b88u0q\" style=\"font-family: Inter;\">Back</div></div></div><div class=\"css-g5y9jx r-1habvwh r-18u37iz r-1ssbvtb\"><div class=\"css-g5y9jx r-1awozwy r-10jpwwh r-1okj1b1 r-1q9bdsx r-rs99b7 r-eu3ka r-1777fci r-1aockid\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 18px; color: rgb(0, 132, 255); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div><div class=\"css-g5y9jx r-13awgt0\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-1x35g6 r-1vr29t4\" style=\"font...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-18u37iz r-5oul0u r-knv0ih\" style=\"transition-duration: 0s;...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvib...[truncated]",
+                    "<div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-13awgt0 r-ywje51 r-p1pxzi r-12jhh2u r-t60dpp\" style=\"width: 100%;\"><div class=\"css-g5y9jx r-13awgt0 r-18u37iz r-1777fci r-ubg91z r-1qxgc49\"><div class=\"css-g5y9jx r-k200y r-6koalj r-y3t9qe r-1tsuqlv r-1udh08x r-gtdqiz r-1s7wq8y r-1xce0ei\"><div class=\"css-g5y9jx r-14lw9ot r-1mxhqmb r-dnejsp r-18u37iz r-ku1wi2 r-1udh08x\"><div class=\"css-g5y9jx r-lgvlli r-1777fci r-1oqcu8e\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-ubezar r-1kfrs79 r-5oul0u\" style=\"font-family: Inter;\">Unlock Your Exclusive Offer!</div><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-5fcqz0\" style=\"font-family: Inter;\">Sign up / Sign in now for exclusive discounts and early access to all sports event tickets!</div></div><div class=\"css-g5y9jx r-1awozwy r-13awgt0 r-1777fci\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010 r-11fsuwv r-iv112m\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"\"></div></div></div></div><div class=\"css-g5y9jx r-14lw9ot r-1xfd6ze r-dnejsp r-ku1wi2 r-1udh08x r-1sp51qo r-ubg91z\"><div tabindex=\"0\" class=\"css-...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.174,
+                "y_ratio": 0.342
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/notification",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "focus": null,
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true,
+                "navigated": true,
+                "late_navigation": true
+            },
+            "delay_before_ms": 1892,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "navigated": true,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "navigate",
+            "history": "back",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/pricing",
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/pricing",
+            "page_title": "Sportzia | Powerful platform for every athlete’s journey.",
+            "induced_by_prev": null,
+            "timestamp": "2026-11-04T12:57:14.465Z",
+            "page_id": 0,
+            "caused_by_timestamp": null,
+            "dom_snapshot_path": null,
+            "delay_before_ms": 27
+        },
+        {
+            "action_type": "navigate",
+            "history": "back",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "page_title": "Sportzia Pricing Plan - Lowest Event Pricing with Zero Commission Models",
+            "induced_by_prev": null,
+            "timestamp": "2026-11-04T12:57:16.267Z",
+            "page_id": 0,
+            "caused_by_timestamp": null,
+            "dom_snapshot_path": null,
+            "delay_before_ms": 1802
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register For Free",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "//div[normalize-space(.)='Register For Free'][not(parent::*[normalize-space(.)='Register For Free'])]",
+                "text": "Register For Free",
+                "element_text": "Register For Free",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1016.7890625,
+                        "y": 181.5,
+                        "width": 210.171875,
+                        "height": 35.5
+                    }
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register For Free",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "//div[normalize-space(.)='Register For Free'][not(parent::*[normalize-space(.)='Register For Free'])]",
+                "text": "Register For Free",
+                "element_text": "Register For Free",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "text+tag": 2,
+                    "css_path": 1,
+                    "xpath": 1
+                },
+                "disambiguation": {
+                    "container_path": [
+                        "div.css-g5y9jx.r-14lw9ot.r-11u4nky.r-1dzdj1l.r-dnejsp.r-6gpygo.r-1udh08x.r-1awozwy.r-1d7mnkm.r-1ubuhtd",
+                        "div.css-g5y9jx",
+                        "div.css-g5y9jx"
+                    ],
+                    "same_text_sibling_index": 0,
+                    "same_text_sibling_total": 2,
+                    "bounding_box": {
+                        "x": 1016.7890625,
+                        "y": 181.5,
+                        "width": 210.171875,
+                        "height": 35.5
+                    }
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 1016.7890625,
+                "y": 181.5,
+                "width": 210.171875,
+                "height": 35.5
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "timestamp": "2026-11-04T12:57:18.205Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register For Free</div></div>",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">Free</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register For Free</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center; padding-bottom: 6px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-1kfrs79\" style=\"font-family: Inter; font-size: 22px; margin-top: 3px;\"> 1383+</div></div><div dir=\"auto\" cl...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex: 1 1 0%; min-width: 320px; max-width: 340px; padding-left: 15px;\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x r-1awozwy r-1d7mnkm r-1ubuhtd\" style=\"width: 100%; padding-bottom: 20px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1862ga2 r-n6v787 r-q4m81j\" style=\"font-family: Inter;\">Start From</div><div dir=\"auto\" class=\"css-146c3p1 r-1kfrs79\" style=\"font-family: Inter; font-size: 28px; color: rgb(16, 22, 27); margin-top: 10px; padding-bottom: 12px; text-align: center;\">Free</div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"padding: 8px 40px; border-radius: 30px; align-self: center; margin-bottom: 15px; box-shadow: rgb(0, 132, 255) 0px 0px 0px; background-color: rgb(0, 132, 255); transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-jwli3a r-1kfrs79 r-q4m81j\" style=\"font-family: Inter; font-size: 16px;\">Register For Free</div></div><div class=\"css-g5y9jx\"></div><div class=\"css-g5y9jx r-1awozwy\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; align-items: center; padding-bottom: 6px;\"><div dir=\"auto\" class=\"css-146c3p1 r-1shif8y r-1kfrs...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207...[truncated]",
+                    "<div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9pa8cd\" src=\"https://cdn.sportzia.c...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg&quot;);\"></div><img alt=\"\" draggable=\"false\" class=\"css-9...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx r-13awgt0\"><div class=\"css-g5y9jx\" style=\"background-color: rgb(244, 244, 244); flex: 1 1 0%;\"><div class=\"css-g5y9jx\" style=\"flex-direction: row; flex: 1 1 0%; max-width: 1300px; width: 100%; margin: 15px auto auto; padding-right: 0px; padding-left: 0px;\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\" style=\"flex: 3 1 0%; min-width: 0px;\"><div class=\"css-g5y9jx\" style=\"padding-bottom: 100px;\"><div class=\"css-g5y9jx\"><div class=\"css-g5y9jx r-14lw9ot r-11u4nky r-1dzdj1l r-dnejsp r-6gpygo r-1udh08x\"><div class=\"css-g5y9jx\" style=\"position: relative;\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73\" style=\"transition-duration: 0s;\"><div class=\"css-g5y9jx r-1mlwlqe r-1udh08x r-417010\" style=\"width: 100%; height: 500px;\"><div class=\"css-g5y9jx r-1niwhzg r-vvn4in r-u6sd8q r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw r-4gszlv\" style=\"background-image: url(&quot;https://cdn.sportzia.com/userpost_preprod/event/6e13880d-71dc-4b9b-bb8a-d8a25568f9ed_cropped-1787020374207.jpg&quot;);\"></div><img alt...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.85"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "click_offset": {
+                "x_ratio": 0.681,
+                "y_ratio": 0.831
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "focus": {
+                    "parts": [
+                        ""
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": true,
+                "dialog_open_before": false,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1938,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "navigated": false,
+                "dialog_open": true,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "click",
+            "value": null,
+            "locator_profile": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(12) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='']",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Are you a L&T Employee?",
+                    "tag": "div"
+                },
+                "nearby_label": "Are you a L&T Employee? No Yes",
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "act_target": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "body > div:nth-of-type(12) > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div",
+                "xpath": "//div[@tabindex='0'][normalize-space(.)='']",
+                "text": "",
+                "element_text": "",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Are you a L&T Employee?",
+                    "tag": "div"
+                },
+                "nearby_label": "Are you a L&T Employee? No Yes",
+                "near_text": null,
+                "content_hint": null,
+                "match_count": {
+                    "css_path": 0,
+                    "xpath": 0
+                }
+            },
+            "state_target": null,
+            "bounding_box": {
+                "x": 808,
+                "y": 295.25,
+                "width": 28,
+                "height": 28
+            },
+            "scroll_x": 0,
+            "scroll_y": 0,
+            "click_strategy": "standard",
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178?from=eventslist",
+            "timestamp": "2026-11-04T12:57:20.178Z",
+            "dom_context": {
+                "act_target_html_chain": [
+                    "<div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div>",
+                    "<div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div>",
+                    "<div class=\"css-g5y9jx r-16y2uox\"><div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-1djweci r-a023e6 r-1kfrs79 r-hbpseb r-1peese0 r-knv0ih r-q4m81j\" style=\"font-family: Inter;\">Are you a L&amp;T Employee?</div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-f4gmv6 r-1777fci r-5oul0u r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1jh0li6 r-1xfd6ze r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-dz6k1 r-n6v787 r-1kfrs79\" style=\"font-family: Inter;\">No</div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-ysccxm r-1xfd6ze r-1x173oi r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-14...[truncated]",
+                    "<div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\"><div class=\"css-g5y9jx r-16y2uox\"><div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-1djweci r-a023e6 r-1kfrs79 r-hbpseb r-1peese0 r-knv0ih r-q4m81j\" style=\"font-family: Inter;\">Are you a L&amp;T Employee?</div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-f4gmv6 r-1777fci r-5oul0u r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1jh0li6 r-1xfd6ze r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-dz6k1 r-n6v787 r-1kfrs79\" style=\"font-family: Inter;\">No</div></div><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-ysccxm r-1xfd6ze ...[truncated]",
+                    "<div class=\"css-g5y9jx r-14lw9ot r-1867qdf r-1m6l6rh r-3z9gw1 r-iz080l r-d23pfw r-16c13x2\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\"><div class=\"css-g5y9jx r-16y2uox\"><div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-1djweci r-a023e6 r-1kfrs79 r-hbpseb r-1peese0 r-knv0ih r-q4m81j\" style=\"font-family: Inter;\">Are you a L&amp;T Employee?</div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-f4gmv6 r-1777fci r-5oul0u r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1jh0li6 r-1xfd6ze r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r-dz6k1 r-n6v787 r-1kfrs79\" style=\"font-family: Inter;\">No</div></div><div tabindex...[truncated]",
+                    "<div class=\"css-g5y9jx r-1awozwy r-1lt2dq1 r-13awgt0 r-1777fci r-nsbfu8 r-c97pre\"><div class=\"css-g5y9jx r-14lw9ot r-1867qdf r-1m6l6rh r-3z9gw1 r-iz080l r-d23pfw r-16c13x2\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\"><div class=\"css-g5y9jx r-16y2uox\"><div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-1djweci r-a023e6 r-1kfrs79 r-hbpseb r-1peese0 r-knv0ih r-q4m81j\" style=\"font-family: Inter;\">Are you a L&amp;T Employee?</div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-f4gmv6 r-1777fci r-5oul0u r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1jh0li6 r-1xfd6ze r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration: 0s;\"><div dir=\"auto\" class=\"css-146c3p1 r...[truncated]",
+                    "<div class=\"css-g5y9jx r-13awgt0 r-ipm5af\"><div class=\"css-g5y9jx r-1awozwy r-1lt2dq1 r-13awgt0 r-1777fci r-nsbfu8 r-c97pre\"><div class=\"css-g5y9jx r-14lw9ot r-1867qdf r-1m6l6rh r-3z9gw1 r-iz080l r-d23pfw r-16c13x2\"><div class=\"css-g5y9jx r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-agouwx r-2eszeu\"><div class=\"css-g5y9jx r-16y2uox\"><div class=\"css-g5y9jx r-18u37iz r-17s6mgv r-15zivkp r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-11j01x2 r-t23y2h r-h0d30l r-1777fci r-1iww7jx\" style=\"transition-duration: 0.25s;\"><div dir=\"auto\" class=\"css-146c3p1 r-lrvibr\" style=\"font-size: 20px; color: rgb(100, 116, 139); font-family: ionicons; font-weight: normal; font-style: normal;\"></div></div></div><div dir=\"auto\" class=\"css-146c3p1 r-1djweci r-a023e6 r-1kfrs79 r-hbpseb r-1peese0 r-knv0ih r-q4m81j\" style=\"font-family: Inter;\">Are you a L&amp;T Employee?</div><div class=\"css-g5y9jx r-1awozwy r-18u37iz r-f4gmv6 r-1777fci r-5oul0u r-13qz1uu\"><div tabindex=\"0\" class=\"css-g5y9jx r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-1jh0li6 r-1xfd6ze r-4ukpa0 r-ytbthy r-1fkl15p\" style=\"transition-duration...[truncated]"
+                ],
+                "act_target_style": {
+                    "display": "flex",
+                    "visibility": "visible",
+                    "opacity": "0.2"
+                },
+                "state_target_html_chain": null,
+                "state_target_style": null
+            },
+            "in_modal": true,
+            "opened_by": {
+                "id": null,
+                "name": null,
+                "role": null,
+                "aria_label": null,
+                "accessible_name": "Register For Free",
+                "placeholder": null,
+                "title": null,
+                "href": null,
+                "product_id": null,
+                "css_path": "div#root > div > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(3)",
+                "xpath": "//div[normalize-space(.)='Register For Free'][not(parent::*[normalize-space(.)='Register For Free'])]",
+                "text": "Register For Free",
+                "element_text": "Register For Free",
+                "tag": "div",
+                "attributes": {},
+                "cross_boundary": false,
+                "icon_class_hint": null,
+                "inner_label": null,
+                "item_context": {
+                    "text": "Looking for guidance on hosting, managing, or understanding the marathon? Our organizers are ready t",
+                    "tag": "div"
+                },
+                "near_text": null,
+                "content_hint": null
+            },
+            "opened_by_name": "Register For Free",
+            "click_offset": {
+                "x_ratio": 0.714,
+                "y_ratio": 0.42
+            },
+            "popup_container": {
+                "kind": "dialog",
+                "tag": "div",
+                "id": null,
+                "role": "dialog",
+                "aria_label": null,
+                "css_path": "body > div:nth-of-type(12) > div > div:nth-of-type(2) > div",
+                "text_hint": " Are you a L&T Employee? No Yes"
+            },
+            "during_reply": false,
+            "page_id": 0,
+            "post_click": {
+                "url_path_before": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "url_path_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "focus": {
+                    "parts": [
+                        "Register For Free"
+                    ],
+                    "role": null,
+                    "tag": "div"
+                },
+                "fields_changed": [],
+                "dialog_open": false,
+                "dialog_open_before": true,
+                "submit": {
+                    "fields_before": 0,
+                    "field_cleared": false,
+                    "content_added": true,
+                    "fields_removed": 0,
+                    "submit_like": false
+                },
+                "nav_watch": true
+            },
+            "delay_before_ms": 1973,
+            "result": {
+                "url_after": "https://sportzia-preprod.kovaionplay.com/events/larsen-memorial-run-13th-edition-E1178",
+                "navigated": false,
+                "dialog_open": false,
+                "new_tab": false
+            }
+        },
+        {
+            "action_type": "navigate",
+            "history": "back",
+            "value": null,
+            "locator_profile": null,
+            "bounding_box": null,
+            "page_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "expected_url": "https://sportzia-preprod.kovaionplay.com/events",
+            "page_title": "LARSEN MEMORIAL RUN 13th EDITION",
+            "induced_by_prev": null,
+            "timestamp": "2026-11-04T12:57:21.564Z",
+            "page_id": 0,
+            "caused_by_timestamp": null,
+            "dom_snapshot_path": null,
+            "delay_before_ms": 1386
+        }
+    ],
+    "folder": "sportiza",
+    "saved_at": "2026-11-04T18:27:25.354722"
+}
